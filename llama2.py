@@ -12,7 +12,7 @@ model_name = "meta-llama/Llama-2-7b-chat-hf"
 use_reference = True
 batch_size = 2
 max_length = 512
-epochs = 3
+epochs = 1
 lr = 2e-5
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -100,8 +100,8 @@ class RegressionHead(nn.Module):
 model.regression_head = RegressionHead(model.config.hidden_size).to(device)
 
 ### LOAD DATA
-train_df = pd.read_csv("/content/drive/MyDrive/MTEonLowResourceLanguage/COMET/data/train_comet_da.csv")
-test_df = pd.read_csv("/content/drive/MyDrive/MTEonLowResourceLanguage/COMET/data/test_comet_da.csv")
+train_df = pd.read_csv("train_comet_da.csv")
+test_df = pd.read_csv("test_comet_da.csv")
 
 train_dataset = DADataset(train_df, tokenizer, use_reference, max_length)
 test_dataset = DADataset(test_df, tokenizer, use_reference, max_length)
@@ -147,7 +147,7 @@ def evaluate(model, test_loader):
 
             outputs = model.model(input_ids=input_ids, attention_mask=attention_mask, output_hidden_states=True)
             last_hidden = outputs.hidden_states[-1]
-            preds_batch = model.regression_head(last_hidden, attention_mask)
+            preds_batch = model.regression_head(last_hidden.float(), attention_mask)
 
             preds.extend(preds_batch.cpu().numpy())
             labels.extend(labels_batch.cpu().numpy())
