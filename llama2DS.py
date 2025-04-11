@@ -9,7 +9,7 @@ from scipy.stats import pearsonr, spearmanr
 
 ### CONFIG
 model_name = "meta-llama/Llama-2-7b-chat-hf"
-use_reference = True
+use_reference = False
 batch_size = 2
 max_length = 512
 epochs = 3
@@ -33,7 +33,26 @@ def create_prompt(row, use_reference=True):
     Score: [/INST]"""
   else:
     return f"""<s>[INST] <<SYS>>
-    You are a helpful quality estimation assistant. Predict the quality score of a machine translation.
+    We need to Evaluate the machine translated senetences of Bengali with Sylheti dialect to English (Translation),
+    with quality scores ranging from 0 to 100.
+    Scores of 0-30 indicate that the translation is mostly unintelligible, either completely inaccurate or 
+    containing only some keywords. Scores of 31-50 suggest partial intelligibility, with some keywords present but 
+    numerous grammatical errors. A score between 51-70 means the translation is generally clear, with most keywords 
+    included and only minor grammatical errors. Scores of 71-90 indicate the translation is clear and intelligible,
+    with all keywords present and only minor non-grammatical issues. Finally, scores of 91-100 reflect a perfect or
+    near-perfect translation, accurately conveying the source meaning without errors.
+
+    For your reference we are providing you some english pronouns, conjunctions, prepositions and their respective 
+    Bengali word with Sylheti dialect in format that is "english-Bengali". The words are,
+    "I-আমি", "you-তুমি", "he-হে", "she-তাই", "it-অগু", "we-আমরা", "they-অতা", "me-আমারে", "him-তারে","her-তাইরে",
+    "us-আম্রার", "them-তারার", "mine-আমারগুতা", "yours-তুমারটা", "his-তারগুতা", "hers-তাইর গুতা", "ours-আমরার টা", 
+    "theirs-তারার টা", "who-খে", "whom-খারে", "whose-খারে", "which-কুনটা", "that-যে", "this-অউ", "these-অগুইন", 
+    "those-হগুইন", "what-কিতা", "at-অটাত", "on-উফরে", "in-ভিত্রে", "for-এর লাগি", "of-অগুর", "like-লাকান", "with-লগে", 
+    "and-আর", "but-কিন্তু", "when-কুন সময়", "before-আগে", "after-বাদে", and "because-খারণ".
+
+    The evaluation criteria focus on two main aspects: Adequacy (how much information is conveyed) and Fluency 
+    (how grammatically correct the translation is). Predict the quality score in the range of 0 to 100 considering 
+    the above instructions and helpful references. Predict only the score, no need for explanation.
     <</SYS>>
 
     Source: {row['src']}
@@ -100,8 +119,8 @@ class RegressionHead(nn.Module):
 model.regression_head = RegressionHead(model.config.hidden_size).to(device)
 
 ### LOAD DATA
-train_df = pd.read_csv("/content/drive/MyDrive/MTEonLowResourceLanguage/COMET/data/train_comet_da.csv")
-test_df = pd.read_csv("/content/drive/MyDrive/MTEonLowResourceLanguage/COMET/data/test_comet_da.csv")
+train_df = pd.read_csv("train_comet_da_scaled.csv")
+test_df = pd.read_csv("test_comet_da_scaled.csv")
 
 train_dataset = DADataset(train_df, tokenizer, use_reference, max_length)
 test_dataset = DADataset(test_df, tokenizer, use_reference, max_length)
