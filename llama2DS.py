@@ -35,12 +35,6 @@ def create_prompt(row, use_reference=True):
     return f"""<s>[INST] <<SYS>>
     We need to Evaluate the machine translated senetences of Bengali with Sylheti dialect to English (Translation),
     with quality scores ranging from 0 to 100.
-    Scores of 0-30 indicate that the translation is mostly unintelligible, either completely inaccurate or 
-    containing only some keywords. Scores of 31-50 suggest partial intelligibility, with some keywords present but 
-    numerous grammatical errors. A score between 51-70 means the translation is generally clear, with most keywords 
-    included and only minor grammatical errors. Scores of 71-90 indicate the translation is clear and intelligible,
-    with all keywords present and only minor non-grammatical issues. Finally, scores of 91-100 reflect a perfect or
-    near-perfect translation, accurately conveying the source meaning without errors.
 
     For your reference we are providing you some english pronouns, conjunctions, prepositions and their respective 
     Bengali word with Sylheti dialect in format that is "english-Bengali". The words are,
