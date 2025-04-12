@@ -20,42 +20,6 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)
 tokenizer.pad_token = tokenizer.eos_token
 
-### PROMPT TEMPLATE
-def create_prompt(row, use_reference=True):
-  if use_reference:
-    return f"""<s>[INST] <<SYS>>
-    You are a helpful quality estimation assistant. Predict the quality score of a machine translation.
-    <</SYS>>
-
-    Source: {row['src']}
-    Translation: {row['mt']}
-    Reference: {row['ref']}
-    Score: [/INST]"""
-  else:
-    return f"""<s>[INST] <<SYS>>
-    You are a helpful quality estimation assistant. Predict the quality score of a machine translation.
-    <</SYS>>
-
-    Source: {row['src']}
-    Translation: {row['mt']}
-    Score: [/INST]"""
-
-### DATASET
-class DADataset(Dataset):
-    def __init__(self, df, tokenizer, use_reference=True, max_length=512):
-        self.texts = [create_prompt(row, use_reference) for _, row in df.iterrows()]
-        self.targets = df["score"].tolist()
-        self.encodings = tokenizer(self.texts, padding="max_length", truncation=True, max_length=max_length)
-
-    def __len__(self):
-        return len(self.targets)
-
-    def __getitem__(self, idx):
-        return {
-            "input_ids": torch.tensor(self.encodings["input_ids"][idx]),
-            "attention_mask": torch.tensor(self.encodings["attention_mask"][idx]),
-            "labels": torch.tensor(self.targets[idx], dtype=torch.float),
-        }
 
 ### LOAD MODEL WITH 4-BIT
 bnb_config = BitsAndBytesConfig(
@@ -99,18 +63,8 @@ class RegressionHead(nn.Module):
 # Attach regression head
 model.regression_head = RegressionHead(model.config.hidden_size).to(device)
 
-### LOAD DATA
-train_df = pd.read_csv("train_comet_da.csv")
-test_df = pd.read_csv("test_comet_da.csv")
-
-train_dataset = DADataset(train_df, tokenizer, use_reference, max_length)
-test_dataset = DADataset(test_df, tokenizer, use_reference, max_length)
-
-train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-test_loader = DataLoader(test_dataset, batch_size=batch_size)
-
 ### TRAINING LOOP
-def train(model, train_loader, epochs=1, lr=2e-5):
+def train(train_loader, model=model, epochs=1, lr=2e-5):
     model.train()
     optimizer = torch.optim.AdamW(model.parameters(), lr=lr)
 
@@ -134,8 +88,9 @@ def train(model, train_loader, epochs=1, lr=2e-5):
 
         print(f"Epoch {epoch+1}: Loss = {total_loss / len(train_loader):.4f}")
 
+
 ### EVALUATION
-def evaluate(model, test_loader):
+def evaluate(test_loader, model=model):
     model.eval()
     preds, labels = [], []
 
@@ -156,5 +111,5 @@ def evaluate(model, test_loader):
     print("Spearman:", spearmanr(preds, labels)[0])
 
 ### RUN
-train(model, train_loader, epochs=epochs, lr=lr)
-evaluate(model, test_loader)
+# train(model, train_loader, epochs=epochs, lr=lr)
+# evaluate(model, test_loader)
