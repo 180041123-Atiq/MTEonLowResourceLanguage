@@ -21,7 +21,7 @@ def promptingBusiness(row, type):
         Translation: {row['mt']}
         Score: [/INST]"""
     
-    elif type == 'AG':
+    elif type == 'ag':
         return f"""<s>[INST] <<SYS>>
         We need to Evaluate the machine translated senetences of Bengali with Sylheti dialect to English (Translation),
         with quality scores ranging from 0 to 100.
@@ -41,7 +41,7 @@ def promptingBusiness(row, type):
         Translation: {row['mt']}
         Score: [/INST]"""
     
-    elif type == 'DS':
+    elif type == 'ds':
         return f"""<s>[INST] <<SYS>>
         You are an expert evaluator for machine translation systems. Your task is to evaluate the quality of English translations of Bengali sentences written in the Sylheti dialect.
 
