@@ -29,6 +29,7 @@ if __name__ == '__main__':
     parser.add_argument('--train-path', type=str, default="train_comet_da_scaled.csv", help='path to csv that contains training data')
     parser.add_argument('--test-path', type=str, default="test_comet_da_scaled.csv", help='path to csv that contains testing data')
     parser.add_argument('--log-path', type=str, default="logs/log.txt", help='path to log')
+    parser.add_argument('--only-test', type=bool, default=True, help='boolean value denoting only test will be performed or not')
 
     args = parser.parse_args()
 
@@ -45,7 +46,8 @@ if __name__ == '__main__':
     )
 
     if args.model == 'llama2':
-        train(train_loader=train_loader, epochs=args.epochs)
+        if args.only_test == False:
+            train(train_loader=train_loader, epochs=args.epochs)
         evaluate(test_loader=test_loader)
 
     sys.stdout = original_stdout
