@@ -1,4 +1,26 @@
+import pandas as pd
+
+def generateWordMap(row):
+    df = pd.read_csv('sylheti_dictionary.csv')
+    sylheti = df['Sylheti'].tolist()
+    english = df['English'].tolist()
+
+    src = row['src']
+    src_list = src.split(' ')
+
+    word_map = {}
+
+    for src_word in src_list:
+        if src_word in sylheti:
+            idx = sylheti.index(src_word)
+            word_map[src_word] = english[idx]
+    
+    return word_map
+
 def promptingBusiness(row, type, word_map=None):
+
+    if type == 'dg' or type == 'dag':
+        word_map = generateWordMap(row)
 
     if type == 'referenced':
         return f"""<s>[INST] <<SYS>>
@@ -97,6 +119,33 @@ def promptingBusiness(row, type, word_map=None):
             "\n\nNow evaluate the following:\n\n"
             "<</SYS>>"
             f"Source (Bengali with Sylheti dialect):\n\"{row['src']}\"\n\n"
+            f"Machine Translation (English):\n\"{row['mt']}\"\n\n"
+            "Score (0–100):[/INST]"
+        )
+        return header + word_list + body
+    elif type == 'dag':
+        header = (
+            "<s>[INST] <<SYS>>"
+            "You are a professional machine translation evaluator.\n\n"
+            "You will be given:\n"
+            "- A sentence in Bengali, containing words from the Sylheti dialect.\n"
+            "- A machine-translated English sentence.\n"
+            "- A list of Bengali (Sylheti) words with their English meanings to help you understand the source better.\n\n"
+            "Your task:\n"
+            "- Evaluate the English translation based on how well it preserves the meaning (adequacy) and how natural the English sounds (fluency).\n"
+            "- Provide a score from 0 to 100, where:\n"
+            "  - Scores of 0-30 indicate that the translation is mostly unintelligible, either completely inaccurate or containing only some keywords.\n"
+            "  - Scores of 31-50 suggest partial intelligibility, with some keywords present but numerous grammatical errors.\n"
+            "  - A score between 51-70 means the translation is generally clear, with most keywords included and only minor grammatical errors.\n"
+            "  - Scores of 71-90 indicate the translation is clear and intelligible, with all keywords present and only minor non-grammatical issues.\n" 
+            "  - Finally, scores of 91-100 reflect a perfect or near-perfect translation, accurately conveying the source meaning without errors.\n\n"
+            "Here are some word meanings to help you understand the dialect:\n"
+        )
+        word_list = "\n".join([f"- {k} → {v}" for k, v in word_map.items()])
+        body = (
+            "\n\nNow evaluate the following:\n\n"
+            "<</SYS>>"
+            f"\nSource (Bengali with Sylheti dialect):\n\"{row['src']}\"\n\n"
             f"Machine Translation (English):\n\"{row['mt']}\"\n\n"
             "Score (0–100):[/INST]"
         )
