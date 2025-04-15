@@ -1,4 +1,4 @@
-def promptingBusiness(row, type):
+def promptingBusiness(row, type, word_map=None):
 
     if type == 'referenced':
         return f"""<s>[INST] <<SYS>>
@@ -77,6 +77,30 @@ def promptingBusiness(row, type):
         Source: {row['src']}
         Translation: {row['mt']}
         Score: [/INST]"""
+    elif type == 'dg':
+        header = (
+            "<s>[INST] <<SYS>>"
+            "You are a professional machine translation evaluator.\n\n"
+            "You will be given:\n"
+            "- A sentence in Bengali, containing words from the Sylheti dialect.\n"
+            "- A machine-translated English sentence.\n"
+            "- A list of Bengali (Sylheti) words with their English meanings to help you understand the source better.\n\n"
+            "Your task:\n"
+            "- Evaluate the English translation based on how well it preserves the meaning (adequacy) and how natural the English sounds (fluency).\n"
+            "- Provide a score from 0 to 100, where:\n"
+            "  - 100 means perfect translation (both fluent and faithful)\n"
+            "  - 0 means completely incorrect or meaningless\n\n"
+            "Here are some word meanings to help you understand the dialect:\n"
+        )
+        word_list = "\n".join([f"- {k} → {v}" for k, v in word_map.items()])
+        body = (
+            "\n\nNow evaluate the following:\n\n"
+            "<</SYS>>"
+            f"Source (Bengali with Sylheti dialect):\n\"{row['src']}\"\n\n"
+            f"Machine Translation (English):\n\"{row['mt']}\"\n\n"
+            "Score (0–100):[/INST]"
+        )
+        return header + word_list + body
     else:
         raise Exception('prompting type is not yet implemented')
     

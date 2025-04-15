@@ -30,7 +30,7 @@ if __name__ == '__main__':
     parser.add_argument('--test-path', type=str, default="test_comet_da_scaled.csv", help='path to csv that contains testing data')
     parser.add_argument('--log-path', type=str, default="logs/log.txt", help='path to log')
     parser.add_argument('--only-test', type=bool, default=True, help='boolean value denoting only test will be performed or not')
-
+    parser.add_argument('--max-length',type=int,default=512,help='max length for tokenizer')
     args = parser.parse_args()
 
     original_stdout = sys.stdout
@@ -42,7 +42,8 @@ if __name__ == '__main__':
         train_data_path=args.train_path,
         test_data_path=args.test_path,
         tokenizer=tokenizer,
-        type=args.prompt
+        type=args.prompt,
+        max_length=args.max_length
     )
 
     if args.model == 'llama2':
