@@ -17,8 +17,8 @@ lr = 2e-5
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 ### LOAD TOKENIZER
-tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)
-tokenizer.pad_token = tokenizer.eos_token
+llama2_tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)
+llama2_tokenizer.pad_token = llama2_tokenizer.eos_token
 
 
 ### LOAD MODEL WITH 4-BIT

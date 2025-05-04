@@ -2,7 +2,8 @@ import argparse
 import sys
 
 from data import generateDataLoaders
-from models.llama2 import tokenizer, train, evaluate
+# from models.llama2 import llama2_tokenizer, train, evaluate
+from models.deepseek import evaluate
 
 class Tee:
     def __init__(self, filename, mode="w"):
@@ -38,17 +39,24 @@ if __name__ == '__main__':
 
     print(f"argumenets are {args}")
 
-    train_loader,test_loader = generateDataLoaders(
-        train_data_path=args.train_path,
-        test_data_path=args.test_path,
-        tokenizer=tokenizer,
-        type=args.prompt,
-        max_length=args.max_length
-    )
-
     if args.model == 'llama2':
-        if args.only_test == False:
-            train(train_loader=train_loader, epochs=args.epochs)
-        evaluate(test_loader=test_loader)
+      pass
+      # train_loader,test_loader = generateDataLoaders(
+      #   train_data_path=args.train_path,
+      #   test_data_path=args.test_path,
+      #   tokenizer=llama2_tokenizer,
+      #   type=args.prompt,
+      #   max_length=args.max_length
+      # )
+
+      # if args.only_test == False:
+      #     train(train_loader=train_loader, epochs=args.epochs)
+      # evaluate(test_loader=test_loader)
+
+    elif args.model == 'deepseek':
+
+      if args.only_test == False:
+        print('Training function for deepseek is yet to implemented')
+      evaluate(test_data_path=args.test_path, prompt=args.prompt)
 
     sys.stdout = original_stdout

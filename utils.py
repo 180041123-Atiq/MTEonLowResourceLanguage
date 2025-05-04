@@ -19,7 +19,7 @@ def generateWordMap(row):
 
 def promptingBusiness(row, type, word_map=None):
 
-    if type == 'dg' or type == 'dag':
+    if type == 'dg' or type == 'dag' or type == 'deepseekDa':
         word_map = generateWordMap(row)
 
     if type == 'referenced':
@@ -150,6 +150,64 @@ def promptingBusiness(row, type, word_map=None):
             "Score (0–100):[/INST]"
         )
         return header + word_list + body
+    
+    elif type == 'deepseekDag':
+      header = f"""
+      You are a professional machine translation evaluator.\n
+        You will be given:
+        - A list of Bengali (Sylheti) words with their English translation to help you understand Sylheti dialect.
+        - A sentence in Bengali, containing words with the Sylheti dialect.
+        - A machine-translated English sentence.
+        After evaluating the machine translated english sentence,
+        your task is to only provide a score from 0 to 100 that can have floating points. And the scoring criteria is:
+        - Scores of 0-30 indicate that the translation is mostly unintelligible, either completely inaccurate or containing few translated words present in source sentence.
+        - Scores of 31-50 suggest partial intelligibility, with some translated words present in the source sentence but numerous grammatical errors.
+        - A score between 51-70 means the translation is generally clear, with most translated words present in the source sentence and only minor grammatical errors.
+        - Scores of 71-90 indicate the translation is clear and intelligible, with almost every translated words present in the source sentence and only minor non-grammatical issues.
+        - Finally, scores of 91-100 reflect a perfect or near-perfect translation, accurately conveying the source meaning without errors.
+        \nHere are some english translation of Bengali words with Sylheti dialect to help you better understand the dialect:"""
+      word_list = "\n".join([f"- '{k}' translate to '{v}'" for k, v in word_map.items()])
+      body = f"""\nImportant: No explanations or comments in your output – just a single score that can be an integer or can have floating points!
+      """
+      
+      return header + word_list + body 
+
+    elif type == 'deepseekDg':
+      header = f"""
+      You are a professional machine translation evaluator.\n
+        You will be given:
+        - A list of Bengali (Sylheti) words with their English translation to help you understand Sylheti dialect.
+        - A sentence in Bengali, containing words with the Sylheti dialect.
+        - A machine-translated English sentence.
+        Evaluate the English translation based on how well it preserves the meaning (adequacy) and how natural the English sounds (fluency).
+        After evaluating the machine translated english sentence,
+        your task is to only provide a score from 0 to 100 that can have floating points. 
+        \nHere are some english translation of Bengali words with Sylheti dialect to help you better understand the dialect:"""
+      word_list = "\n".join([f"- '{k}' translate to '{v}'" for k, v in word_map.items()])
+      body = f"""\nImportant: No explanations or comments in your output – just a single score that can be an integer or can have floating points!
+      """
+      
+      return header + word_list + body
+
+    elif type == 'deepseekAg':
+
+      header = f"""
+      You are a professional machine translation evaluator.\n
+        You will be given:
+        - A sentence in Bengali, containing words with the Sylheti dialect.
+        - A machine-translated English sentence.
+        After evaluating the machine translated english sentence,
+        your task is to only provide a score from 0 to 100 that can have floating points. And the scoring criteria is:
+        - Scores of 0-30 indicate that the translation is mostly unintelligible, either completely inaccurate or containing few translated words present in source sentence.
+        - Scores of 31-50 suggest partial intelligibility, with some translated words present in the source sentence but numerous grammatical errors.
+        - A score between 51-70 means the translation is generally clear, with most translated words present in the source sentence and only minor grammatical errors.
+        - Scores of 71-90 indicate the translation is clear and intelligible, with almost every translated words present in the source sentence and only minor non-grammatical issues.
+        - Finally, scores of 91-100 reflect a perfect or near-perfect translation, accurately conveying the source meaning without errors."""
+      body = f"""\nImportant: No explanations or comments in your output – just a single score that can be an integer or can have floating points!
+      """
+      
+      return header + body 
+
     else:
-        raise Exception('prompting type is not yet implemented')
+        raise Exception(f'prompting type {type} is not yet implemented')
     
