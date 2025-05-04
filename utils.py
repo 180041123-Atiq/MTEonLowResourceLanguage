@@ -19,7 +19,7 @@ def generateWordMap(row):
 
 def promptingBusiness(row, type, word_map=None):
 
-    if type == 'dg' or type == 'dag' or type == 'deepseekDa':
+    if type == 'dg' or type == 'dag' or 'deepseek' in type:
         word_map = generateWordMap(row)
 
     if type == 'referenced':

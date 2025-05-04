@@ -13,7 +13,7 @@ model = AutoModelForCausalLM.from_pretrained(
   model_name, 
   torch_dtype=torch.bfloat16, 
   device_map="auto",
-  offload_folder='/content/offload')
+  offload_folder='offload')
 model.generation_config = GenerationConfig.from_pretrained(model_name)
 model.generation_config.pad_token_id = model.generation_config.eos_token_id
 
@@ -70,7 +70,7 @@ def evaluate(test_data_path, prompt):
       
     
     if len(model_outputs) > 3: 
-      with open('/content/drive/MyDrive/LecturerAtiq/MTEonLowResourceLanguage/deepseekResults.txt','w') as f:
+      with open('deepseekResults.txt','w') as f:
         f.write(f"Pearson : {pearsonr(model_outputs, da_scores)[0]}\n")
         f.write(f"Spearman : {spearmanr(model_outputs, da_scores)[0]}")
 

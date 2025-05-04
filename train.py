@@ -3,7 +3,7 @@ import sys
 
 from data import generateDataLoaders
 # from models.llama2 import llama2_tokenizer, train, evaluate
-from models.deepseek import evaluate
+from deepseek import evaluate
 
 class Tee:
     def __init__(self, filename, mode="w"):
