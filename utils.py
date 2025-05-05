@@ -1,4 +1,44 @@
 import pandas as pd
+import numpy as np
+import scipy.stats as stats
+
+def generateConfidenceScore():
+    df = pd.read_csv('MTEresults - Sheet1.csv')
+
+    idx_prompt_map = {
+        0:'dag',
+        1:'dg',
+        2:'ag',
+        3:'refLess'
+    }
+
+    score_dict = {}
+
+    for ix in range(4):
+        score_dict[ix] = []
+        for col in df.columns:
+            if col == 'prompt': continue
+            score_dict[ix].append(float(df.iloc[ix,int(col)]))
+
+    res_list = []
+
+    for ix in range(4):
+        mean = np.mean(score_dict[ix])
+        sem = stats.sem(score_dict[ix])
+        confidence = 0.95
+        n = len(score_dict[ix])
+        df = n - 1
+        t_critical = stats.t.ppf((1 + confidence) / 2, df)
+        margin_of_error = t_critical * sem
+        lower_bound = mean - margin_of_error
+        upper_bound = mean + margin_of_error
+        res_list.append((lower_bound,upper_bound))
+    
+    # print(res_list)
+
+    with open('results.txt','w') as f:
+        for ix in range(4):
+            f.write(f"{idx_prompt_map[ix]}'s 95% confidence intervel is {res_list[ix][0]} <-> {res_list[ix][1]}\n")
 
 def generateWordMap(row):
     df = pd.read_csv('sylheti_dictionary.csv')
@@ -152,4 +192,7 @@ def promptingBusiness(row, type, word_map=None):
         return header + word_list + body
     else:
         raise Exception('prompting type is not yet implemented')
-    
+
+
+if __name__ in '__main__':
+    generateConfidenceScore()
