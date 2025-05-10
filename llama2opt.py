@@ -2,8 +2,7 @@ import pandas as pd
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
-from peft import LoraConfig, get_peft_model, TaskType
+from transformers import AutoTokenizer, AutoModelForCausalLM
 from tqdm import tqdm
 from scipy.stats import pearsonr, spearmanr
 
@@ -22,33 +21,12 @@ llama2_tokenizer = AutoTokenizer.from_pretrained(customTokenizerPath, use_fast=T
 llama2_tokenizer.pad_token = llama2_tokenizer.eos_token
 
 
-### LOAD MODEL WITH 4-BIT
-bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_use_double_quant=True,
-    bnb_4bit_compute_dtype=torch.float16,
-    bnb_4bit_quant_type="nf4"
-)
-
-base_model = AutoModelForCausalLM.from_pretrained(
+model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    quantization_config=bnb_config,
     device_map="auto",
+    torch_dtype=torch.float16,
     trust_remote_code=True
 )
-
-# LoRA config
-peft_config = LoraConfig(
-    r=8,
-    lora_alpha=16,
-    target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
-    lora_dropout=0.1,
-    bias="none",
-    task_type=TaskType.CAUSAL_LM
-)
-
-model = get_peft_model(base_model, peft_config)
-print("LoRA params:", sum(p.numel() for p in model.parameters() if p.requires_grad))
 
 # Custom regression head
 class RegressionHead(nn.Module):
@@ -62,12 +40,18 @@ class RegressionHead(nn.Module):
         return self.linear(pooled).squeeze(-1)
 
 # Attach regression head
-model.regression_head = RegressionHead(model.config.hidden_size).to(device)
+
 
 ### TRAINING LOOP
 def train(train_loader, model=model, epochs=1, lr=2e-5):
+
+    for param in model.parameters():
+        param.requires_grad = False
+
+    model.regression_head = RegressionHead(model.config.hidden_size).to(device)
+
     model.train()
-    optimizer = torch.optim.AdamW(model.parameters(), lr=lr)
+    optimizer = torch.optim.AdamW(model.regression_head.parameters(), lr=lr)
 
     for epoch in range(epochs):
         total_loss = 0
