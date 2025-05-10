@@ -18,10 +18,9 @@
 
 python train.py \
   --model llama2 \
-  --prompt ag \
+  --prompt dag \
   --epochs 3 \
   --batch 2 \
   --train-path train_comet_da_scaled.csv \
   --test-path test_comet_da_scaled.csv \
-  --log-path "logs/llama2opt_ag.txt" \
-  --only-test False
+  --log-path "logs/llama2opt_dag.txt"

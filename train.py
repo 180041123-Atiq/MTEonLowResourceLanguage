@@ -3,7 +3,7 @@ import sys
 
 from data import generateDataLoaders
 from llama2opt import llama2_tokenizer, train, evaluate
-from deepseek import evaluate
+# from deepseek import evaluate
 
 class Tee:
     def __init__(self, filename, mode="w"):
@@ -30,7 +30,7 @@ if __name__ == '__main__':
     parser.add_argument('--train-path', type=str, default="train_comet_da_scaled.csv", help='path to csv that contains training data')
     parser.add_argument('--test-path', type=str, default="test_comet_da_scaled.csv", help='path to csv that contains testing data')
     parser.add_argument('--log-path', type=str, default="logs/log.txt", help='path to log')
-    parser.add_argument('--only-test', type=bool, default=True, help='boolean value denoting only test will be performed or not')
+    parser.add_argument('--only-test', action='store_true', help='boolean value denoting only test will be performed or not')
     parser.add_argument('--max-length',type=int,default=512,help='max length for tokenizer')
     args = parser.parse_args()
 
@@ -53,9 +53,9 @@ if __name__ == '__main__':
       evaluate(test_loader=test_loader)
 
     elif args.model == 'deepseek':
-
-      if args.only_test == False:
-        print('Training function for deepseek is yet to implemented')
-      evaluate(test_data_path=args.test_path, prompt=args.prompt)
+      pass
+      # if args.only_test == False:
+      #   print('Training function for deepseek is yet to implemented')
+      # evaluate(test_data_path=args.test_path, prompt=args.prompt)
 
     sys.stdout = original_stdout

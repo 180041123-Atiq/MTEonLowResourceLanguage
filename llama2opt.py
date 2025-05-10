@@ -2,7 +2,7 @@ import pandas as pd
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from tqdm import tqdm
 from scipy.stats import pearsonr, spearmanr
 
@@ -20,11 +20,17 @@ customTokenizerPath = 'llama2-sylheti-bpe-tokenizer'
 llama2_tokenizer = AutoTokenizer.from_pretrained(customTokenizerPath, use_fast=True, use_auth_token=True)
 llama2_tokenizer.pad_token = llama2_tokenizer.eos_token
 
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_use_double_quant=True,
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_quant_type="nf4"
+)
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     device_map="auto",
-    torch_dtype=torch.float16,
+    quantization_config=bnb_config,
     trust_remote_code=True
 )
 
