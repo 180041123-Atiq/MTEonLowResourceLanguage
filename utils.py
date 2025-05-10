@@ -252,5 +252,5 @@ def promptingBusiness(row, type, word_map=None):
         raise Exception('prompting type is not yet implemented')
 
 
-if __name__ in '__main__':
+if __name__ == '__main__':
     generateConfidenceScore()
