@@ -17,10 +17,10 @@
 # done
 
 python train.py \
-  --model llama2 \
-  --prompt dag \
+  --model deepseek \
+  --prompt deepseekDag \
   --epochs 3 \
   --batch 2 \
   --train-path train_comet_da_scaled.csv \
   --test-path test_comet_da_scaled.csv \
-  --log-path "logs/llama2opt_dag.txt"
+  --log-path "logs/deepseekOpt_dag.txt"

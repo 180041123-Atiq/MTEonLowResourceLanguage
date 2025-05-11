@@ -3,7 +3,7 @@ import sys
 
 from data import generateDataLoaders
 from llama2opt import llama2_tokenizer, train, evaluate
-# from deepseek import evaluate
+from deepseekOpt import train,evaluate
 
 class Tee:
     def __init__(self, filename, mode="w"):
@@ -53,9 +53,8 @@ if __name__ == '__main__':
       evaluate(test_loader=test_loader)
 
     elif args.model == 'deepseek':
-      pass
-      # if args.only_test == False:
-      #   print('Training function for deepseek is yet to implemented')
-      # evaluate(test_data_path=args.test_path, prompt=args.prompt)
+      if args.only_test == False:
+        train(data_path=args.train_path, prompt=args.prompt, epochs=args.epochs)
+      evaluate(data_path=args.test_path, prompt=args.prompt)
 
     sys.stdout = original_stdout
