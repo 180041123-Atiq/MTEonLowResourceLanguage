@@ -17,6 +17,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 ### LOAD TOKENIZER
 customTokenizerPath = 'llama2-sylheti-bpe-tokenizer'
+#customTokenizerPath = model_name
 llama2_tokenizer = AutoTokenizer.from_pretrained(customTokenizerPath, use_fast=True, use_auth_token=True)
 llama2_tokenizer.pad_token = llama2_tokenizer.eos_token
 
