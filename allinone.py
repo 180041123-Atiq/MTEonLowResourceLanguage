@@ -5,6 +5,7 @@ from transformers import AutoTokenizer, AutoModel, BitsAndBytesConfig
 import pandas as pd
 from scipy.stats import pearsonr, spearmanr
 from tqdm import tqdm
+import os
 
 from utils import gen_prompts
 
@@ -129,7 +130,11 @@ def evaluate(val_loader, model, device):
 
 
 
-def test(test_loader, model, device):
+def test(test_loader, output_path, model, device):
+    
+    if os.path.exists(output_path):
+      model.regression_head.load_state_dict(torch.load(output_path))
+    
     model.eval()
     preds, labels = [], []
 

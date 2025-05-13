@@ -1,10 +1,10 @@
 #!/bin/bash
 
-for model in llama2
+for model in llama2 deepseek openchat
 do
-  for prompt in refless
+  for prompt in refless ag dg dag
   do
-    for i in 1
+    for i in 1 2 3 4 5
     do
       echo "Run $i for prompt: $prompt"
       python engine.py \
@@ -17,7 +17,7 @@ do
         --val-path val.csv \
         --test-path test.csv \
         --output-path output \
-        --log-path "logs/allinone${prompt}_run${i}.txt" --quantized --cusTok
+        --log-path "logs/${model}_${prompt}_zero_run${i}.txt" --only-test --quantized
     done
   done
 done
