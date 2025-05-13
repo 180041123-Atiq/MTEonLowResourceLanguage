@@ -1,9 +1,8 @@
 import argparse
 import sys
+import os
 
-from data import generateDataLoaders
-from llama2opt import llama2_tokenizer, train, evaluate
-from deepseekOpt import train,evaluate
+from allinone import main
 
 class Tee:
     def __init__(self, filename, mode="w"):
@@ -27,11 +26,15 @@ if __name__ == '__main__':
     parser.add_argument('--prompt', type=str, required=True, help='type of prompting')
     parser.add_argument('--epochs', type=int, default=3, help='number of epochs')
     parser.add_argument('--batch', type=int, default=2, help='batch size')
-    parser.add_argument('--train-path', type=str, default="train_comet_da_scaled.csv", help='path to csv that contains training data')
-    parser.add_argument('--test-path', type=str, default="test_comet_da_scaled.csv", help='path to csv that contains testing data')
+    parser.add_argument('--lr', type=float, default=1e-5)
+    parser.add_argument('--train-path', type=str, default="train.csv", help='path to csv that contains training data')
+    parser.add_argument('--val-path', type=str, default='val.csv', help='path to csv that contains validation data')
+    parser.add_argument('--test-path', type=str, default="test.csv", help='path to csv that contains testing data')
+    parser.add_argument('--output-path', type=str, default="output", help='path to trained models')
     parser.add_argument('--log-path', type=str, default="logs/log.txt", help='path to log')
     parser.add_argument('--only-test', action='store_true', help='boolean value denoting only test will be performed or not')
-    parser.add_argument('--max-length',type=int,default=512,help='max length for tokenizer')
+    parser.add_argument('--quantized', action='store_true', help='If true will make the model quantized')
+    parser.add_argument('--cusTok', action='store_true', help='If true will add custom tokenizer')
     args = parser.parse_args()
 
     original_stdout = sys.stdout
@@ -39,22 +42,21 @@ if __name__ == '__main__':
 
     print(f"argumenets are {args}")
 
-    if args.model == 'llama2':
-      train_loader,test_loader = generateDataLoaders(
-        train_data_path=args.train_path,
-        test_data_path=args.test_path,
-        tokenizer=llama2_tokenizer,
-        type=args.prompt,
-        max_length=args.max_length
-      )
-
-      if args.only_test == False:
-          train(train_loader=train_loader, epochs=args.epochs)
-      evaluate(test_loader=test_loader)
-
-    elif args.model == 'deepseek':
-      if args.only_test == False:
-        train(data_path=args.train_path, prompt=args.prompt, epochs=args.epochs)
-      evaluate(data_path=args.test_path, prompt=args.prompt)
+    output_path = os.path.join(args.output_path, f'{args.model}_{args.prompt}_zero{args.only_test}_cus{args.cusTok}.pth')
+      
+    main(
+      model_type = args.model,
+      prompt = args.prompt,
+      epochs = args.epochs,
+      batch_size = args.batch,
+      lr = args.lr,
+      train_path = args.train_path,
+      val_path = args.val_path,
+      test_path = args.test_path,
+      output_path = output_path,
+      only_test = args.only_test,
+      quantized = args.quantized,
+      cusTok = args.cusTok
+    )
 
     sys.stdout = original_stdout

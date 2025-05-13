@@ -1,0 +1,1 @@
+argumenets are Namespace(model='openchat', prompt='refless', epochs=1, batch=2, lr=2e-05, train_path='train_comet_da_scaled.csv', test_path='test_comet_da_scaled.csv', log_path='logs/log.txt', only_test=False, quantized=False, cusTok=False, max_length=512)
