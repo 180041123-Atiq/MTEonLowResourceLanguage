@@ -1,0 +1,4 @@
+argumenets are Namespace(model='llama2', prompt='refless', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_refless_fine1_run1.txt', only_test=False, quantized=True, cusTok=False)
+Epoch 1: Loss = 317.9346
+Epoch 2: Loss = 256.1234
+Epoch 3: Loss = 244.3615
