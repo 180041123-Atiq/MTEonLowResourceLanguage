@@ -1,0 +1,3 @@
+argumenets are Namespace(model='llama2', prompt='refless', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_refless_zero_run3.txt', only_test=True, quantized=True, cusTok=False)
+Pearson: -0.15133841
+Spearman: -0.1421791105558996

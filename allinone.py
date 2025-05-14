@@ -223,4 +223,4 @@ def main(model_type, prompt, epochs, batch_size, lr, train_path, val_path, test_
 
     if only_test == False:
       train(train_loader, val_loader, output_path, model, device, epochs=epochs)
-    test(test_loader, model, device)
+    test(test_loader, output_path, model, device)
