@@ -7,7 +7,25 @@ from scipy.stats import pearsonr, spearmanr
 from tqdm import tqdm
 import os
 
-from utils import gen_prompts
+from utils import gen_prompts,promptingBusiness
+
+
+class DADataset(Dataset):
+    def __init__(self, df, tokenizer, type='referenced', max_length=512):
+        self.texts = [promptingBusiness(row=row, type=type) for _, row in df.iterrows()]
+        self.targets = df["score"].tolist()
+        self.encodings = tokenizer(self.texts, padding="max_length", truncation=True, max_length=max_length)
+
+    def __len__(self):
+        return len(self.targets)
+
+    def __getitem__(self, idx):
+        return {
+            "input_ids": torch.tensor(self.encodings["input_ids"][idx]),
+            "attention_mask": torch.tensor(self.encodings["attention_mask"][idx]),
+            "labels": torch.tensor(self.targets[idx], dtype=torch.float),
+        }
+
 
 class MTQualityDataset(Dataset):
     def __init__(self, dataframe, tokenizer, prompt, max_length=1024, is_llama2=False):
@@ -22,23 +40,12 @@ class MTQualityDataset(Dataset):
 
     def __getitem__(self, idx):
         row = self.data.iloc[idx]
-
-        if self.is_llama2 == False:
-          messages = [
-              {"role": "user", "content": gen_prompts(row, self.prompt)},
-              {"role": "user", "content": f"Bengali Source Sentence: {row['src']}"},
-              {"role": "user", "content": f"Machine Translated English Sentence: {row['mt']}"}
-          ]
-        else:
-          messages = [
-              {
-                "role": "user", 
-                "content": gen_prompts(row, self.prompt) +
-                f"\nBengali Source Sentence: {row['src']}" +
-                f"\nMachine Translated English Sentence: {row['mt']}"
-              },
-              {"role": "assistant", "content": ""}
-          ]
+        messages = [
+            {"role": "user", "content": gen_prompts(row, self.prompt)},
+            {"role": "user", "content": f"Bengali Source Sentence: {row['src']}"},
+            {"role": "user", "content": f"Machine Translated English Sentence: {row['mt']}"}
+        ]
+         
         encodings = self.tokenizer.apply_chat_template(
             messages,
             add_generation_prompt=True,
@@ -160,7 +167,7 @@ def main(model_type, prompt, epochs, batch_size, lr, train_path, val_path, test_
     if model_type == 'llama2':
       model_name = 'meta-llama/Llama-2-7b-chat-hf'
       custom_tokenizer_name = 'llama2-sylheti-bpe-tokenizer'
-      custom_max_length = 1024
+      custom_max_length = 512
       is_llama2 = True
     elif model_type == 'deepseek':
       model_name = 'deepseek-ai/deepseek-llm-7b-chat'
@@ -213,9 +220,14 @@ def main(model_type, prompt, epochs, batch_size, lr, train_path, val_path, test_
     val_df = pd.read_csv(val_path)
     test_df = pd.read_csv(test_path)
 
-    train_dataset = MTQualityDataset(train_df, tokenizer, prompt, custom_max_length, is_llama2)
-    val_dataset = MTQualityDataset(val_df, tokenizer, prompt, custom_max_length, is_llama2)
-    test_dataset = MTQualityDataset(test_df, tokenizer, prompt, custom_max_length, is_llama2)
+    if is_llama2 == True:
+      train_dataset = DADataset(train_df, tokenizer, prompt, custom_max_length)
+      val_dataset = DADataset(val_df, tokenizer, prompt, custom_max_length)
+      test_dataset = DADataset(test_df, tokenizer, prompt, custom_max_length)
+    else :
+      train_dataset = MTQualityDataset(train_df, tokenizer, prompt, custom_max_length, is_llama2)
+      val_dataset = MTQualityDataset(val_df, tokenizer, prompt, custom_max_length, is_llama2)
+      test_dataset = MTQualityDataset(test_df, tokenizer, prompt, custom_max_length, is_llama2)
 
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
