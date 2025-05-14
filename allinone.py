@@ -199,6 +199,7 @@ def main(model_type, prompt, epochs, batch_size, lr, train_path, val_path, test_
       base_model = AutoModel.from_pretrained(
         model_name, 
         output_hidden_states=True,
+        torch_dtype=torch.bfloat16,
         device_map="auto",
         trust_remote_code=True)
     else:
