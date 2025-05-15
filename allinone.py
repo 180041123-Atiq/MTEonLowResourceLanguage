@@ -108,9 +108,13 @@ def train(train_loader, val_loader, output_path, model, device, epochs=1, lr=1e-
             total_loss += loss.item()
 
         val_pear = evaluate(val_loader, model, device) 
+        print(f"validation score in pear : {val_pear}")
         if val_pear > best_pear:
           best_pear = val_pear
-          torch.save(model.regression_head.state_dict(), output_path)
+          try:
+            torch.save(model.regression_head.state_dict(), output_path)
+          except Exception as e:
+            print(f"Could not save the regression head due to {e}")
 
         print(f"Epoch {epoch+1}: Loss = {total_loss / len(train_loader):.4f}")
 
@@ -221,14 +225,18 @@ def main(model_type, prompt, epochs, batch_size, lr, train_path, val_path, test_
     val_df = pd.read_csv(val_path)
     test_df = pd.read_csv(test_path)
 
-    if is_llama2 == True:
-      train_dataset = DADataset(train_df, tokenizer, prompt, custom_max_length)
-      val_dataset = DADataset(val_df, tokenizer, prompt, custom_max_length)
-      test_dataset = DADataset(test_df, tokenizer, prompt, custom_max_length)
-    else :
-      train_dataset = MTQualityDataset(train_df, tokenizer, prompt, custom_max_length, is_llama2)
-      val_dataset = MTQualityDataset(val_df, tokenizer, prompt, custom_max_length, is_llama2)
-      test_dataset = MTQualityDataset(test_df, tokenizer, prompt, custom_max_length, is_llama2)
+    # if is_llama2 == True:
+    #   train_dataset = DADataset(train_df, tokenizer, prompt, custom_max_length)
+    #   val_dataset = DADataset(val_df, tokenizer, prompt, custom_max_length)
+    #   test_dataset = DADataset(test_df, tokenizer, prompt, custom_max_length)
+    # else :
+    #   train_dataset = MTQualityDataset(train_df, tokenizer, prompt, custom_max_length, is_llama2)
+    #   val_dataset = MTQualityDataset(val_df, tokenizer, prompt, custom_max_length, is_llama2)
+    #   test_dataset = MTQualityDataset(test_df, tokenizer, prompt, custom_max_length, is_llama2)
+
+    train_dataset = DADataset(train_df, tokenizer, prompt, custom_max_length)
+    val_dataset = DADataset(val_df, tokenizer, prompt, custom_max_length)
+    test_dataset = DADataset(test_df, tokenizer, prompt, custom_max_length)
 
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)

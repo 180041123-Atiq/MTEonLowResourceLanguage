@@ -1,0 +1,255 @@
+Run 1 for llama2 with  prompt: ag
+argumenets are Namespace(model='llama2', prompt='ag', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_ag_fine4_run1.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [00:44<00:00, 22.40s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:39<00:00,  3.77it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 1: Loss = 313.2949
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 2: Loss = 274.5032
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 3: Loss = 268.4947
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.81it/s]
+Pearson: 0.18059891
+Spearman: 0.15293969793674805
+Run 1 for llama2 with  prompt: dg
+argumenets are Namespace(model='llama2', prompt='dg', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dg_fine4_run1.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [01:00<00:00, 30.08s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:39<00:00,  3.76it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 1: Loss = 318.4982
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 2: Loss = 270.7637
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 3: Loss = 263.9817
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.81it/s]
+Pearson: 0.24453185
+Spearman: 0.23393522244643702
+Run 1 for llama2 with  prompt: dag
+argumenets are Namespace(model='llama2', prompt='dag', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dag_fine4_run1.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [00:58<00:00, 29.35s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:38<00:00,  3.78it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 1: Loss = 318.5160
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:36<00:00,  3.84it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 2: Loss = 275.0262
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:36<00:00,  3.84it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 3: Loss = 271.5694
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.86it/s]
+Pearson: 0.20606087
+Spearman: 0.18009850199584318
+Run 2 for llama2 with  prompt: ag
+argumenets are Namespace(model='llama2', prompt='ag', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_ag_fine4_run2.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [01:04<00:00, 32.07s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 1: Loss = 319.9095
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:36<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 2: Loss = 272.2068
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:36<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 3: Loss = 270.4889
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.85it/s]
+Pearson: 0.17560641
+Spearman: 0.14757022553851454
+Run 2 for llama2 with  prompt: dg
+argumenets are Namespace(model='llama2', prompt='dg', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dg_fine4_run2.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [01:02<00:00, 31.11s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 1: Loss = 321.9951
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 2: Loss = 269.8171
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 3: Loss = 265.6532
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.86it/s]
+Pearson: 0.24384525
+Spearman: 0.22985163628120553
+Run 2 for llama2 with  prompt: dag
+argumenets are Namespace(model='llama2', prompt='dag', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dag_fine4_run2.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [01:25<00:00, 42.81s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:39<00:00,  3.75it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 1: Loss = 331.1362
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 2: Loss = 276.5276
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 3: Loss = 276.8503
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.81it/s]
+Pearson: 0.21029513
+Spearman: 0.18570657069018381
+Run 3 for llama2 with  prompt: ag
+argumenets are Namespace(model='llama2', prompt='ag', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_ag_fine4_run3.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [01:03<00:00, 31.88s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 1: Loss = 319.6838
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:36<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 2: Loss = 276.1575
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:36<00:00,  3.84it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 3: Loss = 273.9178
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.86it/s]
+Pearson: 0.1784329
+Spearman: 0.15153662502733942
+Run 3 for llama2 with  prompt: dg
+argumenets are Namespace(model='llama2', prompt='dg', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dg_fine4_run3.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [00:52<00:00, 26.48s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:38<00:00,  3.77it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 1: Loss = 330.3907
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 2: Loss = 272.9506
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 3: Loss = 260.7012
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.81it/s]
+Pearson: 0.2450285
+Spearman: 0.23410625164984122
+Run 3 for llama2 with  prompt: dag
+argumenets are Namespace(model='llama2', prompt='dag', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dag_fine4_run3.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [00:52<00:00, 26.21s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:38<00:00,  3.78it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 1: Loss = 319.3518
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 2: Loss = 277.6169
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.80it/s]
+Epoch 3: Loss = 269.8356
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.81it/s]
+Pearson: 0.1928401
+Spearman: 0.1700017532890242
+Run 4 for llama2 with  prompt: ag
+argumenets are Namespace(model='llama2', prompt='ag', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_ag_fine4_run4.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [00:47<00:00, 23.90s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:38<00:00,  3.79it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 1: Loss = 319.2954
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 2: Loss = 276.3416
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 3: Loss = 269.5059
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.86it/s]
+Pearson: 0.17783469
+Spearman: 0.15218643042669308
+Run 4 for llama2 with  prompt: dg
+argumenets are Namespace(model='llama2', prompt='dg', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dg_fine4_run4.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [00:39<00:00, 19.85s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 1: Loss = 328.7489
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 2: Loss = 271.0235
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 3: Loss = 259.9717
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.86it/s]
+Pearson: 0.24575359
+Spearman: 0.2394366618226059
+Run 4 for llama2 with  prompt: dag
+argumenets are Namespace(model='llama2', prompt='dag', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dag_fine4_run4.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [01:07<00:00, 33.90s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:38<00:00,  3.79it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 1: Loss = 307.6997
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 2: Loss = 278.1076
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:36<00:00,  3.84it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 3: Loss = 274.5194
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.86it/s]
+Pearson: 0.20177363
+Spearman: 0.17918265116897183
+Run 5 for llama2 with  prompt: ag
+argumenets are Namespace(model='llama2', prompt='ag', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_ag_fine4_run5.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [00:57<00:00, 28.55s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.80it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 1: Loss = 314.0359
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:36<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 2: Loss = 276.4043
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:36<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 3: Loss = 271.2778
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.86it/s]
+Pearson: 0.17701744
+Spearman: 0.148875642884251
+Run 5 for llama2 with  prompt: dg
+argumenets are Namespace(model='llama2', prompt='dg', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dg_fine4_run5.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [00:50<00:00, 25.21s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.81it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 1: Loss = 314.4713
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 2: Loss = 267.9526
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 3: Loss = 262.8147
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.86it/s]
+Pearson: 0.24249224
+Spearman: 0.2310852635909452
+Run 5 for llama2 with  prompt: dag
+argumenets are Namespace(model='llama2', prompt='dag', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dag_fine4_run5.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 2/2 [00:47<00:00, 23.90s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:37<00:00,  3.81it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 1: Loss = 331.2650
+Epoch 2: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.84it/s]
+Epoch 2: Loss = 280.3375
+Epoch 3: 100%|████████████████████████████████████████████████████| 600/600 [02:35<00:00,  3.85it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 37/37 [00:09<00:00,  3.85it/s]
+Epoch 3: Loss = 275.2382
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:29<00:00,  3.86it/s]
+Pearson: 0.20834866
+Spearman: 0.18206744930663862
