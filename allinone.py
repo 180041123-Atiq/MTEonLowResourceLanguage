@@ -107,14 +107,14 @@ def train(train_loader, val_loader, output_path, model, device, epochs=1, lr=1e-
             optimizer.step()
             total_loss += loss.item()
 
-        val_pear = evaluate(val_loader, model, device) 
-        print(f"validation score in pear : {val_pear}")
-        if val_pear > best_pear:
-          best_pear = val_pear
-          try:
-            torch.save(model.regression_head.state_dict(), output_path)
-          except Exception as e:
-            print(f"Could not save the regression head due to {e}")
+        # val_pear = evaluate(val_loader, model, device) 
+        # print(f"validation score in pear : {val_pear}")
+        # if val_pear > best_pear:
+        #   best_pear = val_pear
+        #   try:
+        #     torch.save(model.regression_head.state_dict(), output_path)
+        #   except Exception as e:
+        #     print(f"Could not save the regression head due to {e}")
 
         print(f"Epoch {epoch+1}: Loss = {total_loss / len(train_loader):.4f}")
 
@@ -136,7 +136,7 @@ def evaluate(val_loader, model, device):
 
           preds.extend(preds_batch.cpu().numpy())
           labels.extend(labels_batch.cpu().numpy())
-
+  # print(f'valScore {pearsonr(preds, labels)[0]}')
   return pearsonr(preds, labels)[0]
 
 
@@ -181,7 +181,7 @@ def main(model_type, prompt, epochs, batch_size, lr, train_path, val_path, test_
     elif model_type == 'openchat':
       model_name = 'openchat/openchat-3.5-1210'
       custom_tokenizer_name = 'openchat-sylheti-bpe-tokenizer'
-      custom_max_length = 1024
+      custom_max_length = 512
       is_llama2 = False
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
