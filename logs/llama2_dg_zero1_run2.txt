@@ -1,0 +1,1 @@
+argumenets are Namespace(model='llama2', prompt='dg', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dg_zero1_run2.txt', only_test=True, quantized=False, cusTok=False)
