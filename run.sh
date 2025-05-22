@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for model in openchat
+for model in llama2 llama213b openchat gemma
 do
   for i in 1 2 3 4 5
   do
@@ -21,12 +21,3 @@ do
     done
   done
 done
-
-#python train.py \
-#  --model llama2 \
-#  --prompt dag \
-#  --epochs 3 \
-#  --batch 2 \
-#  --train-path train_comet_da_scaled.csv \
-#  --test-path test_comet_da_scaled.csv \
-#  --log-path "logs/llama2opt_dag.txt"
