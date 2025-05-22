@@ -1,6 +1,0 @@
-argumenets are Namespace(model='llama2', prompt='ag', epochs=3, batch=2, train_path='train_comet_da_scaled.csv', test_path='test_comet_da_scaled.csv', log_path='logs/llama2CusTokRegHeadag_run3.txt', only_test=False, max_length=512)
-Epoch 1: Loss = 1935.6171
-Epoch 2: Loss = 808.4702
-Epoch 3: Loss = 395.9452
-Pearson: 0.08761972
-Spearman: 0.08731703876310777

@@ -1,0 +1,150 @@
+Run openchat for 1 with prompt: ag
+argumenets are Namespace(model='openchat', prompt='ag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_ag_fine4_run1.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:12<00:00,  4.16s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.59it/s]
+Epoch 1: Loss = 304.6779
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.61it/s]
+Pearson: 0.24086377
+Spearman: 0.2076183677065694
+Run openchat for 1 with prompt: dg
+argumenets are Namespace(model='openchat', prompt='dg', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_dg_fine4_run1.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:13<00:00,  4.44s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.59it/s]
+Epoch 1: Loss = 311.4738
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.61it/s]
+Pearson: 0.27436638
+Spearman: 0.28471664342387165
+Run openchat for 1 with prompt: dag
+argumenets are Namespace(model='openchat', prompt='dag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_dag_fine4_run1.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:12<00:00,  4.20s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.59it/s]
+Epoch 1: Loss = 317.1430
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.60it/s]
+Pearson: 0.25255674
+Spearman: 0.2356027571796281
+Run openchat for 2 with prompt: ag
+argumenets are Namespace(model='openchat', prompt='ag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_ag_fine4_run2.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:13<00:00,  4.37s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:46<00:00,  3.60it/s]
+Epoch 1: Loss = 313.2446
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.61it/s]
+Pearson: 0.23638563
+Spearman: 0.20686879527189664
+Run openchat for 2 with prompt: dg
+argumenets are Namespace(model='openchat', prompt='dg', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_dg_fine4_run2.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:13<00:00,  4.58s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.59it/s]
+Epoch 1: Loss = 303.5703
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.61it/s]
+Pearson: 0.28210473
+Spearman: 0.26607182091325354
+Run openchat for 2 with prompt: dag
+argumenets are Namespace(model='openchat', prompt='dag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_dag_fine4_run2.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:14<00:00,  4.87s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.59it/s]
+Epoch 1: Loss = 308.3863
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.61it/s]
+Pearson: 0.28105778
+Spearman: 0.26834429227330026
+Run openchat for 3 with prompt: ag
+argumenets are Namespace(model='openchat', prompt='ag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_ag_fine4_run3.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:13<00:00,  4.38s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:46<00:00,  3.60it/s]
+Epoch 1: Loss = 301.0191
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.61it/s]
+Pearson: 0.22095758
+Spearman: 0.19014699556375253
+Run openchat for 3 with prompt: dg
+argumenets are Namespace(model='openchat', prompt='dg', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_dg_fine4_run3.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:13<00:00,  4.36s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.58it/s]
+Epoch 1: Loss = 303.6050
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.61it/s]
+Pearson: 0.2791068
+Spearman: 0.28580721852952934
+Run openchat for 3 with prompt: dag
+argumenets are Namespace(model='openchat', prompt='dag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_dag_fine4_run3.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:14<00:00,  4.71s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.58it/s]
+Epoch 1: Loss = 313.3273
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.61it/s]
+Pearson: 0.25335485
+Spearman: 0.24018412278563173
+Run openchat for 4 with prompt: ag
+argumenets are Namespace(model='openchat', prompt='ag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_ag_fine4_run4.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:13<00:00,  4.50s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.59it/s]
+Epoch 1: Loss = 306.2801
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.61it/s]
+Pearson: 0.23726061
+Spearman: 0.20505398539132969
+Run openchat for 4 with prompt: dg
+argumenets are Namespace(model='openchat', prompt='dg', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_dg_fine4_run4.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:12<00:00,  4.14s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.59it/s]
+Epoch 1: Loss = 294.9467
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.60it/s]
+Pearson: 0.29424825
+Spearman: 0.28936452038675464
+Run openchat for 4 with prompt: dag
+argumenets are Namespace(model='openchat', prompt='dag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_dag_fine4_run4.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:13<00:00,  4.41s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.59it/s]
+Epoch 1: Loss = 322.6845
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.60it/s]
+Pearson: 0.2738493
+Spearman: 0.2521572227597502
+Run openchat for 5 with prompt: ag
+argumenets are Namespace(model='openchat', prompt='ag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_ag_fine4_run5.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:12<00:00,  4.28s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.58it/s]
+Epoch 1: Loss = 319.0269
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.60it/s]
+Pearson: 0.21424878
+Spearman: 0.1821160131545188
+Run openchat for 5 with prompt: dg
+argumenets are Namespace(model='openchat', prompt='dg', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_dg_fine4_run5.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:13<00:00,  4.55s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.58it/s]
+Epoch 1: Loss = 297.0012
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.60it/s]
+Pearson: 0.2829491
+Spearman: 0.3001668093326307
+Run openchat for 5 with prompt: dag
+argumenets are Namespace(model='openchat', prompt='dag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/openchat_dag_fine4_run5.txt', only_test=False, quantized=True, cusTok=True)
+Loading checkpoint shards: 100%|██████████████████████████████████████| 3/3 [00:13<00:00,  4.54s/it]
+Epoch 1:   0%|                                                              | 0/600 [00:00<?, ?it/s]/workspace/MTEonLowResourceLanguage/allinone.py:98: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1: 100%|████████████████████████████████████████████████████| 600/600 [02:47<00:00,  3.59it/s]
+Epoch 1: Loss = 311.1492
+Testing: 100%|████████████████████████████████████████████████████| 113/113 [00:31<00:00,  3.60it/s]
+Pearson: 0.24634874
+Spearman: 0.2243802853760059

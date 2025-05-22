@@ -1,43 +1,93 @@
 import pandas as pd
 import numpy as np
 import scipy.stats as stats
+import matplotlib.pyplot as plt
 
 def generateConfidenceScore(csvPath):
     df = pd.read_csv(csvPath)
 
     idx_prompt_map = {
-        0:'dag',
+        0:'ag',
         1:'dg',
-        2:'ag',
+        2:'dag',
     }
 
-    score_dict = {}
+    expn_idx = {
+      'pear1':1, 
+      'pear2':2, 
+      'pear3':3, 
+      'pear4':4, 
+      'pear5':5,
+      'spear1':7, 
+      'spear2':8, 
+      'spear3':9, 
+      'spear4':10, 
+      'spear5':11 
+    }
+
+    pear_score_dict = {}
+    spear_score_dict = {}
+
+    # print(df.columns)
 
     for ix in range(3):
-        score_dict[ix] = []
+        pear_score_dict[ix] = []
+        spear_score_dict[ix] = []
+        pii = 1
+        sii = 1
         for col in df.columns:
-            if col == 'prompt': continue
-            score_dict[ix].append(float(df.iloc[ix,int(col)]))
+            if col == 'prompt' or col == '95confScorePear' or col == '95confScoreSpear' : continue
+        
+            if f'pear{pii}' == col: 
+              pii += 1
+              pear_score_dict[ix].append(float(df.iloc[ix,expn_idx[col]]))
+            if f'spear{str(sii)}' == col: 
+              sii += 1
+              spear_score_dict[ix].append(float(df.iloc[ix,expn_idx[col]]))
+            # print(col)
 
-    res_list = []
+    # print(len(spear_score_dict[0]))
+    # print(len(pear_score_dict[0]))
+    # exit()
+
+    pear_res_list = []
+    spear_res_list = []
 
     for ix in range(3):
-        mean = np.mean(score_dict[ix])
-        sem = stats.sem(score_dict[ix])
+        mean = np.mean(pear_score_dict[ix])
+        sem = stats.sem(pear_score_dict[ix])
         confidence = 0.95
-        n = len(score_dict[ix])
+        n = len(pear_score_dict[ix])
         df = n - 1
         t_critical = stats.t.ppf((1 + confidence) / 2, df)
         margin_of_error = t_critical * sem
         lower_bound = mean - margin_of_error
         upper_bound = mean + margin_of_error
-        res_list.append((mean,lower_bound,upper_bound))
+        pear_res_list.append((mean,lower_bound,upper_bound))
+
+    for ix in range(3):
+      mean = np.mean(spear_score_dict[ix])
+      sem = stats.sem(spear_score_dict[ix])
+      confidence = 0.95
+      n = len(spear_score_dict[ix])
+      df = n - 1
+      t_critical = stats.t.ppf((1 + confidence) / 2, df)
+      margin_of_error = t_critical * sem
+      lower_bound = mean - margin_of_error
+      upper_bound = mean + margin_of_error
+      spear_res_list.append((mean,lower_bound,upper_bound))
     
     # print(res_list)
 
+    # for ix in range(3):
+    #   print(res_list[ix][0]-res_list[ix][1],res_list[ix][2]-res_list[ix][0])
+
     with open(csvPath.split('.csv')[0]+'.txt','w') as f:
         for ix in range(3):
-            f.write(f"{idx_prompt_map[ix]}'s avg is {res_list[ix][0]} and 95% confidence intervel is {res_list[ix][1]} <-> {res_list[ix][2]}\n")
+            f.write(f"llama2 13B with {idx_prompt_map[ix]}'s  95% confidence intervel in pearson metric is {round(pear_res_list[ix][0],4)}+-{round(pear_res_list[ix][2]-pear_res_list[ix][0],4)}\n")
+        f.write('\n')
+        for ix in range(3):
+          f.write(f"llama2 13B with {idx_prompt_map[ix]}'s  95% confidence intervel in Spearman metric is {round(spear_res_list[ix][0],4)}+-{round(spear_res_list[ix][2]-spear_res_list[ix][0],4)}\n")
 
 def generateWordMap(row):
     df = pd.read_csv('sylheti_dictionary.csv')
@@ -235,5 +285,19 @@ def promptingBusiness(row, type, word_map=None):
         return header + word_list + body
 
 
+
+def genStackedBarChart():
+  pipelines = ['AG', 'DG', 'DAG']
+  pearsons = [0.1765, 0.279, 0.2196]
+
+  plt.barh(pipelines, pearsons, color='tomato')  # You can use any named color or hex code
+
+  # plt.title('Performance of Llama2 13B in SOTA pipelines')
+  plt.xlabel('Pearson Correlation Metric')      # Corrected: Sales on the x-axis
+  plt.ylabel('Pipelines')     # Corrected: Fruits on the y-axis
+  plt.show()
+
+
 if __name__ == '__main__':
-  generateConfidenceScore(csvPath='MTEresults - llama2FTcusTokRegHead.csv')
+  # generateConfidenceScore(csvPath='llama213bfine4.csv')
+  genStackedBarChart()

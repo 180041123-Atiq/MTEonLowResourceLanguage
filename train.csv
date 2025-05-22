@@ -1,0 +1,1201 @@
+lp,src,mt,ref,score,raw,annotators,domain,year
+bn-en,আমি ওবায় যাইতাম নায়,I wouldn't go to him.,I will not go there,48.24073845667909,35.0,1,text book,2025
+bn-en,আমি ওবায় যাইমু,I'm going to go to him.,I will go there,48.24073845667909,35.0,1,text book,2025
+bn-en,একটা কবিতা কও,A poem of your own .,Recite a poem,44.331461668860555,27.5,1,text book,2025
+bn-en,আমার কবিতা পছন্দ,My poetry is like,I like poetry,50.846922981891446,40.0,1,text book,2025
+bn-en,আমার কপাল ভালা,My head is fine.,My luck is good,48.24073845667909,35.0,1,text book,2025
+bn-en,হে কিলাখান ঝিমার দেখ,"Hey , look at the rain .",Look at how he's squinting,35.20981583061733,10.0,1,text book,2025
+bn-en,কিতা ফাইছো,I'm going to kill you.,What did you get,35.20981583061733,10.0,1,text book,2025
+bn-en,আমি তুমারে দেকিলাইমু,I'm going to tell you.,I will see you,44.331461668860555,27.5,1,text book,2025
+bn-en,ভুলি গেছো,You forgot .,You forgot,82.12113728443965,100.0,1,text book,2025
+bn-en,কিতা তরকারি?,What's that?,What curry,59.968568820134664,57.5,1,text book,2025
+bn-en,আমি ফারমু,I'm not a farmer.,I can,50.846922981891446,40.0,1,text book,2025
+bn-en,হে ভাগছে,He 's sharing,He ran away,32.60363130540498,5.0,1,text book,2025
+bn-en,হে অনেক ডরালোক,"Hey, you're too scared.",He is very shy,50.846922981891446,40.0,1,text book,2025
+bn-en,তরকারি নেও,Take it .,Take the curry,59.968568820134664,57.5,1,text book,2025
+bn-en,কান্দাত আও,I'm not a candidate.,Come closer,29.99744678019263,0.0,1,text book,2025
+bn-en,আফনারে ফাঠাইছে?,Are you trapped?,Sent you?,35.20981583061733,10.0,1,text book,2025
+bn-en,শিমুর গোলাপি রং পছন্দ,Shimour is pink .,Shimu likes pink color,40.422184881042035,20.0,1,text book,2025
+bn-en,শিমুর আকাশী রং পছন্দ,Shimour's sky is the color of love.,Shimu likes blue color,37.81600035582968,15.0,1,text book,2025
+bn-en,শিমুর ধূসর রং পছন্দ,Shimour is a grey color choice.,Shimu prefers gray color,44.331461668860555,27.5,1,text book,2025
+bn-en,শিমুর মেরুন রং পছন্দ,Shimour is a good choice .,Shimu prefers maroon color,37.81600035582968,15.0,1,text book,2025
+bn-en,শিমুর কমলা রং পছন্দ,Shimour is a red color .,Shimu likes orange color,32.60363130540498,5.0,1,text book,2025
+bn-en,শিমুর খয়েরি রং পছন্দ,Shimour is a good choice.,Shimu likes brown colors,29.99744678019263,0.0,1,text book,2025
+bn-en,আফনারা আগে জাউকা,Before the game .,You go first,33.90672356801115,7.5,1,text book,2025
+bn-en,আফনে কোন থাকি আইছইন,I'm not staying in Afghanistan.,Where are you from?,29.99744678019263,0.0,1,text book,2025
+bn-en,সামলাইয়া রাখিও,Samlaya Rakhine,Keep it under control,29.99744678019263,0.0,1,text book,2025
+bn-en,কিতা করবায় আমি যদি ঠিক থাকি,I'll do it if I feel all right.,what will you do if I am right?,44.331461668860555,27.5,1,text book,2025
+bn-en,আমার মাত বুঝরে তুই,My mother understands you .,You are understanding my words.,41.725277143648206,22.5,1,text book,2025
+bn-en,আমার ফিছে কিতা,My fish book.,What's behind me?,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি তুমারে দেকিলাইমু,I'm going to tell you.,I will see you,46.937646194072904,32.5,1,text book,2025
+bn-en,যাওয়ার সময় কোনানো গেছলে,"When you go, no one will go.",Where did you go when you left?,33.90672356801115,7.5,1,text book,2025
+bn-en,জানটা ঘরে রাইক্ষ,I know it's in the house.,Keep your soul at home,36.5129080932235,12.5,1,text book,2025
+bn-en,মাতাত আত দিয়া কও আমারে ধুকা দিতায় না,"Mother, I'm not going to let you hurt me.",Put your hand on your head and say don't cheat on me,37.81600035582968,15.0,1,text book,2025
+bn-en,তোমার নাম লেখি দিলাইছি,Your name is written .,I have written your name,71.69639918359026,80.0,1,text book,2025
+bn-en,"না ও কইস, অয় ও কইস","No, where is he?","Say either ""no"" or ""yes.""",33.90672356801115,7.5,1,text book,2025
+bn-en,আমি জানি তুমি আইছো,I know you're coming.,I know you came,71.69639918359026,80.0,1,text book,2025
+bn-en,তুমি কালকে আইও,You come tomorrow .,You come tomorrow,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি জানতাম তুমি আইবায়,I knew you were coming .,I know you came,78.21186049662113,92.5,1,text book,2025
+bn-en,সিটি কপোরেশন অফিশ আছে,There's a city corporation office.,There is a city corporation office,82.12113728443965,100.0,1,text book,2025
+bn-en,বউত সমস্যায় আছি,My wife is in trouble .,I am in a lot of trouble,59.968568820134664,57.5,1,text book,2025
+bn-en,আমি হাছাউ বাক্কা অসহায় বোধ করিয়ার,I'm going to make you feel helpless.,I feel really helpless,49.283212266764025,37.0,1,text book,2025
+bn-en,আমি বাক্কা অসহায় বোধ করিয়ার,I feel helpless.,I feel so helpless,78.21186049662113,92.5,1,text book,2025
+bn-en,বাক্কা অসহায় বোধ করিয়ার,I feel helpless .,I feel very helpless,78.21186049662113,92.5,1,text book,2025
+bn-en,অসহায় বোধ করিয়ার,I feel helpless .,I feel helpless,79.5149527592273,95.0,1,text book,2025
+bn-en,আমি হাছাউ বাক্কা অসহায়,I'm a helpless little bugger.,I am really very helpless,54.75619976970996,47.5,1,text book,2025
+bn-en,ভিডিও বনানির কিতা দরকার আছিল?,You need a video forestry book?,What was the need to make the video?,44.331461668860555,27.5,1,text book,2025
+bn-en,বনানির কিতা দরকার আছিল?,Did you need the forestry book?,What was the need to make?,35.20981583061733,10.0,1,text book,2025
+bn-en,আমারে রিং দে,Give me the ring .,Call me,40.422184881042035,20.0,1,text book,2025
+bn-en,সিলেট থাকি আমার লগে দেখা করাত আইছিল,I was going to stay silent and come to see me.,Came to meet me from Sylhet,44.331461668860555,27.5,1,text book,2025
+bn-en,আমার লগে দেখা করাত আইছিল,She was coming to see me.,Came to meet me,65.18093787055936,67.5,1,text book,2025
+bn-en,হে সিলেট থাকি আমার লগে দেখা করাত আইছিল,"Hey, stay silent. I was coming to see you.",He came to meet me from Sylhet,46.937646194072904,32.5,1,text book,2025
+bn-en,সিলেট থাকি ঢাকাত আইছে,I'm staying in Dhaka.,Came from Sylhet to Dhaka,54.75619976970996,47.5,1,text book,2025
+bn-en,ছইবায় না,I 'm not .,Do not touch,42.767750953733156,24.5,1,text book,2025
+bn-en,হই গেছি,I 'm going .,I am done,44.331461668860555,27.5,1,text book,2025
+bn-en,মূল মাতো আও,The mother of the bride,Come to the point,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি ভাত খাইতাম নায় ঘুষা করছি,I used to eat rice and I'm not a snake.,I will not eat rice because I am angry,40.422184881042035,20.0,1,text book,2025
+bn-en,আফনে আমারে ছাড়িয়া যাইবা গি,"If you leave me, you'll go away.",You will leave me,56.059292032316144,50.0,1,text book,2025
+bn-en,বিয়া অইছিল বাক্কা বছর আগে,The wedding was a couple years ago.,The marriage was many years ago.,75.60567597140879,87.5,1,text book,2025
+bn-en,যাওনারে মাত নাই,Go to my mother .,"Go, no more talk",43.02836940625439,25.0,1,text book,2025
+bn-en,চিন্তা করিয়ার কিচ্ছু একটা করমু,Think of something you can do.,I'm thinking of doing something,56.059292032316144,50.0,1,text book,2025
+bn-en,ইটা ভালা অইবো তল্লাইজ্ঞা,It's good to be on the road.,It will be good for you,40.682803333563264,20.5,1,text book,2025
+bn-en,বারিত আওয়ার সময় অই গেছে,The time has come.,It's time to come home,54.75619976970996,47.5,1,text book,2025
+bn-en,সে খাওয়া থামাইয়া কইছে,She stopped eating .,He stopped eating and said,58.6654765575285,55.0,1,text book,2025
+bn-en,খাওয়াত গেছিল,I was eaten.,Went to eat,35.20981583061733,10.0,1,text book,2025
+bn-en,মাত না মাতিয়া খাওয়াত মন দে,"Mother , I 'm not going to eat you .",Focus on eating instead of talking,32.60363130540498,5.0,1,text book,2025
+bn-en,খাওয়া শেষ কইরা তার অবায় গেল,Eat where his father left off .,"After finishing eating, he went towards him.",32.60363130540498,5.0,1,text book,2025
+bn-en,দেইক্ষা ছোক গেছিল,I saw you touch me.,His eyes were drawn upon seeing it.,30.77930213775633,1.5,1,text book,2025
+bn-en,শুন্দর কিচ্ছু অইতে পারে,I'm not sure what's going on.,It might be something beautiful.,37.03414499826598,13.5,1,text book,2025
+bn-en,আমার ছোডভাই বিয়া করি লাইসে,My brother is getting married in my house.,My younger brother has gotten married.,61.27166108274085,60.0,1,text book,2025
+bn-en,মাতাত ঘিলু নাই,Mother is not here .,I can’t come up with any ideas.,32.60363130540498,5.0,1,text book,2025
+bn-en,ডিম দেওয়া বন্ধ করি লইছে,The egg has stopped giving.,Stopped laying eggs.,48.24073845667909,35.0,1,text book,2025
+bn-en,হগলরে কইছি,What did I say ?,Everyone has been informed.,38.85847416591462,17.0,1,text book,2025
+bn-en,কইছি,Where are you ?,Has been said.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমার ইতা করা লাগব,I need to do it.,You need to do this.,72.99949144619643,82.5,1,text book,2025
+bn-en,করা লাগব,I need to,It needs to be done.,54.75619976970996,47.5,1,text book,2025
+bn-en,আইওইস,Ioiis,You come,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি তারে কইলাম ইতা করিয়ো না,I told her not to do it .,"I told him, don't do this.",70.39330692098407,77.5,1,text book,2025
+bn-en,আমি তারে কইলাম,I told him .,I told him.,82.12113728443965,100.0,1,text book,2025
+bn-en,ওটা করিও না,Don't do that,Don't do this.,79.5149527592273,95.0,1,text book,2025
+bn-en,কিতা দরকার আছিল?,What did you need?,What was the need?,79.5149527592273,95.0,1,text book,2025
+bn-en,দরকার আছিল?,Did you need it?,Was there a need?,72.99949144619643,82.5,1,text book,2025
+bn-en,বানানির কিতা দরকার ?,You need a spelling book ?,What’s the need to make it?,37.81600035582968,15.0,1,text book,2025
+bn-en,ইতা করের কিতার লাগি বিয়া বইয়া?,It's a book about marriage.,Why are you doing all this after getting married,35.731052735659794,11.0,1,text book,2025
+bn-en,কিতার লাগি বিয়া বইয়া?,What do you need a marriage book for?,Why get married,35.20981583061733,10.0,1,text book,2025
+bn-en,ইতা করের,It 's a tax .,Doing all this,29.99744678019263,0.0,1,text book,2025
+bn-en,ইগু কিলা ওয়,I'm going to kill you.,How is this possible?,29.99744678019263,0.0,1,text book,2025
+bn-en,ইগু কিলা ওয়,I'm going to kill you.,How is it possible?,43.02836940625439,25.0,1,text book,2025
+bn-en,তুমিতাইন ওর অত ঘুম আয় কিওর লাগি,You must have been sleeping too much .,Why do you sleep so much?,49.54383071928526,37.5,1,text book,2025
+bn-en,তুমিতাইন ওর ঘুম আয় কিওর লাগি,You must have been sleeping .,Why do you sleep?,46.937646194072904,32.5,1,text book,2025
+bn-en,ঘুম আয় কিওর লাগি,Sleeping is what I like .,Why are you sleeping?,35.731052735659794,11.0,1,text book,2025
+bn-en,অত ঘুম আয় কিওর লাগি,I'm sleeping too much.,Why do you sleep so much?,39.379711070957086,18.0,1,text book,2025
+bn-en,তুমিতাইন ঘুমাও,You must sleep .,You sleep.,63.8778456079532,65.0,1,text book,2025
+bn-en,তোমার কাজ-খাম নাই,You have no work .,Don’t you have any work?,72.99949144619643,82.5,1,text book,2025
+bn-en,মাথ ঠিক আছেনি,He 's not well .,Is your mind okay,63.8778456079532,65.0,1,text book,2025
+bn-en,কান লাল করমু তর,Can you red hair ?,I will turn your ears red,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি সমস্যাত আছি,I 'm in trouble .,I am in pain.,76.90876823401496,90.0,1,text book,2025
+bn-en,সমস্যাত আছি,I 'm in trouble .,I’m in pain.,76.90876823401496,90.0,1,text book,2025
+bn-en,তুমিতাইন ওর লগে আমার জরুরি মাত আছে,You must be with him . I have an emergency .,I have something urgent to discuss with you.,43.28898785877562,25.5,1,text book,2025
+bn-en,তুমিতাইন ওর লগে আমার মাত আছে,You're with him.,I have something to discuss with you.,35.731052735659794,11.0,1,text book,2025
+bn-en,আমার জরুরি মাত আছে,I have an emergency .,I have something urgent to say.,58.6654765575285,55.0,1,text book,2025
+bn-en,জরুরি মাত আছে,There 's an emergency .,There’s something urgent.,66.48403013316555,70.0,1,text book,2025
+bn-en,মাত আছে,Mother has,I have something to say.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমার সোকাইলকু উঠিয়া চা খাওয়ার অভ্যাস,My son is always up and drinking tea.,I have a habit of drinking tea right after waking up in the morning.,39.11909261843585,17.5,1,text book,2025
+bn-en,সোকাইলকু উঠিয়া চা খাওয়ায় অভ্যাস,Sookilku got up and ate tea.,The habit of drinking tea right after waking up in the morning.,34.16734202053238,8.0,1,text book,2025
+bn-en,চা খাওয়ায় অভ্যাস,Tea eating habits,The habit of drinking tea.,52.15001524449761,42.5,1,text book,2025
+bn-en,তুমিতাইন দুপুরবেলাত কিতা খাইলায়?,You ate a book at noon?,What did you eat for lunch?,36.5129080932235,12.5,1,text book,2025
+bn-en,দুপুরবেলাত কিতা খাইলায়?,Did you eat at midnight?,What did you eat for lunch?,45.63455393146674,30.0,1,text book,2025
+bn-en,তুমিতাইন কিতা রাত্রে বারইবায় নি?,You're not going to sleep in the night?,Will you go out at night?,43.02836940625439,25.0,1,text book,2025
+bn-en,রাত্রে বারইবায় নি?,Did you sleep in?,Will you go out at night?,35.20981583061733,10.0,1,text book,2025
+bn-en,বারইবায় নি?,- What's the matter?,Will you go out?,36.5129080932235,12.5,1,text book,2025
+bn-en,তুমিতাইন কিতা বারইবায় নি?,You're not going to write a book?,Will you go out?,32.60363130540498,5.0,1,text book,2025
+bn-en,ইবায় নি?,I'm not dead?,This way?,29.99744678019263,0.0,1,text book,2025
+bn-en,আফনার লগে মাত্তে বাক্কা ভালা লাগে আমার,I like to talk with Afghani.,I really enjoy talking to you.,38.33723726087215,16.0,1,text book,2025
+bn-en,মাত্তে বাক্কা ভালা লাগে আমার,I like my mother.,I really enjoy talking.,36.5129080932235,12.5,1,text book,2025
+bn-en,ভালা লাগে আমার,I like it .,I really enjoy it.,72.99949144619643,82.5,1,text book,2025
+bn-en,রং করতে পারবে নি রে,You can't paint.,Can you do the coloring?,44.331461668860555,27.5,1,text book,2025
+bn-en,কাজ করতাম কিলাখান,I used to work in a slaughterhouse .,How will I do the work?,36.5129080932235,12.5,1,text book,2025
+bn-en,আমি বউত সমস্যায় আছি,I'm in trouble with my wife.,I am in a lot of pain.,39.11909261843585,17.5,1,text book,2025
+bn-en,মাত্তে বাক্কা ভালা লাগে,I like the sound of that.,I enjoy talking.,44.331461668860555,27.5,1,text book,2025
+bn-en,বাক্কা ভালা লাগে,It's good.,Feels very good,70.39330692098407,77.5,1,text book,2025
+bn-en,আফনার লগে মাত্তে বাক্কা ভাাল্লাগে,Afna is going to be a big hit with me .,I enjoy talking to you a lot,32.60363130540498,5.0,1,text book,2025
+bn-en,খেলবে নি আমার পুড়ির লগে,Don 't play with my pussy .,Will you play with my daughter?,36.5129080932235,12.5,1,text book,2025
+bn-en,আমার ওখন তোমারে ভালা লাগে,I like you when you're,I like you now.,57.362384294922315,52.5,1,text book,2025
+bn-en,আমরার মাত বুঝরে তুই,Amara's mother understands you,Do you understand what I’m saying?,29.99744678019263,0.0,1,text book,2025
+bn-en,হাছারে বা আমার গাও জ্বর,Haçare or benim gao জ্বর,I swear I have a fever.,29.99744678019263,0.0,1,text book,2025
+bn-en,তোমরারে আমরা দেইক্কা নিমু,We'll give you a break.,We will deal with you.,36.5129080932235,12.5,1,text book,2025
+bn-en,তুমিতাইন দুপুরবেলাত কিতা দিয়া ভাত খাইলায়?,You're going to eat lunch in the middle of the night?,What did you eat with rice for lunch?,37.81600035582968,15.0,1,text book,2025
+bn-en,দুপুরবেলাত কিতা দিয়া ভাত খাইলায়?,Do you eat lunch at noon?,What did you eat with rice for lunch?,43.81022476381809,26.5,1,text book,2025
+bn-en,দুপুরবেলাত কিতা খাইলায়?,Did you eat at midnight?,What did you eat for lunch?,36.5129080932235,12.5,1,text book,2025
+bn-en,কিতা দিয়া ভাত খাইলায়?,What's the matter?,With what did you have rice?,35.20981583061733,10.0,1,text book,2025
+bn-en,সব তাকি কাছ ওর মানুষ,All eyes on her people,The closest person.,32.60363130540498,5.0,1,text book,2025
+bn-en,বাক্কা ভালা লাগে,It's good.,Like it a lot.,71.69639918359026,80.0,1,text book,2025
+bn-en,ভালা লাগে,I like it .,Like it.,80.55742656931226,97.0,1,text book,2025
+bn-en,মাত্তে বাক্কা ভালা লাগে,I like the sound of that.,I really enjoy talking.,46.937646194072904,32.5,1,text book,2025
+bn-en,আমি তুমারে কল দিতাম নায়,I wouldn't call you.,I won’t call you.,78.21186049662113,92.5,1,text book,2025
+bn-en,তুমারে কল  দিতাম নায়,You call me.,I won’t call you.,52.15001524449761,42.5,1,text book,2025
+bn-en,আমি তুমারে কল দিতাম,I'd call you.,I will call you.,76.90876823401496,90.0,1,text book,2025
+bn-en,তুমারে কল দিতাম,I'd have called you.,I will call you.,69.09021465837789,75.0,1,text book,2025
+bn-en,কল নায়,Call me .,Won’t call.,46.937646194072904,32.5,1,text book,2025
+bn-en,তুমিতাইন অত ঘুমাও কিতার লাগি?,You're sleeping too much?,Why do you feel so sleepy?,57.362384294922315,52.5,1,text book,2025
+bn-en,তুমিতাইন ঘুমাও কিতার লাগি?,You need a book to sleep in?,Why do you feel sleepy?,39.11909261843585,17.5,1,text book,2025
+bn-en,অত ঘুমাও কিতার লাগি?,How much sleep do you need?,Why do you feel so sleepy?,46.937646194072904,32.5,1,text book,2025
+bn-en,ঘুমাও কিতার লাগি?,Do you need a sleeping book?,Why do you feel sleepy?,37.81600035582968,15.0,1,text book,2025
+bn-en,তুমিতাইন অত ঘুমাও কিতার লাগি?,You're sleeping too much?,Why are you so sleepy?,56.059292032316144,50.0,1,text book,2025
+bn-en,ফুয়াটায় এখটা সাদা রঙ্গের শার্ট ফিন্দিয়া আইছিল,There was a white shirt in the window.,The boy came wearing a white shirt.,43.02836940625439,25.0,1,text book,2025
+bn-en,হে এখন রাজশাহীত গেছে গিয়া,Hey now Rajshahit has gone,He has now gone to Rajshahi.,43.02836940625439,25.0,1,text book,2025
+bn-en,হে এখেবারেও হাসে না,He never smiles .,He doesn’t laugh at all.,76.90876823401496,90.0,1,text book,2025
+bn-en,হে হাসে না,He is not laughing .,He doesn’t laugh.,67.78712239577173,72.5,1,text book,2025
+bn-en,হে হাসে,He smiles .,He laughs.,79.5149527592273,95.0,1,text book,2025
+bn-en,হাসে না,Laughter .,Doesn’t laugh.,44.331461668860555,27.5,1,text book,2025
+bn-en,এখেবারেও হাসে না,I never laughed .,Doesn’t laugh at all.,48.24073845667909,35.0,1,text book,2025
+bn-en,হে রাজশাহীত গেছে গিয়া,"Hey, the prince is gone.",He has gone to Rajshahi.,43.02836940625439,25.0,1,text book,2025
+bn-en,রাজশাহীত গেছে গিয়া,Rajshahi is gone.,Has gone to Rajshahi.,43.02836940625439,25.0,1,text book,2025
+bn-en,গেছে গিয়া,He 's gone .,Has gone.,53.453107507103795,45.0,1,text book,2025
+bn-en,হে এখন রাজশাহীত,"Hey, now you're in the kingdom.",He is now in Rajshahi.,46.937646194072904,32.5,1,text book,2025
+bn-en,আফনার সব তাকি কাছ ওর মানুষ কে?,Who are all the Afghans looking at?,Who is your closest person?,32.60363130540498,5.0,1,text book,2025
+bn-en,আফনার কাছ ওর মানুষ কে?,Who are the Afghans?,Who is your close person?,35.20981583061733,10.0,1,text book,2025
+bn-en,কাছ ওর মানুষ কে?,Who's his man?,Who is the close person?,41.725277143648206,22.5,1,text book,2025
+bn-en,মানুষ কে?,Who is this man?,Who is the person?,66.48403013316555,70.0,1,text book,2025
+bn-en,ঢাকাত আইছে,Dhaka is coming,Has come to Dhaka.,50.846922981891446,40.0,1,text book,2025
+bn-en,ফুয়াটায় ঢাকাত আইছে,Fuyatay Dhakaat is coming,The boy has come to Dhaka.,40.422184881042035,20.0,1,text book,2025
+bn-en,ফুয়াটায় ঢাকাত আইছে,Fuyatay Dhakaat is coming,From Sylhet to Dhaka.,39.11909261843585,17.5,1,text book,2025
+bn-en,সাদা রঙ্গের শার্ট পিন্দিয়া আইছিল,I was wearing a white shirt .,Came wearing a white shirt.,50.846922981891446,40.0,1,text book,2025
+bn-en,এখটা সাদা রঙ্গের শার্ট,It's a white shirt.,A white shirt.,70.39330692098407,77.5,1,text book,2025
+bn-en,সাদা রঙ্গের শার্ট পিন্দিয়া আইছিল,I was wearing a white shirt .,Came wearing a white shirt.,49.54383071928526,37.5,1,text book,2025
+bn-en,সাদা রঙ্গের শার্ট,White shirt,White shirt.,82.12113728443965,100.0,1,text book,2025
+bn-en,শার্ট ফিন্দিয়া আইছিল,The shirt was in the Indian .,Came wearing a shirt.,38.33723726087215,16.0,1,text book,2025
+bn-en,ফিন্দিয়া আইছিল,I was in Finland.,Came wearing.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমার বউত খারাফ লাগের,My wife is in trouble .,I feel very bad.,36.5129080932235,12.5,1,text book,2025
+bn-en,আমার খারাফ লাগের,My face is like a mirror,I feel bad.,32.60363130540498,5.0,1,text book,2025
+bn-en,বউত খারাফ লাগের,The wife of the late,Feeling very bad.,32.60363130540498,5.0,1,text book,2025
+bn-en,খারাফ লাগের,- What ?,Feeling bad.,29.99744678019263,0.0,1,text book,2025
+bn-en,তুমি কোন স্কুলো পড়ো,You're not going to school.,Which school do you study in?,37.81600035582968,15.0,1,text book,2025
+bn-en,কোন স্কুলো পড়ো,No school .,Which school do you study?,35.20981583061733,10.0,1,text book,2025
+bn-en,আমরার বাড়ি চাঁদপুর,Amara's house in Chandpur,Our home is in Chandpur.,41.725277143648206,22.5,1,text book,2025
+bn-en,আমরার বাড়ি যশোর,Amara's house is Yashoor.,Our home is in Jessore.,41.725277143648206,22.5,1,text book,2025
+bn-en,তুমি কই যাও,Where are you going ?,Where are you going?,82.12113728443965,100.0,1,text book,2025
+bn-en,কই যাও,Where are you going ?,Where are you going?,82.12113728443965,100.0,1,text book,2025
+bn-en,তার বই পর্তে একেবারে অউ ভালা লাগে না,I don't like her books at all.,He doesn’t like studying at all.,43.02836940625439,25.0,1,text book,2025
+bn-en,আফ্নার কিতা পরালেখা কর্তে এখদম ভালা লাগে নানি?,Doesn't it feel so good to write a book?,Do you not like studying at all?,32.60363130540498,5.0,1,text book,2025
+bn-en,পরালেখা কর্তে এখদম ভালা লাগে নানি?,Do you like writing so much?,Don’t like studying at all?,35.20981583061733,10.0,1,text book,2025
+bn-en,আফ্নার কিতা পরালেখা ভালা লাগে নানি?,Do you like to write a book about Afghanistan?,Don’t you like studying?,32.60363130540498,5.0,1,text book,2025
+bn-en,আফ্নার কিতা পরালেখা ভালা লাগে?,Do you like to write a book about Afghanistan?,Do you like studying?,32.60363130540498,5.0,1,text book,2025
+bn-en,ভালা লাগে নানি?,"Do you like it, Nana?",Don’t like?,46.41640928903044,31.5,1,text book,2025
+bn-en,আমি কামো যাইতাম ছাই,I would have come .,I want to go to work.,39.11909261843585,17.5,1,text book,2025
+bn-en,কামো যাইতাম ছাইয়ার না,"Come on , we 're going to the beach .",Don’t want to go to work.,32.60363130540498,5.0,1,text book,2025
+bn-en,যাইতাম ছায়না,I went to the movies .,Don’t want to go.,37.81600035582968,15.0,1,text book,2025
+bn-en,ছায়না,- What ?,Don’t want.,32.60363130540498,5.0,1,text book,2025
+bn-en,কামো যাইতাম ছায়,"Come on , we 're going to the shade .",Want to go to work.,29.99744678019263,0.0,1,text book,2025
+bn-en,যাইতাম ছায়,I'd go to the shade.,Want to go.,33.90672356801115,7.5,1,text book,2025
+bn-en,আফনে ওউ কলম ওগু লৌকা,I'm not a pen and ink man.,Take this pen.,32.60363130540498,5.0,1,text book,2025
+bn-en,ওউ কলম ওগু লৌকা,"Oh , my God .",Take this pen.,35.20981583061733,10.0,1,text book,2025
+bn-en,কলম ওগু লৌকা,Pen and pencil,Take the pen.,35.99167118818104,11.5,1,text book,2025
+bn-en,আফনে কলম ওগু লৌকা,Afne pen oggu লৌকা is a very good book.,Take the pen.,32.60363130540498,5.0,1,text book,2025
+bn-en,তুমি যাইবায়,You go away,You wil go,45.63455393146674,30.0,1,text book,2025
+bn-en,"ফুরুত্তায় কান্দের, খানি খাওয়াও",I'm going to eat.,"The baby is crying, feed him.",35.20981583061733,10.0,1,text book,2025
+bn-en,নিজর থাখার জাগা নাই আবার আরকজনরে ফালার দায়িত্ব নিসে,Nizar Thachar is not in charge of speaking to anyone else.,"Has no place of his own, yet took responsibility for someone else.",29.99744678019263,0.0,1,text book,2025
+bn-en,আমারে হাছা কথা কৌকা,I have a funny thing to say.,Tell me the truth.,37.81600035582968,15.0,1,text book,2025
+bn-en,হাছা কথা কৌকা,It 's a joke .,Tell the truth.,37.81600035582968,15.0,1,text book,2025
+bn-en,কথা কৌকা,Talk about a joke.,Speak.,37.81600035582968,15.0,1,text book,2025
+bn-en,আমারে হাছা কৌকা,I have a laughingstock .,Tell me the truth.,32.60363130540498,5.0,1,text book,2025
+bn-en,হাছা কৌকা,It 's a joke .,Tell the truth.,32.60363130540498,5.0,1,text book,2025
+bn-en,ফুরুত্তা কান্দের,The man of my dreams,The baby is crying.,29.99744678019263,0.0,1,text book,2025
+bn-en,খানি খাওয়াও,Eat some food.,Feed him.,43.02836940625439,25.0,1,text book,2025
+bn-en,তুমিতাইন ঘুম তনে জলদি উঠি যাইও,You must sleep now.,You get up early in the morning.,44.331461668860555,27.5,1,text book,2025
+bn-en,ঘুম তনে জলদি উঠি যাইও,"Sleep now , get up and go .",Get up early in the morning.,53.453107507103795,45.0,1,text book,2025
+bn-en,জলদি উঠি যাইও,Hurry up and go.,Get up early.,50.846922981891446,40.0,1,text book,2025
+bn-en,উঠি যাইও,Get up and go .,Get up.,63.8778456079532,65.0,1,text book,2025
+bn-en,তুমিতাইন জলদি উঠি যাইও,You must hurry up and go.,You get up early.,61.27166108274085,60.0,1,text book,2025
+bn-en,আমি সোকাইলকু নাস্তা খাইয়া বাদে স্কুল ও যাই,I eat breakfast and go to school.,I have breakfast and go to school in the morning.,70.39330692098407,77.5,1,text book,2025
+bn-en,সোকাইলকু নাস্তা খাইয়া বাদে স্কুল ও যাই,Sockilocu ate breakfast and went to school.,I have breakfast and go to school in the morning.,53.453107507103795,45.0,1,text book,2025
+bn-en,নাস্তা খাইয়া বাদে স্কুল ও যাই,I'm not going to school without breakfast.,After having breakfast I go to school.,54.75619976970996,47.5,1,text book,2025
+bn-en,স্কুল ও যাই,Go to school .,Go to school.,72.99949144619643,82.5,1,text book,2025
+bn-en,আমি নাস্তা খাইয়া বাদে স্কুল ও যাই,I go to school without eating breakfast,I have breakfast and go to school.,46.937646194072904,32.5,1,text book,2025
+bn-en,আমার সকালকু কুন্তা খাইতে ভালা লাগে না,I don't like to eat my breakfast buns.,I don’t feel like eating anything in the morning.,56.059292032316144,50.0,1,text book,2025
+bn-en,সকালকু কুন্তা খাইতে ভালা লাগে না,It's not good to eat morning snacks.,I don’t feel like eating anything in the morning.,48.24073845667909,35.0,1,text book,2025
+bn-en,কুন্তা  খাইতে ভালা লাগে না,I don't like to eat shit.,Don’t feel like eating anything.,43.02836940625439,25.0,1,text book,2025
+bn-en,খাইতে ভালা লাগে না,It doesn't taste good to eat.,Don’t feel like eating.,57.362384294922315,52.5,1,text book,2025
+bn-en,ভালা লাগে না,It doesn't feel good.,Don’t feel like it.,76.90876823401496,90.0,1,text book,2025
+bn-en,লাগে না,I don't think so,Don’t like it.,75.60567597140879,87.5,1,text book,2025
+bn-en,আমার কুন্তা খাইতে ভালা লাগে,I like to eat my cunt .,I don’t feel like eating anything.,58.6654765575285,55.0,1,text book,2025
+bn-en,আমার কুন্তা খাইতে ভালা লাগে,I like to eat my cunt .,I don’t feel like eating.,37.81600035582968,15.0,1,text book,2025
+bn-en,আমার কুন্তা ভালা লাগে,I like my cunt .,I don’t like anything.,37.81600035582968,15.0,1,text book,2025
+bn-en,আমার খাইতে ভালা লাগে,I like to eat .,I don’t like it.,66.48403013316555,70.0,1,text book,2025
+bn-en,আমার সকালকু কুন্তা খাইতে ভালা লাগে,I like to eat my breakfast cunt .,I feel like eating something in the morning.,40.422184881042035,20.0,1,text book,2025
+bn-en,সকালকু কুন্তা খাইতে ভালা লাগে,It's good to eat morning squash.,I feel like eating something in the morning.,40.422184881042035,20.0,1,text book,2025
+bn-en,কুন্তা খাইতে ভালা লাগে,It's good to eat Kunta.,Feel like eating something.,44.331461668860555,27.5,1,text book,2025
+bn-en,খাইতে ভালা লাগে,It's good to eat.,Feel like eating.,52.15001524449761,42.5,1,text book,2025
+bn-en,ভালা লাগে,I like it .,Like it.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার কুন্তা খাইতে ভালা লাগে,I like to eat my cunt .,I feel like eating something.,40.422184881042035,20.0,1,text book,2025
+bn-en,আমার কুন্তা খাইতে ভালা লাগে,I like to eat my cunt .,I feel like eating something,40.422184881042035,20.0,1,text book,2025
+bn-en,আমার কুন্তা ভালা লাগে,I like my cunt .,I like something.,37.81600035582968,15.0,1,text book,2025
+bn-en,আমার খাইতে ভালা লাগে,I like to eat .,I feel like eating,72.99949144619643,82.5,1,text book,2025
+bn-en,আমরা হারি গেছি,We lost .,We lost.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি ভালা আছি,I 'm all right .,I am fine.,79.5149527592273,95.0,1,text book,2025
+bn-en,ভালা আছি,I 'm all right .,I am fine.,79.5149527592273,95.0,1,text book,2025
+bn-en,আমি ভালা নাই,I'm not well.,I am not fine.,79.5149527592273,95.0,1,text book,2025
+bn-en,তুমি কিলাখান আছ,You are a killer.,How are you?,33.90672356801115,7.5,1,text book,2025
+bn-en,ভালা লাগের না,It's not good.,Not feeling good.,56.059292032316144,50.0,1,text book,2025
+bn-en,আমার ভালা লাগের না,I don't like it.,I am not feeling good.,56.059292032316144,50.0,1,text book,2025
+bn-en,আমি ক্রিকেট খেলমু,I play cricket.,I will play cricket.,63.8778456079532,65.0,1,text book,2025
+bn-en,ক্রিকেট খেলুম,Cricket game,Will play cricket.,48.24073845667909,35.0,1,text book,2025
+bn-en,তুমি কই,Where are you ?,Where are you?,82.12113728443965,100.0,1,text book,2025
+bn-en,একগু বিলাই দরজার ধারো বৈ রিছে,One of the bullets is at the door.,A cat is sitting in front of the door.,33.90672356801115,7.5,1,text book,2025
+bn-en,বিলাই দরজার ধারো বৈ রিছে,Bill is at the door.,The cat is sitting in front of the door.,39.11909261843585,17.5,1,text book,2025
+bn-en,দরজার ধারো বৈ রিছে,The door is locked .,Sitting in front of the door.,36.5129080932235,12.5,1,text book,2025
+bn-en,ধারো বৈ রিছে,I think it 's a good idea .,Sitting in front.,29.99744678019263,0.0,1,text book,2025
+bn-en,বৈ রিছে,It 's not .,Sitting.,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি কামো যাইতাম ছাইনা,I would have come to China.,I don’t want to go to work.,32.60363130540498,5.0,1,text book,2025
+bn-en,তুমি কই থাকি আইছো,Where are you staying ?,Where are you coming from?,44.331461668860555,27.5,1,text book,2025
+bn-en,কই থাকি আইছো,Where are you ?,Where are you coming from?,54.75619976970996,47.5,1,text book,2025
+bn-en,তুমি কই থাকো,Where are you ?,Where do you live?,50.846922981891446,40.0,1,text book,2025
+bn-en,কই থাক,Where are you ?,Where do you live?,50.846922981891446,40.0,1,text book,2025
+bn-en,আমি ভালা নাই,I'm not well.,I am not well.,82.12113728443965,100.0,1,text book,2025
+bn-en,আফনে কিলাখান আছইন,Afne Killakhan is here,How are you?,29.99744678019263,0.0,1,text book,2025
+bn-en,তুমি কিলাখান আছো,You are a killer.,How are you?,32.60363130540498,5.0,1,text book,2025
+bn-en,কোনোখানো যাও,Go somewhere .,Go somewhere.,82.12113728443965,100.0,1,text book,2025
+bn-en,তুমি কই থাকি আইছো,Where are you staying ?,Where are you coming from?,49.54383071928526,37.5,1,text book,2025
+bn-en,কই থাকি আইছো,Where are you ?,Where are you coming from?,49.54383071928526,37.5,1,text book,2025
+bn-en,তুমি কিতা করো?,You want to do it?,What do you do?,45.63455393146674,30.0,1,text book,2025
+bn-en,কিতার লাগি কইরায়,Where is the book?,Why are you saying that?,32.60363130540498,5.0,1,text book,2025
+bn-en,কিতা করো,Do it now .,What do you do?,38.597855713393386,16.5,1,text book,2025
+bn-en,আমার মন ভালা নাই,I'm not feeling well.,My mind is not well.,69.09021465837789,75.0,1,text book,2025
+bn-en,মন ভালা নাই,I 'm not feeling well .,Not feeling well.,71.69639918359026,80.0,1,text book,2025
+bn-en,আফনারার বাড়ি কই,Where is the Afghan's home?,Where is your home?,44.331461668860555,27.5,1,text book,2025
+bn-en,আমি স্কুলো যাইতাম না,I didn't go to school.,I won’t go to school.,59.968568820134664,57.5,1,text book,2025
+bn-en,আমি যাইতাম না,I wouldn't go,I won’t go.,71.69639918359026,80.0,1,text book,2025
+bn-en,আমি স্কুলো গেছি না,I didn't go to school.,I didn’t go to school.,82.12113728443965,100.0,1,text book,2025
+bn-en,তোমারে ওখান থাকি যাইতে কইছি,I told you to stay there.,I told you to leave from here.,52.15001524449761,42.5,1,text book,2025
+bn-en,ওখান থাকি যাইতে কইছি,I said stay there.,Told to leave from here.,52.15001524449761,42.5,1,text book,2025
+bn-en,তুমি কিতা কাজ করো ?,What are you doing ?,What do you do?,61.27166108274085,60.0,1,text book,2025
+bn-en,কিতা কাজ করো ?,What do you do ?,What do you do?,82.12113728443965,100.0,1,text book,2025
+bn-en,কাজ করো?,Do you work?,Do you work?,82.12113728443965,100.0,1,text book,2025
+bn-en,মাত থোরা কইন?,Where is Mother Thora?,Talk less?,29.99744678019263,0.0,1,text book,2025
+bn-en,এই কাজটা করো,Do this job.,Do this work,76.90876823401496,90.0,1,text book,2025
+bn-en,কাজটা করো,Do it .,Do the work.,74.3025837088026,85.0,1,text book,2025
+bn-en,বিয়ানবালা কাজ করো,Do the work.,Do work in the morning.,61.27166108274085,60.0,1,text book,2025
+bn-en,হাইঞ্জাবালা কাজ করো,Do the high-end work.,Work in the evening.,40.422184881042035,20.0,1,text book,2025
+bn-en,এক গালো একটা ছড় লাগাইয়া দিমু,I'll put a stick in your throat.,I will slap you on one cheek.,32.60363130540498,5.0,1,text book,2025
+bn-en,একটা ছড় লাগাইয়া দিমু,I'll put a sling on it.,I will slap you.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি ভাত খাইতাম,I used to eat rice,I will eat rice.,49.54383071928526,37.5,1,text book,2025
+bn-en,ভাত খাইতাম,I used to eat.,Will eat rice.,48.24073845667909,35.0,1,text book,2025
+bn-en,আমার কাম আছে,I have a cup.,I have work.,36.5129080932235,12.5,1,text book,2025
+bn-en,কাম আছে,"Come on , you .",Have work.,35.20981583061733,10.0,1,text book,2025
+bn-en,আমরা যাইমু,We go,We will go.,62.57475334534701,62.5,1,text book,2025
+bn-en,তোমার নাম কিতা,Your name is Kita.,What is your name?,43.02836940625439,25.0,1,text book,2025
+bn-en,আমার নাম নয়ন।,My name is Noen.,My name is Noyon.,62.57475334534701,62.5,1,text book,2025
+bn-en,আমি তোমারে ভালাপাই,I'm good to you.,I love you.,43.02836940625439,25.0,1,text book,2025
+bn-en,তোমারে ভালাপাই,You look good.,Love you.,43.02836940625439,25.0,1,text book,2025
+bn-en,তুমি কই যাইরায়,Where are you going?,Where are you going?,82.12113728443965,100.0,1,text book,2025
+bn-en,কই যাইরায়,Wherever you are.,Where are you going?,54.75619976970996,47.5,1,text book,2025
+bn-en,কিতা আনতাম,I brought the book.,What should I bring?,32.60363130540498,5.0,1,text book,2025
+bn-en,"ফুরুত্তায় কান্দের, খানি খাওয়াও",I'm going to eat.,"The baby is crying, feed him.",29.99744678019263,0.0,1,text book,2025
+bn-en,আমি খাই,I eat,I eat.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি খেলি,I play .,I play.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি খাইমু,I eat .,I will eat.,74.3025837088026,85.0,1,text book,2025
+bn-en,আমি পড়রাম,I will read,I study.,69.09021465837789,75.0,1,text book,2025
+bn-en,আমি পড়মু,I will read.,I will study.,79.5149527592273,95.0,1,text book,2025
+bn-en,আমি স্কুলো যাইমু,I'm going to school.,I will go to school.,62.57475334534701,62.5,1,text book,2025
+bn-en,স্কুলো যাইমু,Go to school .,Will go to school.,61.27166108274085,60.0,1,text book,2025
+bn-en,আমি ভাত খাইতাম না,I didn't eat rice.,I won’t eat rice.,58.6654765575285,55.0,1,text book,2025
+bn-en,খাইতাম না,I wouldn't eat it.,Won’t eat.,71.69639918359026,80.0,1,text book,2025
+bn-en,তুমি কিতা করো,You must do it .,What do you do?,35.20981583061733,10.0,1,text book,2025
+bn-en,কিতা করো,Do it now .,What do you do?,37.81600035582968,15.0,1,text book,2025
+bn-en,আমি খেলরাম,I play,I play games.,54.75619976970996,47.5,1,text book,2025
+bn-en,খেলরাম,Playing games .,Play games.,72.99949144619643,82.5,1,text book,2025
+bn-en,তুমি ভাত খাইছো,You 're eating rice .,Did you eat rice?,57.362384294922315,52.5,1,text book,2025
+bn-en,কিতা খবর তোমার,KITA খবর তোমার is a book.,How are you?,29.99744678019263,0.0,1,text book,2025
+bn-en,কিতা খবর,KITA খবর,What’s up?,29.99744678019263,0.0,1,text book,2025
+bn-en,তোমরার বাড়ি কই,Where is your home ?,Where is your home?,82.12113728443965,100.0,1,text book,2025
+bn-en,বাড়ি কই,Where is he ?,Where is home?,49.54383071928526,37.5,1,text book,2025
+bn-en,কিতা করো হ্ক্কলে,- I'm not going to.,What is everyone doing?,32.60363130540498,5.0,1,text book,2025
+bn-en,কিতা করো,Do it now .,What do you do?,36.5129080932235,12.5,1,text book,2025
+bn-en,আমি রিক্সা দিয়া আইমু,I'm giving him a ride.,I will come by rickshaw.,32.60363130540498,5.0,1,text book,2025
+bn-en,রিক্সা দিয়া আইমু,I'm giving you a ride.,Will come by rickshaw.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমার নাম আরিফ,My name is Arif.,My name is Arif.,82.12113728443965,100.0,1,text book,2025
+bn-en,তুমি কিতা কর,You are a bookworm.,What do you do?,29.99744678019263,0.0,1,text book,2025
+bn-en,কিতা কর,- What?,What do you do?,35.20981583061733,10.0,1,text book,2025
+bn-en,তোমার বয়স কত,How old are you ?,How old are you?,82.12113728443965,100.0,1,text book,2025
+bn-en,না ভালা নাই,"No , not good .",Not good.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি ঘুষা করছি,I'm going to be a bitch.,I am angry.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি তোমার লগে পরে কথা কইমু,I'll talk to you later.,I will talk to you later.,79.5149527592273,95.0,1,text book,2025
+bn-en,ওউ বাড়ি আমরার,It 's our home .,This house is ours.,80.81804502183347,97.5,1,text book,2025
+bn-en,সুন্দর করিয়া বও,I'm going to make you a beautiful wife.,Sit nicely.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমরা বাড়িত কেউ আইছে না,We're not home.,No one came to our house.,39.11909261843585,17.5,1,text book,2025
+bn-en,কিতা কররায়,I'm going to do it.,What are you doing?,37.81600035582968,15.0,1,text book,2025
+bn-en,ভাই কিতা কররায়,Brother Kita is doing it.,"Brother, what are you doing?",37.81600035582968,15.0,1,text book,2025
+bn-en,করতাম পাররাম না বহুত জ্বর,I would have been too hot .,"Can’t do it, high fever.",40.422184881042035,20.0,1,text book,2025
+bn-en,আপেল আমার পছন্দ,I like apples .,I like apples.,82.12113728443965,100.0,1,text book,2025
+bn-en,আঙ্গুর আমার পছন্দ,Grapes my favourite,I like grapes.,79.5149527592273,95.0,1,text book,2025
+bn-en,হে অনেক খায়,He eats a lot.,He eats a lot.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি কিতা করছি,I'm writing a book.,What did I do?,35.20981583061733,10.0,1,text book,2025
+bn-en,আজকে বাইরে যাইমু,I'm going out today.,Will go out today.,75.60567597140879,87.5,1,text book,2025
+bn-en,আজকে বাইরে যাইতাম নায়,I didn't go out today.,Won’t go out today.,62.57475334534701,62.5,1,text book,2025
+bn-en,আমারে হাছা কথা কৌকা,I have a funny thing to say.,Tell me the truth.,67.78712239577173,72.5,1,text book,2025
+bn-en,হাছা কথা কৌকা,It 's a joke .,Tell the truth.,32.60363130540498,5.0,1,text book,2025
+bn-en,কথা কৌকা,Talk about a joke.,Speak.,35.20981583061733,10.0,1,text book,2025
+bn-en,আমারে হাছা কৌকা,I have a laughingstock .,Tell me the truth.,32.60363130540498,5.0,1,text book,2025
+bn-en,হাছা কৌকা,It 's a joke .,Tell the truth.,32.60363130540498,5.0,1,text book,2025
+bn-en,তুমিতাইন ঘুম তনে জলদি উঠি যাইও,You must sleep now.,You wake up early.,39.11909261843585,17.5,1,text book,2025
+bn-en,ঘুম তনে জলদি উঠি যাইও,"Sleep now , get up and go .",Wake up early.,45.63455393146674,30.0,1,text book,2025
+bn-en,জলদি উঠি যাইও,Hurry up and go.,Get up early.,50.846922981891446,40.0,1,text book,2025
+bn-en,উঠি যাইও,Get up and go .,Get up.,61.27166108274085,60.0,1,text book,2025
+bn-en,তুমিতাইন জলদি উঠি যাইও,You must hurry up and go.,You get up early.,49.54383071928526,37.5,1,text book,2025
+bn-en,আমি সোকাইলকু নাস্তা খাইয়া বাদে স্কুল ও যাই,I eat breakfast and go to school.,I have breakfast and go to school.,79.5149527592273,95.0,1,text book,2025
+bn-en,সোকাইলকু নাস্তা খাইয়া বাদে স্কুল ও যাই,Sockilocu ate breakfast and went to school.,I have breakfast and go to school.,43.02836940625439,25.0,1,text book,2025
+bn-en,নাস্তা খাইয়া বাদে স্কুল ও যাই,I'm not going to school without breakfast.,Have breakfast and go to school.,58.6654765575285,55.0,1,text book,2025
+bn-en,স্কুল ও যাই,Go to school .,Go to school.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমরার কাম আছে,Amara has a room .,We have work.,35.20981583061733,10.0,1,text book,2025
+bn-en,তোমার কাম আছে,You have a job .,You have work.,79.5149527592273,95.0,1,text book,2025
+bn-en,আফনার লাগি,I feel sorry for you .,For you.,43.02836940625439,25.0,1,text book,2025
+bn-en,তুই আজকো স্কুল ও গেছলে,You still went to school today .,Did you go to school today?,48.24073845667909,35.0,1,text book,2025
+bn-en,আজকো স্কুল ও গেছলে,I'm still in school today.,Did you go to school today?,46.937646194072904,32.5,1,text book,2025
+bn-en,কিতা কিতা আনতাম,I 'll bring you some books .,What should I bring?,40.422184881042035,20.0,1,text book,2025
+bn-en,আমার সকালকু কুন্তা খাইতে ভালা লাগে না,I don't like to eat my breakfast buns.,I don’t feel like eating anything in the morning.,41.725277143648206,22.5,1,text book,2025
+bn-en,সকালকু কুন্তা খাইতে ভালা লাগে না,It's not good to eat morning snacks.,I don’t feel like eating anything in the morning.,46.937646194072904,32.5,1,text book,2025
+bn-en,কুন্তা খাইতে ভালা লাগে না,I don't like to eat shit.,Don’t feel like eating anything.,43.02836940625439,25.0,1,text book,2025
+bn-en,খাইতে ভালা লাগে না,It doesn't taste good to eat.,Don’t feel like eating.,63.8778456079532,65.0,1,text book,2025
+bn-en,ভালা লাগে না,It doesn't feel good.,Don’t like it.,74.3025837088026,85.0,1,text book,2025
+bn-en,লাগে না,I don't think so,Don’t like it.,74.3025837088026,85.0,1,text book,2025
+bn-en,আমার সকালকু খাইতে ভালা লাগে না,I don't like to eat breakfast.,I don’t feel like eating in the morning.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার সকালকু খাইতে ভালা লাগে,I like to eat breakfast .,I feel like eating in the morning.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার সকালকু কুন্তা খাইতে ভালা লাগে,I like to eat my breakfast cunt .,I feel like eating something in the morning.,67.78712239577173,72.5,1,text book,2025
+bn-en,সকালকু কুন্তা খাইতে ভালা লাগে,It's good to eat morning squash.,I feel like eating something in the morning.,43.02836940625439,25.0,1,text book,2025
+bn-en,কুন্তা খাইতে ভালা লাগে,It's good to eat Kunta.,Feel like eating something.,40.422184881042035,20.0,1,text book,2025
+bn-en,খাইতে ভালা লাগে,It's good to eat.,Feel like eating.,57.362384294922315,52.5,1,text book,2025
+bn-en,ভালা লাগে,I like it .,Like it.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার মাত ওর জবাব দেউকা,"My mother's answer is ""Devo"".",Answer my question.,36.5129080932235,12.5,1,text book,2025
+bn-en,মাত ওর জবাব দেউকা,Mother of the Lord .,Answer the question.,32.60363130540498,5.0,1,text book,2025
+bn-en,জবাব দেউকা,Answer me,Answer.,80.81804502183347,97.5,1,text book,2025
+bn-en,আমি অসুস্থ ওই গেছিলাম,I was sick .,I was sick.,82.12113728443965,100.0,1,text book,2025
+bn-en,অসুস্থ ওই গেছিলাম,I was sick .,Was sick.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি হেরারে দেখছি,I'm looking at a lost,I saw him.,41.725277143648206,22.5,1,text book,2025
+bn-en,হেরারে দেখছি,I 'm looking at her .,Saw them.,50.846922981891446,40.0,1,text book,2025
+bn-en,দেখছি,I see .,Saw.,57.362384294922315,52.5,1,text book,2025
+bn-en,ওনো উবাউকা,Onno Ubaka,Wait here.,29.99744678019263,0.0,1,text book,2025
+bn-en,উবাউকা,- What ?,Wait.,32.60363130540498,5.0,1,text book,2025
+bn-en,সময় ফুরাই গেছে,Time is running out.,Time is up.,65.18093787055936,67.5,1,text book,2025
+bn-en,শিমুর লাল রং পছন্দ,Shimur red color is preferred,Shimu likes red.,59.968568820134664,57.5,1,text book,2025
+bn-en,শিমুর সবুজ রং পছন্দ,Shimo's green color is like,Shimu likes green.,58.6654765575285,55.0,1,text book,2025
+bn-en,শিমুরকালো রং পছন্দ,"""Shimurkaló"" is the color of choice.",Shimu likes black.,45.63455393146674,30.0,1,text book,2025
+bn-en,তাইন বাক্কা লম্বা না,So it 's not long .,He is not very tall.,56.059292032316144,50.0,1,text book,2025
+bn-en,আমি মাফ চাইয়ার,I'm sorry to say,I apologize.,69.09021465837789,75.0,1,text book,2025
+bn-en,মাফ চাইয়ার,I beg your pardon .,Apologize.,74.3025837088026,85.0,1,text book,2025
+bn-en,আমি চাইয়ার,I want to,I want.,79.25433430670607,94.5,1,text book,2025
+bn-en,তাইন উঠিয়া উবাইলা না,So get up and call me .,He didn’t stand up.,43.02836940625439,25.0,1,text book,2025
+bn-en,উঠিয়া উবাইলা না,Get up and get out of here .,Didn’t stand up.,44.331461668860555,27.5,1,text book,2025
+bn-en,উবাইলা না,I 'm not .,Didn’t stand.,35.20981583061733,10.0,1,text book,2025
+bn-en,তাইন উবাইলা না,So you can 't .,He didn’t stand.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি বাক্কা লম্বা,I'm tall as a fiddle,I am very tall.,53.453107507103795,45.0,1,text book,2025
+bn-en,আমি লম্বা,I 'm tall .,I am tall.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি বাক্কা লম্বা না,I'm not tall.,I am not very tall.,70.39330692098407,77.5,1,text book,2025
+bn-en,বাক্কা লম্বা না,It's not long.,Not very tall.,65.18093787055936,67.5,1,text book,2025
+bn-en,লম্বা না,Not tall .,Not tall.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি লম্বা না,I 'm not tall .,I am not tall.,82.12113728443965,100.0,1,text book,2025
+bn-en,তাইন বাক্কা লম্বা,- That's a long one.,He is very tall.,57.362384294922315,52.5,1,text book,2025
+bn-en,আমি হারি গেছি,I lost .,I am lost.,72.99949144619643,82.5,1,text book,2025
+bn-en,আমি হারি গেছি,I lost .,Lost.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি ঠিক আছি,I 'm all right .,I am okay.,80.81804502183347,97.5,1,text book,2025
+bn-en,ঠিক আছি,I 'm all right .,Okay.,80.81804502183347,97.5,1,text book,2025
+bn-en,আমি ফিরিয়া আইছি,I came back .,I came back.,82.12113728443965,100.0,1,text book,2025
+bn-en,ফিরিয়া আইছি,I 'm back .,Came back.,79.5149527592273,95.0,1,text book,2025
+bn-en,আমি আইছি,I 'm coming .,Came.,66.48403013316555,70.0,1,text book,2025
+bn-en,আমি কেক ভালা ফাই,I 'm a cake good .,I like cake.,49.54383071928526,37.5,1,text book,2025
+bn-en,কেক ভালা ফাই,Cake is good .,Like cake.,59.968568820134664,57.5,1,text book,2025
+bn-en,ভালা ফাই,Good for you .,Like.,48.24073845667909,35.0,1,text book,2025
+bn-en,আমি কেক ভালা ফাই না,I don't like cake.,I don’t like cake.,82.12113728443965,100.0,1,text book,2025
+bn-en,কেক ভালা ফাই না,Cake is good .,Don’t like cake.,40.422184881042035,20.0,1,text book,2025
+bn-en,ভালা ফাই না,It 's not good .,Don’t like.,70.39330692098407,77.5,1,text book,2025
+bn-en,কেক ভালা না,Cake is good .,Don’t like cake.,40.422184881042035,20.0,1,text book,2025
+bn-en,থুরা ঘুমাই যাও,Go to sleep .,Take a nap.,69.09021465837789,75.0,1,text book,2025
+bn-en,ঘুমাই যাও,Go to sleep .,Sleep.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি একলা আছলাম,I'm alone,I was alone.,59.968568820134664,57.5,1,text book,2025
+bn-en,একলা আছলাম,I 'm alone .,Was alone.,58.6654765575285,55.0,1,text book,2025
+bn-en,আমি আছলাম,I 'm not .,I was.,40.422184881042035,20.0,1,text book,2025
+bn-en,আমার লগে থাকৌকা,Stay with me.,Come with me.,76.90876823401496,90.0,1,text book,2025
+bn-en,লগে থাকৌকা,Keep up the good work .,Come along.,32.60363130540498,5.0,1,text book,2025
+bn-en,তাইন রাগী গেছলা,- I 'm not mad .,He was angry.,43.02836940625439,25.0,1,text book,2025
+bn-en,রাগী গেছলা,I'm angry with you.,Was angry.,44.331461668860555,27.5,1,text book,2025
+bn-en,তাইন গেছলা,- I 'm not going to .,He went.,37.81600035582968,15.0,1,text book,2025
+bn-en,আমার হাত ধরক্কা,Hold my hand,Hold my hand.,82.12113728443965,100.0,1,text book,2025
+bn-en,হাত ধরক্কা,Hold my hand .,Hold my hand.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি অবাক ওই গেছলাম,I'm surprised that you're gone.,I was surprised.,50.846922981891446,40.0,1,text book,2025
+bn-en,অবাক ওই গেছলাম,I'm surprised you're here.,Was surprised.,52.15001524449761,42.5,1,text book,2025
+bn-en,ওই গেছলাম,That's it.,Was.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি অবাক,I was surprised .,I am surprised.,56.059292032316144,50.0,1,text book,2025
+bn-en,আমি আইতাম নায়,I wouldn't have come.,I won’t come.,61.27166108274085,60.0,1,text book,2025
+bn-en,আইতাম নায়,I was not .,Won’t come.,40.422184881042035,20.0,1,text book,2025
+bn-en,আমি আইতাম,I would have come,I will come.,57.362384294922315,52.5,1,text book,2025
+bn-en,আমি হারতাম নায়,I wouldn't lose.,I won’t lose.,69.09021465837789,75.0,1,text book,2025
+bn-en,হারতাম নায়,I lost it .,Won’t lose.,41.204040238605735,21.5,1,text book,2025
+bn-en,আমি হারতাম,I would lose .,I will lose.,72.99949144619643,82.5,1,text book,2025
+bn-en,আমার হাতও বেদনা করের,My hands are hurting.,My hand hurts.,76.90876823401496,90.0,1,text book,2025
+bn-en,হাতও বেদনা করের,Hands also hurt.,Hand hurts.,66.48403013316555,70.0,1,text book,2025
+bn-en,বেদনা করের,Pain of doing it.,Hurts.,53.453107507103795,45.0,1,text book,2025
+bn-en,আমার হাতও বেদনা,My hands are hurting.,My hand hurts.,74.3025837088026,85.0,1,text book,2025
+bn-en,হাতও বেদনা,Hands also pain,Hand hurts.,64.13846406047443,65.5,1,text book,2025
+bn-en,আমার ফাও বেদনা করের,My pain is still there.,My leg hurts.,50.32568607684897,39.0,1,text book,2025
+bn-en,ফাও বেদনা করের,I'm in pain.,Leg hurts.,46.937646194072904,32.5,1,text book,2025
+bn-en,আমার ফাও বেদনা,My own pain,My leg hurts.,44.331461668860555,27.5,1,text book,2025
+bn-en,ফাও বেদনা,"- Oh , my God .",Leg hurts.,35.20981583061733,10.0,1,text book,2025
+bn-en,আফনারে কে পাঠাইছে?,Who sent it to us?,Who sent you?,54.75619976970996,47.5,1,text book,2025
+bn-en,কে পাঠাইছে?,Who sent it?,Who sent you?,67.78712239577173,72.5,1,text book,2025
+bn-en,পাঠাইছে?,Did you text?,Sent?,52.15001524449761,42.5,1,text book,2025
+bn-en,আগে জাউকা,Before the game,Go ahead,43.02836940625439,25.0,1,text book,2025
+bn-en,আফনারা জাউকা,Afnará Jâuca is a,You go,29.99744678019263,0.0,1,text book,2025
+bn-en,আমারে ডাকবা না,Don't call me,Don’t call me,82.12113728443965,100.0,1,text book,2025
+bn-en,ভালা ফাই,Good for you .,I like,51.36815988693391,41.0,1,text book,2025
+bn-en,ডাক্তার না খসাই,"Doctor , not you .",Doctor or butcher,40.422184881042035,20.0,1,text book,2025
+bn-en,তুঁই খসাই,You 're a good boy .,You are a butcher,32.60363130540498,5.0,1,text book,2025
+bn-en,দুই পুয়া আছিল্,There were two puppies.,Had two sons,35.20981583061733,10.0,1,text book,2025
+bn-en,কোন মানুষর দুই পুয়া আছিল্,Some man had two little hands.,A certain man had two sons,36.5129080932235,12.5,1,text book,2025
+bn-en,কোন মানুষ,No man,A certain man,35.99167118818104,11.5,1,text book,2025
+bn-en,মানুষর দুই পুয়া আছিল্,The man had two hands.,A man had two sons,37.29476345078721,14.0,1,text book,2025
+bn-en,করতাম কিলাখান,I would have killed him.,How would I have done it?,32.60363130540498,5.0,1,text book,2025
+bn-en,আমার হলুদ রং পছন্দ,My favorite color is yellow.,I like yellow,79.25433430670607,94.5,1,text book,2025
+bn-en,আমার লাল রং পছন্দ,My red color is better,I like red,59.968568820134664,57.5,1,text book,2025
+bn-en,আমার সবুজ রং পছন্দ,My favorite color is green.,I like green,80.81804502183347,97.5,1,text book,2025
+bn-en,আমার কালো রং পছন্দ,My favorite color is black.,I like black,81.86051883191841,99.5,1,text book,2025
+bn-en,আমার সাদা রং পছন্দ,My favorite color is white.,I like white,81.5999003793972,99.0,1,text book,2025
+bn-en,আপেল ভালা ফাই,Apple is good .,Like apple,65.18093787055936,67.5,1,text book,2025
+bn-en,আমি আপেল ভালা ফাই না,I'm not a good apple.,I don’t like apples,43.02836940625439,25.0,1,text book,2025
+bn-en,আপেল ভালা ফাই না,Apple is good .,Don’t like apples,41.725277143648206,22.5,1,text book,2025
+bn-en,ভালা ফাই না,It 's not good .,Don’t like,64.13846406047443,65.5,1,text book,2025
+bn-en,আমারে লইগা যাউকগা,I'm going to go.,Take me along,53.453107507103795,45.0,1,text book,2025
+bn-en,তুঁই ডাক্তার না খসাই,You 're not a doctor .,You’re doctor or butcher?,41.725277143648206,22.5,1,text book,2025
+bn-en,আমার কমলা রং পছন্দ,My favorite color is yellow.,I like orange,49.54383071928526,37.5,1,text book,2025
+bn-en,আমার খয়েরি রং পছন্দ,My favorite color is,I like brown,46.937646194072904,32.5,1,text book,2025
+bn-en,আপেল ভালা না,Apple is good .,Don’t like apples,40.9434217860845,21.0,1,text book,2025
+bn-en,আমার ঠান্ডা লাগছে,I feel cold .,I caught a cold,65.18093787055936,67.5,1,text book,2025
+bn-en,ঠান্ডা লাগছে,It 's cold .,Caught a cold,62.57475334534701,62.5,1,text book,2025
+bn-en,আমি বিদেশ গেছলাম,I 'm going abroad .,I went abroad,65.18093787055936,67.5,1,text book,2025
+bn-en,বিদেশ গেছলাম,I 'm going abroad .,Went abroad,65.18093787055936,67.5,1,text book,2025
+bn-en,আমারে হন লইয়া যাউকগা,I'm going to go.,Take me there,58.6654765575285,55.0,1,text book,2025
+bn-en,হন লইয়া যাউকগা,- I'm going to go.,Take there,56.059292032316144,50.0,1,text book,2025
+bn-en,লইয়া যাউকগা,I'm going to go.,Take there,56.059292032316144,50.0,1,text book,2025
+bn-en,শিমুর সাদা রং পছন্দ,Shimour white color choice,Shimu likes white,57.362384294922315,52.5,1,text book,2025
+bn-en,শিমুর নীল রং পছন্দ,Shimour Blue is the color of love,Shimu likes blue,37.81600035582968,15.0,1,text book,2025
+bn-en,শিমুর বেগুনি রং পছন্দ,Shimour's purple color is preferred.,Shimu likes purple,62.57475334534701,62.5,1,text book,2025
+bn-en,ডাকবা না,Call or don't call.,Don’t call,50.846922981891446,40.0,1,text book,2025
+bn-en,আমারে ডাকবা,Call me,Call me,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি আপেল ভালা ফাই,I 'm an apple .,I like apples,41.725277143648206,22.5,1,text book,2025
+bn-en,আপেল ভালা ফাই,Apple is good .,Like apples,54.75619976970996,47.5,1,text book,2025
+bn-en,ফুরাই গেছে,Furay is gone.,It’s over,37.81600035582968,15.0,1,text book,2025
+bn-en,গেছে,It 's gone .,Is over,74.3025837088026,85.0,1,text book,2025
+bn-en,সময় ফুরাই গেছে,Time is running out.,Time’s up,72.99949144619643,82.5,1,text book,2025
+bn-en,আমরা উবাইমু নে,We 're going to be there .,We will wait,56.059292032316144,50.0,1,text book,2025
+bn-en,উবাইমু নে,I'm not going to.,Will wait,32.60363130540498,5.0,1,text book,2025
+bn-en,তাইন উঠিয়া উবাইলা,So get up and leave .,He stood up,33.90672356801115,7.5,1,text book,2025
+bn-en,উঠিয়া উবাইলা,Get up and get out of here.,Stood up,33.90672356801115,7.5,1,text book,2025
+bn-en,তাইন উবাইলা,- I 'm not .,He stood,32.60363130540498,5.0,1,text book,2025
+bn-en,আমার নীল রং পছন্দ,My favorite color is blue.,I like blue,80.81804502183347,97.5,1,text book,2025
+bn-en,আমার বেগুনি রং পছন্দ,My favorite color is purple.,I like purple,80.81804502183347,97.5,1,text book,2025
+bn-en,আমার গোলাপি রং পছন্দ,My pink color is like,I like pink,61.27166108274085,60.0,1,text book,2025
+bn-en,আমার আকাশী রং পছন্দ,My sky is blue,I like sky blue,43.02836940625439,25.0,1,text book,2025
+bn-en,আমার ধূসর রং পছন্দ,My favorite color is gray.,I like gray,80.81804502183347,97.5,1,text book,2025
+bn-en,আমার মেরুন রং পছন্দ,My favorite color is maroon.,I like maroon,80.81804502183347,97.5,1,text book,2025
+bn-en,আমি নাস্তা খাইয়া বাদে স্কুল ও যাই না,I don't go to school without eating breakfast.,I don't have breakfast in the morning before going to school,74.3025837088026,85.0,1,text book,2025
+bn-en,আমি সোকাইলকু নাস্তা খাইয়া বাদে স্কুল ও যাই না,I don't go to school unless I eat breakfast.,I don't have breakfast in the morning before going to school,76.90876823401496,90.0,1,text book,2025
+bn-en,সোকাইলকু নাস্তা খাইয়া বাদে স্কুল ও যাই না,Sookileku has eaten breakfast and goes to school,Don't have breakfast in the morning before going to school,40.422184881042035,20.0,1,text book,2025
+bn-en,নাস্তা খাইয়া বাদে স্কুল ও যাই না,I can't go to school without breakfast.,Don’t have breakfast and go to school,44.331461668860555,27.5,1,text book,2025
+bn-en,স্কুল ও যাই না,I don't go to school.,Don’t go to school,80.81804502183347,97.5,1,text book,2025
+bn-en,আমি নাস্তা খাইয়া বাদে স্কুল ও যাই না,I don't go to school without eating breakfast.,I don’t have breakfast and go to school,52.15001524449761,42.5,1,text book,2025
+bn-en,তাই বাদের মাশও বিদেশ যাইবো গি,So I'll go abroad with my father.,She will go abroad next month,41.725277143648206,22.5,1,text book,2025
+bn-en,বাদের মাশও বিদেশ যাইবো গি,I'll go to the country.,Will go abroad next month,44.331461668860555,27.5,1,text book,2025
+bn-en,তাই বিদেশ যাইবো গি,So I'll go to the country.,She will go abroad,44.331461668860555,27.5,1,text book,2025
+bn-en,বিদেশ যাইবো গি,I 'll go to the country .,Will go abroad,45.63455393146674,30.0,1,text book,2025
+bn-en,যাইবো গি,I 'll go .,Will go,66.48403013316555,70.0,1,text book,2025
+bn-en,ফুরিটা যে বেয়াদপ,It's that bad.,The girl is very rude,39.11909261843585,17.5,1,text book,2025
+bn-en,যে বেয়াদপ,That's bad.,Very rude,54.75619976970996,47.5,1,text book,2025
+bn-en,যে বেয়াদপ,That's bad.,The girl is rude,35.20981583061733,10.0,1,text book,2025
+bn-en,তাই যে বেয়াদপ,So that's bad.,She is very rude,44.331461668860555,27.5,1,text book,2025
+bn-en,তাই বেয়াদপ,So bad,She is rude,44.331461668860555,27.5,1,text book,2025
+bn-en,ফুয়াগু রাস্তা বায়দি হাটিয়া যার,Fuyagu road by the way,The boy is walking along the road,35.20981583061733,10.0,1,text book,2025
+bn-en,রাস্তা বায়দি হাটিয়া যার,The road that leads to the house,Walking along the road,33.12486821044745,6.0,1,text book,2025
+bn-en,হাটিয়া যার,- What?,Walking,29.99744678019263,0.0,1,text book,2025
+bn-en,ফুয়াগু হাটিয়া যার,Fuyagu has got a gun .,The boy is walking,32.60363130540498,5.0,1,text book,2025
+bn-en,ফুয়াগু রাস্তা বায়দি যার,Fuyagu road by whose,The boy is going along the road,32.60363130540498,5.0,1,text book,2025
+bn-en,ফুরিটায় লাল রংগর শারি ফিন্দিয়া আমার লগে দেখা করাত আইছিল,I was going to meet a red-haired Finnish girl.,The girl came to meet me wearing a red saree,39.11909261843585,17.5,1,text book,2025
+bn-en,ফুরিটায় শারি ফিন্দিয়া আমার লগে দেখা করাত আইছিল,Furiytaē Shari Findiya was coming to meet me,The girl came to meet me wearing a saree,40.422184881042035,20.0,1,text book,2025
+bn-en,লাল রংগর শারি,Red Ranger,Red saree,39.11909261843585,17.5,1,text book,2025
+bn-en,আমার লগে দেখা করাত আইছিল,She was coming to see me.,Came to meet me,80.81804502183347,97.5,1,text book,2025
+bn-en,দেখা করাত আইছিল,I was just coming to see you .,Came to meet,56.059292032316144,50.0,1,text book,2025
+bn-en,ফুরিটায় দেখা করাত আইছিল,I was meeting you at the fair.,The girl came to meet,39.11909261843585,17.5,1,text book,2025
+bn-en,ফুরিটায় আমার লগে দেখা করাত আইছিল,I was coming to see you on Friday.,The girl came to meet me,40.422184881042035,20.0,1,text book,2025
+bn-en,শারি ফিন্দিয়া আমার লগে দেখা করাত আইছিল,Shari Findiya was coming to see me,Wearing a saree came to meet me,45.63455393146674,30.0,1,text book,2025
+bn-en,আমার লগে দেখা,Meet me .,Came to meet with me,46.937646194072904,32.5,1,text book,2025
+bn-en,লাল রংগর শারি ফিন্দিয়া আমার লগে দেখা,Red Rungar Shari is coming to see me,Wearing a red saree met with me,41.725277143648206,22.5,1,text book,2025
+bn-en,আম্মায় হেদিন ঠিক কথাউ কইছলা,Mommy is right about what she said.,Mom was right that day,72.99949144619643,82.5,1,text book,2025
+bn-en,আম্মায় ঠিক কথাউ কইছলা,Mommy is right .,Mom was right,80.81804502183347,97.5,1,text book,2025
+bn-en,ঠিক কথাউ কইছলা,"Right , you said .",Was right,70.39330692098407,77.5,1,text book,2025
+bn-en,আমি ওখানো যাইমু,I'm going to go there.,I will go there,52.15001524449761,42.5,1,text book,2025
+bn-en,ওবায় যাইতাম না,I wouldn't go with him.,Won’t go that way,44.331461668860555,27.5,1,text book,2025
+bn-en,ওবায় যাইমু,Go to the airport .,Will go that way,36.5129080932235,12.5,1,text book,2025
+bn-en,আমরা হারি গেছি,We lost .,We lost,82.12113728443965,100.0,1,text book,2025
+bn-en,হারি গেছি,I lost .,Lost,82.12113728443965,100.0,1,text book,2025
+bn-en,আমরা হারি গেছিলাম,We were lost.,We had lost,63.8778456079532,65.0,1,text book,2025
+bn-en,হারি গেছিলাম,I lost .,Had lost,79.5149527592273,95.0,1,text book,2025
+bn-en,আমরা গেছিলাম,We were playing,We went,36.5129080932235,12.5,1,text book,2025
+bn-en,আম ওগু কে খাইছিল?,Who was eating those?,Who ate the mango?,45.63455393146674,30.0,1,text book,2025
+bn-en,কে খাইছিল?,Who was eating?,Who ate it?,62.57475334534701,62.5,1,text book,2025
+bn-en,আম খাইছিল,I was eating .,Ate the mango,41.725277143648206,22.5,1,text book,2025
+bn-en,আমি আছি,I am here .,I am here,82.12113728443965,100.0,1,text book,2025
+bn-en,আমারে বিশ্বাস করো,Trust me on this.,Trust me,78.21186049662113,92.5,1,text book,2025
+bn-en,বিশ্বাস করো,Trust me .,Trust,82.12113728443965,100.0,1,text book,2025
+bn-en,শুক্রবার আমরা গেছলাম,Friday we're gone,"On Friday, we went",57.362384294922315,52.5,1,text book,2025
+bn-en,শুক্রবার আম্মায় হেদিন ঠিক কথাউ কইছলা,Friday mommy is right,"On Friday, mom was right",59.968568820134664,57.5,1,text book,2025
+bn-en,আমরার গাড়ি ওগু গতকাইল চুরি অই গেছে,Our car was stolen yesterday.,Our car was stolen yesterday,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার বাসাত গতকাইল চুরি অই গেছে,My car was stolen yesterday.,There was a theft at my house yesterday,52.15001524449761,42.5,1,text book,2025
+bn-en,বাসাত গতকাইল চুরি অই গেছে,The bus was stolen last night.,There was a theft at the house yesterday,46.937646194072904,32.5,1,text book,2025
+bn-en,গতকাইল চুরি অই গেছে,Last night was stolen.,Theft happened yesterday,52.15001524449761,42.5,1,text book,2025
+bn-en,আমার গাড়ি ওগুর রঙ অইল লাল,My car is oil red .,My car is red,50.846922981891446,40.0,1,text book,2025
+bn-en,গাড়ি ওগুর রঙ অইল লাল,Car Oguur color oil red,Car is red,40.422184881042035,20.0,1,text book,2025
+bn-en,সুজা ভাষায় মাতা উচিৎ,Suja speaks with his mother.,Should speak in simple language,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি আফনার লগে আছি,I'm with Afnar.,I am with you,35.20981583061733,10.0,1,text book,2025
+bn-en,আফনার লগে আছি,I'm with Afnar.,With you,35.20981583061733,10.0,1,text book,2025
+bn-en,লগে আছি,I'm with you.,I am with,80.81804502183347,97.5,1,text book,2025
+bn-en,আমার আব্বা বিদেশ থাকোইন,My father is abroad.,My father lives abroad,79.5149527592273,95.0,1,text book,2025
+bn-en,আব্বা বিদেশ থাকোইন,My father is abroad.,Father lives abroad,79.5149527592273,95.0,1,text book,2025
+bn-en,বিদেশ থাকোইন,Stay away from me .,Lives abroad,54.75619976970996,47.5,1,text book,2025
+bn-en,আমার বর বইনে আমারে খুব ভালা ফায়,My husband is very good to me.,My elder sister loves me very much,37.81600035582968,15.0,1,text book,2025
+bn-en,বর বইনে আমারে খুব ভালা ফায়,Burne book is very good for me,Elder sister loves me very much,35.20981583061733,10.0,1,text book,2025
+bn-en,বইনে আমারে খুব ভালা ফায়,It's very good for me.,Sister loves me very much,36.5129080932235,12.5,1,text book,2025
+bn-en,আমারে খুব ভালা ফায়,I'm very good at it.,Loves me very much,35.20981583061733,10.0,1,text book,2025
+bn-en,আমার বইনে আমারে খুব ভালা ফায়,My book is very good to me.,My sister loves me very much,33.90672356801115,7.5,1,text book,2025
+bn-en,আমার বড় বইনরে আমি খুব ভালা ফাই,I'm very good at my big book.,I love my elder sister very much,32.60363130540498,5.0,1,text book,2025
+bn-en,বড় বইনরে আমি খুব ভালা ফাই,I'm very good at it.,Love elder sister very much,32.60363130540498,5.0,1,text book,2025
+bn-en,বইনরে আমি খুব ভালা ফাই,I'm very good at it.,Love sister very much,32.60363130540498,5.0,1,text book,2025
+bn-en,আফনার বড় বইনের কিতা বিয়া অই গেছে নি?,The book of the great Afghan has not gone?,Has your elder sister gotten married?,29.99744678019263,0.0,1,text book,2025
+bn-en,বড় বইনের কিতা বিয়া অই গেছে নি?,The big book book is married.,Has elder sister gotten married?,33.90672356801115,7.5,1,text book,2025
+bn-en,বইনের কিতা বিয়া অই গেছে নি?,The book of marriage is gone?,Has sister gotten married?,29.99744678019263,0.0,1,text book,2025
+bn-en,কিতা বিয়া অই গেছে নি?,What's the matter?,Gotten married?,29.99744678019263,0.0,1,text book,2025
+bn-en,আফনার বইনের কিতা বিয়া অই গেছে নি?,The book of Afnars is not married?,Has your sister gotten married?,29.99744678019263,0.0,1,text book,2025
+bn-en,আফনার কিতা বিয়া অই গেছে নি?,The Afghan kid's not married?,Have you gotten married?,32.60363130540498,5.0,1,text book,2025
+bn-en,তোর বড় ভাইওর নাম কিতা?,Your big brother's name is Kita?,What is your elder brother’s name?,40.422184881042035,20.0,1,text book,2025
+bn-en,বড় ভাইওর নাম কিতা?,Big brother's name is Kita?,What’s elder brother’s name?,43.02836940625439,25.0,1,text book,2025
+bn-en,ভাইওর নাম কিতা?,Your brother's name is Kita?,What’s brother’s name?,41.725277143648206,22.5,1,text book,2025
+bn-en,বিদেশ ঘুরাত যাওয়া আমার স্বপ্ন,Foreign tourism is my dream,Going abroad is my dream,54.75619976970996,47.5,1,text book,2025
+bn-en,ঘুরাত যাওয়া আমার স্বপ্ন,♪ Going around is my dream ♪,Going for a trip is my dream,53.453107507103795,45.0,1,text book,2025
+bn-en,আমার স্বপ্ন,My dream,My dream,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি কোনো সময়ও তোমারে ভুলতাম না,I never forgot you,I will never forget you,75.60567597140879,87.5,1,text book,2025
+bn-en,কোনো সময়ও তোমারে ভুলতাম না,I never forgot you.,Never forget you,76.90876823401496,90.0,1,text book,2025
+bn-en,তোমারে ভুলতাম না,I never forgot you.,Won’t forget you,76.90876823401496,90.0,1,text book,2025
+bn-en,ভুলতাম না,I wouldn't forget.,Won’t forget,82.12113728443965,100.0,1,text book,2025
+bn-en,তুমিতাইন অইলায় আমার জীবনের আলো,You are the light of my life,You are the light of my life,82.12113728443965,100.0,1,text book,2025
+bn-en,অইলায় আমার জীবনের আলো,Oila is the light of my life,Light of my life,57.362384294922315,52.5,1,text book,2025
+bn-en,জীবনের আলো,The light of life,Light of life,82.12113728443965,100.0,1,text book,2025
+bn-en,আমারে অনো লইয়া যাও,Take me back to the house.,Take me there,48.24073845667909,35.0,1,text book,2025
+bn-en,অনো লইয়া যাও,"Go on , take it .",Take there,44.331461668860555,27.5,1,text book,2025
+bn-en,বাক্কা দিন আগে এক গ্রামো এক টুফিয়ালা আছিল,A few days ago there was a village in a tofu.,"Once upon a time in a village, there was a hat seller",41.725277143648206,22.5,1,text book,2025
+bn-en,এক গ্রামো এক টুফিয়ালা আছিল,"There was a village, a tofu.","In a village, there was a hat seller",41.725277143648206,22.5,1,text book,2025
+bn-en,এক টুফিয়ালা  আছিল,There was a tofu.,There was a hat seller,40.422184881042035,20.0,1,text book,2025
+bn-en,টুফিয়ালা আছিল,There was a tofu.,Hat seller was there,40.422184881042035,20.0,1,text book,2025
+bn-en,হে সময় কান্দা বায় এগু শিয়াল যাওয়াত আছিলো,"When the wind blew, the fox was gone.","At that time, a fox was passing by",40.422184881042035,20.0,1,text book,2025
+bn-en,তুমারে দেখিয়া,You look at me .,Seeing you,41.725277143648206,22.5,1,text book,2025
+bn-en,ভেমতা লাগিয়া উবাই রইছিলাম,I was sitting in the back.,I stood still,45.63455393146674,30.0,1,text book,2025
+bn-en,উবাই রইছিলাম,I was there .,Stood still,65.18093787055936,67.5,1,text book,2025
+bn-en,আব্বায় আমার লাগি লাল জামা কিনিয়া আনছইন,"Daddy, I'm going to bring you a red dress.",Dad bought me a red dress,49.54383071928526,37.5,1,text book,2025
+bn-en,আমার লাগি লাল জামা কিনিয়া আনছইন,I think you brought a red dress .,Bought me a red dress,54.75619976970996,47.5,1,text book,2025
+bn-en,লাল জামা কিনিয়া আনছইন,Red dressed in Kenya,Red dress bought,40.422184881042035,20.0,1,text book,2025
+bn-en,জামা কিনিয়া আনছইন,- What are you doing?,Bought dress,32.60363130540498,5.0,1,text book,2025
+bn-en,কিনিয়া আনছইন,- What?,Bought,31.300539042798803,2.5,1,text book,2025
+bn-en,আব্বায় লাল জামা কিনিয়া আনছইন,I'm going to get you a red jacket.,Dad bought a red dress,37.29476345078721,14.0,1,text book,2025
+bn-en,আব্বায় জামা কিনিয়া আনছইন,I'm going to get some clothes.,Dad bought a dress,40.422184881042035,20.0,1,text book,2025
+bn-en,আব্বায় কিনিয়া আনছইন,I'm going to Kenya.,Dad bought,32.60363130540498,5.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি সবুজ  জামা কিনিয়া আনছইন,"Daddy, I need a green dress.",Dad bought me a green dress,45.63455393146674,30.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি কালো জামা কিনিয়া আনছইন,"Daddy , I need a black dress .",Dad bought me a black dress,49.54383071928526,37.5,1,text book,2025
+bn-en,আব্বায় আমার লাগি সাদা জামা কিনিয়া আনছইন,"Daddy , I think you brought me a white dress .",Dad bought me a white dress,53.453107507103795,45.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি নীল জামা কিনিয়া আনছইন,"Daddy, I'm going to bring you a blue dress.",Dad bought me a blue dress,48.24073845667909,35.0,1,text book,2025
+bn-en,চুলগুন যে লম্বা,Hair that is long,The hair is very long,63.8778456079532,65.0,1,text book,2025
+bn-en,যে লম্বা,That long,Very long,66.48403013316555,70.0,1,text book,2025
+bn-en,তাইরে কাজল দিলে বাক্কা ভালা লাগে,It's nice to be working with you.,She looks good with kajal,29.99744678019263,0.0,1,text book,2025
+bn-en,কাজল দিলে বাক্কা ভালা লাগে,It's good to be back.,Looks good with kajal,35.20981583061733,10.0,1,text book,2025
+bn-en,বাক্কা ভালা লাগে,It's good.,Looks very good,66.48403013316555,70.0,1,text book,2025
+bn-en,তুমি অনো থাকলে আমি খুশি,I'm happy if you're here.,I’m happy if you stay here,72.99949144619643,82.5,1,text book,2025
+bn-en,অনো থাকলে আমি খুশি,I'm happy if there is another.,"If you stay here, I’m happy",46.937646194072904,32.5,1,text book,2025
+bn-en,থাকলে আমি খুশি,If I am happy,"Stay here, I’m happy",39.11909261843585,17.5,1,text book,2025
+bn-en,আমি খুশি,I 'm happy .,I am happy,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার লাল রঙ ওর গাড়ি ওগু গতকাইল চুরি অই গেছে,My red car was stolen yesterday.,My red car was stolen yesterday,82.12113728443965,100.0,1,text book,2025
+bn-en,লাল রঙ ওর গাড়ি ওগু গতকাইল চুরি অই গেছে,His red car was stolen yesterday.,Red car was stolen yesterday,66.48403013316555,70.0,1,text book,2025
+bn-en,গাড়ি ওগু গতকাইল চুরি অই গেছে,The car was stolen yesterday.,The car was stolen yesterday,82.12113728443965,100.0,1,text book,2025
+bn-en,গতকাইল চুরি অই গেছে,Last night was stolen.,Stolen yesterday,58.6654765575285,55.0,1,text book,2025
+bn-en,চুরি অই গেছে,The stolen ones are gone .,Stolen,62.57475334534701,62.5,1,text book,2025
+bn-en,শুক্রবার আমরা হারি গেছি,Friday we lost,"On Friday, we lost",66.48403013316555,70.0,1,text book,2025
+bn-en,হে আমারে অফমান করে,He offends me,He insults me,69.09021465837789,75.0,1,text book,2025
+bn-en,আমারে অফমান করে,He offends me.,Insults me,71.69639918359026,80.0,1,text book,2025
+bn-en,অফমান করে,I 'm not gonna do it .,Insults,32.60363130540498,5.0,1,text book,2025
+bn-en,হে অফমান করে,He is offended .,He insults,41.725277143648206,22.5,1,text book,2025
+bn-en,তুমি আমারে চিনো নি?,You didn't recognize me?,Do you know me?,54.75619976970996,47.5,1,text book,2025
+bn-en,শুক্রবার আম্মায় ঠিক কথাউ কইছলা,Friday Mommy is right to talk about,"On Friday, mom was right",45.63455393146674,30.0,1,text book,2025
+bn-en,শুক্রবার আমি ওখানো যাইমু,Friday I'm going to the hospital.,I will go there on Friday,43.02836940625439,25.0,1,text book,2025
+bn-en,শুক্রবার ওবায় যাইতাম না,I didn't go to the bank on Friday.,Won’t go that way on Friday,39.11909261843585,17.5,1,text book,2025
+bn-en,শুক্রবার ওবায় যাইমু,Friday we go to the airport .,Will go that way on Friday,39.11909261843585,17.5,1,text book,2025
+bn-en,তুমি আমারে চিনো নি?,You didn't recognize me?,Do you know me?,43.02836940625439,25.0,1,text book,2025
+bn-en,আমারে চিনো নি?,Don't you recognize me?,Know me?,57.362384294922315,52.5,1,text book,2025
+bn-en,মুই আইজ বিয়ানে ফুটবল খেলাইছি,I'm playing football in the morning.,I played football this morning,58.6654765575285,55.0,1,text book,2025
+bn-en,আইজ বিয়ানে ফুটবল খেলাইছি,I'm playing football in the stadium.,Played football this morning,50.846922981891446,40.0,1,text book,2025
+bn-en,বিয়ানে ফুটবল খেলাইছি,I've been playing football.,Played football in the morning,53.453107507103795,45.0,1,text book,2025
+bn-en,মুই বিয়ানে ফুটবল খেলাইছি,I'm playing football in the city.,I played football in the morning,46.937646194072904,32.5,1,text book,2025
+bn-en,মুই ফুটবল খেলাইছি,I play football .,I played football,66.48403013316555,70.0,1,text book,2025
+bn-en,মুই তুমার মনের কথা বুঝি না,I don't understand your mind.,I don’t understand what you feel,74.3025837088026,85.0,1,text book,2025
+bn-en,তুমার মনের কথা বুঝি না,You don't understand my mind.,Don’t understand what you feel,52.15001524449761,42.5,1,text book,2025
+bn-en,মনের কথা বুঝি না,I don't know about the mind.,Don’t understand the feelings,66.48403013316555,70.0,1,text book,2025
+bn-en,মুই মনের কথা বুঝি না,I don't understand the meaning of the word.,I don’t understand the feelings,46.937646194072904,32.5,1,text book,2025
+bn-en,মুই কথা বুঝি না,I don't understand you.,I don’t understand,74.3025837088026,85.0,1,text book,2025
+bn-en,মুই বুঝি না,I don't understand,I don’t understand,82.12113728443965,100.0,1,text book,2025
+bn-en,তুমার লাগি আমার খুব খষ্ট অয়,You seem very attractive to me.,I feel very bad for you,35.20981583061733,10.0,1,text book,2025
+bn-en,আমার খুব কষ্ট অয়,I 'm very sad .,Feel very bad,67.78712239577173,72.5,1,text book,2025
+bn-en,আমরার স্বপ্ন বহুত বড়,Our dream is very big,Our dream is very big,82.12113728443965,100.0,1,text book,2025
+bn-en,মুই এখটা ফুয়া,I'm going to kill you.,I am a boy,32.60363130540498,5.0,1,text book,2025
+bn-en,মুই এখটা ফুরি,I'm going to go.,I am a girl,32.60363130540498,5.0,1,text book,2025
+bn-en,আফনার লগে ফরিছিতো অইয়া ভালা লাগলো,It's good to be with you.,Nice to meet you,56.059292032316144,50.0,1,text book,2025
+bn-en,ফরিছিতো অইয়া ভালা লাগলো,It's good to see you.,Nice meeting,74.3025837088026,85.0,1,text book,2025
+bn-en,ভালা লাগলো,It feels good.,Good feeling,76.90876823401496,90.0,1,text book,2025
+bn-en,বাক্কা সময় পর আফনারে দেখলাম,I saw you in the morning.,Seeing you after a long time,43.02836940625439,25.0,1,text book,2025
+bn-en,বাক্কা সময় পর,After all this time.,After a long time,70.39330692098407,77.5,1,text book,2025
+bn-en,আফনারে দেখলাম,I saw it in the mirror .,Seeing you,36.5129080932235,12.5,1,text book,2025
+bn-en,ফয়লা আফনারে এখটা দুকানো যাওয়া লাগবো,I'll have to go to the store now.,"First, you have to go to a shop",49.54383071928526,37.5,1,text book,2025
+bn-en,আফনারে এখটা দুকানো যাওয়া লাগবো,I'll have to go to the store now.,You have to go to a shop,45.63455393146674,30.0,1,text book,2025
+bn-en,এখটা দুকানো যাওয়া লাগবো,I'm going to the store now.,Have to go to a shop,49.54383071928526,37.5,1,text book,2025
+bn-en,দুকানো যাওয়া লাগবো,I need to go to the store.,Have to go to the shop,75.60567597140879,87.5,1,text book,2025
+bn-en,যাওয়া লাগবো,I need to go .,Must go,76.90876823401496,90.0,1,text book,2025
+bn-en,পয়লা এখটা দুকানো যাওয়া লাগবো,First I'll have to go to the store.,"First, go to a shop",79.5149527592273,95.0,1,text book,2025
+bn-en,পয়লা দুকানো যাওয়া লাগবো,I'll have to go to the first shop.,"First, go to the shop",61.27166108274085,60.0,1,text book,2025
+bn-en,বাক্কা দিন বাদে তুমারে দেখলাম,I saw you in the morning.,Seeing you after a long time,40.422184881042035,20.0,1,text book,2025
+bn-en,বাক্কা দিন বাদে,Except for the day of the race.,After a long time,35.20981583061733,10.0,1,text book,2025
+bn-en,তুমারে দেখলাম,I saw you .,Saw you,82.12113728443965,100.0,1,text book,2025
+bn-en,তুমারে দেখিয়া ভেমতা লাগিয়া উবাই রইছিলাম,"I was looking at you and I was like, ""Oh, my God"".",Stood still seeing you,80.81804502183347,97.5,1,text book,2025
+bn-en,তুমারে দেখিয়া,You look at me .,Seeing you,43.02836940625439,25.0,1,text book,2025
+bn-en,ভেমতা লাগিয়া উবাই রইছিলাম,I was sitting in the back.,Stood still,63.8778456079532,65.0,1,text book,2025
+bn-en,উবাই রইছিলাম,I was there .,Stood,58.6654765575285,55.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি লাল জামা কিনিয়া আনছইন,"Daddy, I'm going to bring you a red dress.",Dad bought me a red dress,49.54383071928526,37.5,1,text book,2025
+bn-en,আমার লাগি লাল জামা কিনিয়া আনছইন,I think you brought a red dress .,Bought me a red dress,52.15001524449761,42.5,1,text book,2025
+bn-en,লাল জামা কিনিয়া আনছইন,Red dressed in Kenya,Red dress bought,40.422184881042035,20.0,1,text book,2025
+bn-en,জামা কিনিয়া আনছইন,- What are you doing?,Bought dress,35.20981583061733,10.0,1,text book,2025
+bn-en,কিনিয়া আনছইন,- What?,Bought,32.60363130540498,5.0,1,text book,2025
+bn-en,আব্বায় লাল জামা কিনিয়া আনছইন,I'm going to get you a red jacket.,Dad bought a red dress,62.57475334534701,62.5,1,text book,2025
+bn-en,আব্বায় জামা কিনিয়া আনছইন,I'm going to get some clothes.,Dad bought a dress,39.11909261843585,17.5,1,text book,2025
+bn-en,আব্বায় কিনিয়া আনছইন,I'm going to Kenya.,Dad bought,35.20981583061733,10.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি সবুজ  জামা কিনিয়া আনছইন,"Daddy, I need a green dress.",Dad bought me a green dress,40.422184881042035,20.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি কালো জামা কিনিয়া আনছইন,"Daddy , I need a black dress .",Dad bought me a black dress,40.422184881042035,20.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি সাদাজামা কিনিয়া আনছইন,"Daddy, I need you to bring me some white clothes.",Dad bought me a white dress,40.422184881042035,20.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি নীল জামা কিনিয়া আনছইন,"Daddy, I'm going to bring you a blue dress.",Dad bought me a blue dress,41.725277143648206,22.5,1,text book,2025
+bn-en,আব্বায় আমার লাগি বেগুনি জামা কিনিয়া আনছইন,"Daddy, I need you to bring me some purple clothes.",Dad bought me a purple dress,40.422184881042035,20.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি গোলাপি জামা কিনিয়া আনছইন,"Daddy, I need a pink dress.",Dad bought me a pink dress,41.725277143648206,22.5,1,text book,2025
+bn-en,আব্বায় আমার লাগি আকাশী জামা কিনিয়া আনছইন,"Daddy, I need you to bring me some clothes.",Dad bought me a sky blue dress,41.725277143648206,22.5,1,text book,2025
+bn-en,আব্বায় আমার লাগি মেরুন জামা কিনিয়া আনছইন,"Daddy, I need you to bring me some clothes.",Dad bought me a maroon dress,43.02836940625439,25.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি কমলাজামা কিনিয়া আনছইন,"Daddy, I'm going to bring you some clothes.",Dad bought me an orange dress,43.02836940625439,25.0,1,text book,2025
+bn-en,আব্বায় আমার লাগি বাদামি জামা কিনিয়া আনছইন,"Daddy, I need a brown shirt.",Dad bought me a brown dress,41.725277143648206,22.5,1,text book,2025
+bn-en,আমার বন্ধু আমার লাগি লাল শাড়ি কিনিয়া দিছে,My friend gave me a red shirt.,My friend bought me a red saree,56.059292032316144,50.0,1,text book,2025
+bn-en,বন্ধু আমার লাগি লাল শাড়ি কিনিয়া দিছে,My friend gave me a red shirt.,Friend bought me a red saree,56.059292032316144,50.0,1,text book,2025
+bn-en,আমার লাগি লাল শাড়ি কিনিয়া দিছে,I think he gave me a red shirt.,Bought me a red saree,52.15001524449761,42.5,1,text book,2025
+bn-en,লাল শাড়ি কিনিয়া দিছে,Red hair has been given to you.,Red saree bought,40.422184881042035,20.0,1,text book,2025
+bn-en,শাড়ি কিনিয়া দিছে,Shādiri has given you,Bought saree,37.81600035582968,15.0,1,text book,2025
+bn-en,কিনিয়া দিছে,He gave it to me .,Bought,59.968568820134664,57.5,1,text book,2025
+bn-en,আমার বন্ধু আমার লাগি এখটা লাল গোলাপ কিনিয়া দিছে,My friend gave me a red rose today.,My friend bought me a red rose,74.3025837088026,85.0,1,text book,2025
+bn-en,বন্ধু আমার লাগি এখটা লাল গোলাপ কিনিয়া দিছে,My friend gave me a red rose today.,Friend bought me a red rose,70.39330692098407,77.5,1,text book,2025
+bn-en,আমার লাগি এখটা লাল গোলাপ কিনিয়া দিছে,I think I just bought a red rose.,Bought me a red rose,52.15001524449761,42.5,1,text book,2025
+bn-en,এখটা লাল গোলাপ কিনিয়া দিছে,Now the red rose has given Kenya,A red rose bought,43.02836940625439,25.0,1,text book,2025
+bn-en,লাল গোলাপ কিনিয়া দিছে,Red rose has given you,Red rose bought,53.453107507103795,45.0,1,text book,2025
+bn-en,গোলাপ কিনিয়া দিছে,Rose has given you,Rose bought,56.059292032316144,50.0,1,text book,2025
+bn-en,আমরা জীবনেও ভুলতাম ফারতাম নায়,We never forgot in our lives.,We will never forget,65.18093787055936,67.5,1,text book,2025
+bn-en,জীবনেও ভুলতাম ফারতাম নায়,I never forgot in my life.,Never forget,70.39330692098407,77.5,1,text book,2025
+bn-en,ভুলতাম ফারতাম নায়,I forgot to change my mind.,Won’t forget,47.19826464659415,33.0,1,text book,2025
+bn-en,আমরা ভুলতাম ফারতাম নায়,We forgot to change.,We won’t forget,52.15001524449761,42.5,1,text book,2025
+bn-en,আমরা জীবনেও ফারতাম নায়,We never changed in our lives.,We will never be able to,52.15001524449761,42.5,1,text book,2025
+bn-en,আমরা ফারতাম নায়,We didn't change,We won’t be able to,45.63455393146674,30.0,1,text book,2025
+bn-en,ছোট ফুয়া ইগু বল দিয়া খেলার,Little fuya iggu ball given to the player,The little boy is playing with a ball,35.20981583061733,10.0,1,text book,2025
+bn-en,ফুয়া ইগু বল দিয়া খেলার,Fuya is the ball of the player,Boy is playing with a ball,35.20981583061733,10.0,1,text book,2025
+bn-en,ইগু বল দিয়া খেলার,This is the ball player.,Playing with a ball,56.059292032316144,50.0,1,text book,2025
+bn-en,বল দিয়া খেলার,The ball player,Playing with the ball,54.75619976970996,47.5,1,text book,2025
+bn-en,ছোট ফুয়া বল দিয়া খেলার,Small fuya ball for the player,The little boy is playing with the ball,32.60363130540498,5.0,1,text book,2025
+bn-en,ফুয়া বল দিয়া খেলার,Fuya ball to the player,The boy is playing with the ball,32.60363130540498,5.0,1,text book,2025
+bn-en,বেটা ইগুয়ে ফোনে মাতের,I'm on the phone with my mother.,The man is talking on the phone,35.20981583061733,10.0,1,text book,2025
+bn-en,ইগুয়ে ফোনে মাতের,I'm on the phone with my mother.,Talking on the phone,33.90672356801115,7.5,1,text book,2025
+bn-en,ফোনে মাতের,Mother 's on the phone .,Talking,29.99744678019263,0.0,1,text book,2025
+bn-en,তুমার ফছন্দের বাক্কা খয়টা বই কিনছি,I'm buying your fucking books.,Bought several of your favorite books,35.20981583061733,10.0,1,text book,2025
+bn-en,ফছন্দের বাক্কা খয়টা বই কিনছি,I'm buying a book.,Favorite several books bought,56.059292032316144,50.0,1,text book,2025
+bn-en,বাক্কা খয়টা বই কিনছি,I'm buying a fucking book.,Several books bought,39.11909261843585,17.5,1,text book,2025
+bn-en,খয়টা বই কিনছি,I'm buying a book.,A few books bought,59.968568820134664,57.5,1,text book,2025
+bn-en,বই কিনছি,I bought books.,Books bought,82.12113728443965,100.0,1,text book,2025
+bn-en,তুমার ফছন্দের কয়টা বই কিনছি,How many books of your choice do I buy?,Bought a few of your favorite books,52.15001524449761,42.5,1,text book,2025
+bn-en,তুমার ফছন্দের বই কিনছি,I'm buying your children's books.,Bought some of your favorite books,41.204040238605735,21.5,1,text book,2025
+bn-en,আফনে নিজর ফরিবার লইয়া বইন,Afne নিজর ফরিবার লয় বইন (Afne his own free book),Sit with your family,29.99744678019263,0.0,1,text book,2025
+bn-en,নিজর ফরিবার লইয়া বইন,Take your own book.,Sit with your own family,43.02836940625439,25.0,1,text book,2025
+bn-en,ফরিবার লইয়া বইন,Free to take the book,Sit with family,29.99744678019263,0.0,1,text book,2025
+bn-en,লইয়া বইন,- What ?,Sit with,29.99744678019263,0.0,1,text book,2025
+bn-en,আফনে ফরিবার লইয়া বইন,I'm not going to take the book.,Sit with family,29.99744678019263,0.0,1,text book,2025
+bn-en,আফনে লইয়া বইন,I 'm taking the book .,Sit with them,29.99744678019263,0.0,1,text book,2025
+bn-en,আমারে এখটু সাহায্য খরইন,I need a little help.,Will you help me a bit?,80.81804502183347,97.5,1,text book,2025
+bn-en,এখটু সাহায্য খরইন,Help me out here.,Help me a bit,69.09021465837789,75.0,1,text book,2025
+bn-en,সাহায্য খরইন,Help costs,Help,59.968568820134664,57.5,1,text book,2025
+bn-en,মোরে সাহায্য খরইন,Help me out .,Will you help me?,74.3025837088026,85.0,1,text book,2025
+bn-en,তুমি মোর লগে আর মাতবায় না,You are no longer with me .,Don’t talk to me anymore,42.50713250121191,24.0,1,text book,2025
+bn-en,মোর লগে আর মাতবায় না,I 'm not with you anymore .,Don’t talk to me,43.81022476381809,26.5,1,text book,2025
+bn-en,আর মাতবায় না,And not in the bathroom .,Don’t talk anymore,32.60363130540498,5.0,1,text book,2025
+bn-en,মাতবায় না,Not in the water .,Don’t talk,35.20981583061733,10.0,1,text book,2025
+bn-en,মাতবায় না,Not in the water .,Won’t talk,44.331461668860555,27.5,1,text book,2025
+bn-en,তুমি আর মাতবায় না,You 're not drunk anymore .,You won’t talk anymore,39.11909261843585,17.5,1,text book,2025
+bn-en,তুমি মাতবায় না,You 're not drunk .,You won’t talk,39.11909261843585,17.5,1,text book,2025
+bn-en,তুমি মাতবায় না,You 're not drunk .,You won’t,40.422184881042035,20.0,1,text book,2025
+bn-en,আমরার হক্কলের এখটা রঙ্গিন ছবি তুলা লাগবো,I need to take a colorful picture of Amara's cock.,We all need to take a colored photo,39.11909261843585,17.5,1,text book,2025
+bn-en,হক্কলের এখটা রঙ্গিন ছবি তুলা লাগবো,I'll take a colorful picture of the hackles.,Everyone needs to take a colored photo,40.422184881042035,20.0,1,text book,2025
+bn-en,এখটা রঙ্গিন ছবি তুলা লাগবো,I need to take a color photo .,Need to take a colored photo,82.12113728443965,100.0,1,text book,2025
+bn-en,রঙ্গিন ছবি তুলা লাগবো,I 'll take a color photo .,Take a colored photo,75.60567597140879,87.5,1,text book,2025
+bn-en,ছবি তুলা লাগবো,I need to take pictures .,Take a photo,82.12113728443965,100.0,1,text book,2025
+bn-en,তুলা লাগবো,I need a tow .,Need to take,41.725277143648206,22.5,1,text book,2025
+bn-en,আমরার এখটা রঙ্গিন ছবি তুলা লাগবো,Amara's got a colorful picture to take.,We need to take a colored photo,41.725277143648206,22.5,1,text book,2025
+bn-en,আমরার রঙ্গিন ছবি তুলা লাগবো,I 'll take a color photo of our house .,We need to take a colored photo,44.331461668860555,27.5,1,text book,2025
+bn-en,আমরার ছবি তুলা লাগবো,I need to take pictures of Amara .,We need to take a photo,41.725277143648206,22.5,1,text book,2025
+bn-en,আমরার তুলা লাগবো,I need our pulp .,We need to take,41.725277143648206,22.5,1,text book,2025
+bn-en,আর কত ছুটি কাটাইতাম?,How many vacations would I have?,How long will we keep taking vacations?,72.99949144619643,82.5,1,text book,2025
+bn-en,কত ছুটি কাটাইতাম?,How many vacations did I take?,How many vacations will we take?,64.39908251299566,66.0,1,text book,2025
+bn-en,ছুটি কাটাইতাম?,I'd have a vacation?,Take a vacation?,76.90876823401496,90.0,1,text book,2025
+bn-en,আফনে বাছিয়া আছইন নি?,Why didn't you choose me?,Are you alive?,35.20981583061733,10.0,1,text book,2025
+bn-en,বাছিয়া  আছইন নি?,Did you choose?,Alive?,32.60363130540498,5.0,1,text book,2025
+bn-en,আফনে আছইন নি?,Are you in?,Are you there?,71.69639918359026,80.0,1,text book,2025
+bn-en,দেখা খরা যাইব,See you later.,Can we meet?,58.6654765575285,55.0,1,text book,2025
+bn-en,খরা যাইব,I 'll go .,Can be done,35.20981583061733,10.0,1,text book,2025
+bn-en,দেখা যাইব,See you later .,Can be seen,56.059292032316144,50.0,1,text book,2025
+bn-en,মুই আমার ফরিবারের খতা কইতাম ছাই,I told you my family was going to die .,I want to talk about my family,39.11909261843585,17.5,1,text book,2025
+bn-en,আমার ফরিবারের খতা কইতাম ছাই,My family's account was in the mail.,I want to talk about my family,36.5129080932235,12.5,1,text book,2025
+bn-en,ফরিবারের খতা কইতাম ছাই,I told you about the ferry.,Want to talk about family,37.81600035582968,15.0,1,text book,2025
+bn-en,খতা কইতাম চাই,I said I want to eat .,Want to talk,37.81600035582968,15.0,1,text book,2025
+bn-en,মুই ফরিবারের খতা কইতাম ছাই,I told you about the other guy .,I want to talk about family,35.20981583061733,10.0,1,text book,2025
+bn-en,"আমার ফরিবারও মুই, আম্মা, আব্বা আর এখ হুরু বইন","My father, my mother, my father and my brother.","In my family, there’s me, mom, dad, and a younger sister",61.27166108274085,60.0,1,text book,2025
+bn-en,"আমার ফরিবারও মুই, আম্মা, আব্বা","My free will, Mummy, Daddy","In my family, there’s me, mom, and dad",41.725277143648206,22.5,1,text book,2025
+bn-en,আমার ফরিবারও মুই,My hair is also wet.,"In my family, it’s me",35.20981583061733,10.0,1,text book,2025
+bn-en,"আমার ফরিবারও মুই, আম্মা, আব্বা আর হুরু বইন","My father, my mother, my father and my father's books.","In my family, it’s me, mom, dad, and younger sister",37.81600035582968,15.0,1,text book,2025
+bn-en,"আমার ফরিবারও মুই, আম্মা, আব্বা আর বইন","My father, mother, father and books.","In my family, it’s me, mom, dad, and sister",44.331461668860555,27.5,1,text book,2025
+bn-en,এখ হুরু বইন,This is a great book.,A little sister,32.60363130540498,5.0,1,text book,2025
+bn-en,আমরার হখল এখ সময়ে এখলগে আছি,Amara's in the house right now.,We are all together at one time,39.11909261843585,17.5,1,text book,2025
+bn-en,হখল এখ সময়ে এখলগে আছি,I'm in the same room now.,All are together at one time,37.81600035582968,15.0,1,text book,2025
+bn-en,এখ সময়ে এখলগে আছি,I'm in a hurry right now.,Together at one time,35.20981583061733,10.0,1,text book,2025
+bn-en,এখলগে আছি,I'm in the middle of it.,We are together,35.20981583061733,10.0,1,text book,2025
+bn-en,আমরার হখল এখলগে আছি,I'm in the middle of a fight.,We are all together,35.20981583061733,10.0,1,text book,2025
+bn-en,এখটা মাতও আর মাতাবায় না,It's not even a mother anymore.,Don’t say another word,35.20981583061733,10.0,1,text book,2025
+bn-en,মাতও আর মাতাবায় না,- What ?,Don’t say a word,32.60363130540498,5.0,1,text book,2025
+bn-en,আর মাতাবায় না,And not in the motherfucker .,Don’t say anything,29.99744678019263,0.0,1,text book,2025
+bn-en,মাতাবায় না,- What ?,Don’t say,29.99744678019263,0.0,1,text book,2025
+bn-en,এখটা মাতও মাতাবায় না,It's not even a mother's day.,Don’t say a single word,32.60363130540498,5.0,1,text book,2025
+bn-en,আফনারা যারা আমারে এখনো ছিনইন না,The Afghans who still don't understand me,Those who don’t know me yet,39.11909261843585,17.5,1,text book,2025
+bn-en,যারা আমারে এখনো ছিনইন না,Who still don't know me,Who don’t know me yet,72.99949144619643,82.5,1,text book,2025
+bn-en,আমারে এখনো ছিনইন না,I still don't have it.,Don’t know me yet,41.725277143648206,22.5,1,text book,2025
+bn-en,এখনো ছিনইন না,Not yet .,Don’t know yet,50.846922981891446,40.0,1,text book,2025
+bn-en,ছিনইন না,I 'm not .,Don’t know,43.02836940625439,25.0,1,text book,2025
+bn-en,আফনারা আমারে এখনো ছিনইন না,The Afghans are still not in touch with me .,You don’t know me yet,37.81600035582968,15.0,1,text book,2025
+bn-en,আফনারা এখনো ছিনইন না,The Afghans are still not moving .,You don’t know yet,35.20981583061733,10.0,1,text book,2025
+bn-en,আফনারা ছিনইন না,They 're not going to change .,You don’t know,32.60363130540498,5.0,1,text book,2025
+bn-en,বিছনাত হুতি টিভি দেখাত আছিলাম,I was in bed watching TV.,"Lying on the bed, I was watching TV",82.12113728443965,100.0,1,text book,2025
+bn-en,হুতি টিভি দেখাত আছিলাম,I was watching a TV show.,"Lying down, I was watching TV",62.57475334534701,62.5,1,text book,2025
+bn-en,টিভি দেখাত আছিলাম,I was watching TV.,I was watching TV,82.12113728443965,100.0,1,text book,2025
+bn-en,বিছনাত টিভি দেখাত আছিলাম,I was in bed watching TV.,Watching TV on the bed,82.12113728443965,100.0,1,text book,2025
+bn-en,চলো তে ঘুড্ডি উড়াই,Let's go fly,Let’s fly a kite,57.362384294922315,52.5,1,text book,2025
+bn-en,তে ঘুড্ডি উড়াই,I'm going to fly.,Fly a kite,52.15001524449761,42.5,1,text book,2025
+bn-en,চলো তে উড়াই,Let's fly,Let’s fly,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি ছোটকাল তোনেও মেধাবী আছিলাম,I was a talented kid too.,I was very talented in my childhood,72.99949144619643,82.5,1,text book,2025
+bn-en,ছোটকাল তোনেও মেধাবী আছিলাম,"When I was a child, I was also talented.",Was very talented in childhood,74.3025837088026,85.0,1,text book,2025
+bn-en,তোনেও মেধাবী আছিলাম,You were also talented,Was very talented,57.362384294922315,52.5,1,text book,2025
+bn-en,মেধাবী আছিলাম,I was talented.,Was talented,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি  তোনেও মেধাবী আছিলাম,I was still talented,I was very talented,69.09021465837789,75.0,1,text book,2025
+bn-en,আমি মেধাবী আছিলাম,I was a talented man.,I was talented,70.39330692098407,77.5,1,text book,2025
+bn-en,আমার নৌকা দিয়ে ঘুরতে যে ভালা লাগে,It's nice to be on my boat.,I really enjoy boating,56.059292032316144,50.0,1,text book,2025
+bn-en,নৌকা দিয়ে ঘুরতে যে ভালা লাগে,It's nice to be on a boat.,Enjoy boating a lot,63.8778456079532,65.0,1,text book,2025
+bn-en,ঘুরতে যে ভালা লাগে,It's nice to walk around.,Enjoy traveling a lot,66.48403013316555,70.0,1,text book,2025
+bn-en,যে ভালা লাগে,That feels good .,Enjoy a lot,76.90876823401496,90.0,1,text book,2025
+bn-en,ভালা লাগে,I like it .,Like it,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার  ঘুরতে যে ভালা লাগে,I like to walk.,I enjoy traveling a lot,52.15001524449761,42.5,1,text book,2025
+bn-en,আমার যে ভালা লাগে,I like that .,I like it a lot,72.99949144619643,82.5,1,text book,2025
+bn-en,আমার ভালা লাগে,I like it .,I like it,82.12113728443965,100.0,1,text book,2025
+bn-en,জেলে হখলতে মাছ মারছে,He 's fishing in the prison .,The fishermen are catching fish,39.11909261843585,17.5,1,text book,2025
+bn-en,হখলতে মাছ মারছে,He's fishing in the lake.,Catching fish,53.453107507103795,45.0,1,text book,2025
+bn-en,জেলে হখলতে মারছে,He's beating you in jail.,The fishermen are catching,33.90672356801115,7.5,1,text book,2025
+bn-en,আমি আম খাইতাম,I used to eat am,I will eat mango,43.02836940625439,25.0,1,text book,2025
+bn-en,আম খাইতাম,I used to eat it .,Eat mango,54.75619976970996,47.5,1,text book,2025
+bn-en,আমি খাইতাম,I used to eat,I will eat,61.27166108274085,60.0,1,text book,2025
+bn-en,আম ফলটা আমার সব থাকি বেশি ভালা লাগে,I like it better when I have all the fruit.,Mango is my favorite fruit,45.63455393146674,30.0,1,text book,2025
+bn-en,আমার সব থাকি বেশি ভালা লাগে,I like it better all the time.,My favorite fruit,69.09021465837789,75.0,1,text book,2025
+bn-en,সব থাকি বেশি ভালা লাগে,It's better to stay all alone.,Favorite fruit,32.60363130540498,5.0,1,text book,2025
+bn-en,আম ফলটা সব থাকি বেশি ভালা লাগে,I like it better if I have it all.,Mango is favorite fruit,37.29476345078721,14.0,1,text book,2025
+bn-en,আইজ তুমাতান ওর ভাইরে দেখলাম,I saw you in his brother's,Today I saw your brother,40.422184881042035,20.0,1,text book,2025
+bn-en,তুমাতান ওর ভাইরে দেখলাম,I saw his brother .,Saw your brother,54.75619976970996,47.5,1,text book,2025
+bn-en,ভাইরে দেখলাম,I saw it .,Saw brother,45.63455393146674,30.0,1,text book,2025
+bn-en,আইজ ভাইরে দেখলাম,I saw him .,Saw brother today,57.362384294922315,52.5,1,text book,2025
+bn-en,তুমাতান ওর গান ওর গলা খুব ভালা,You know her song and her voice is very good,Your singing voice is very good,58.6654765575285,55.0,1,text book,2025
+bn-en,গান ওর গলা খুব ভালা,His voice is very good.,Singing voice is very good,74.3025837088026,85.0,1,text book,2025
+bn-en,গলা খুব ভালা,It 's very good .,Voice is very good,57.362384294922315,52.5,1,text book,2025
+bn-en,খুব ভালা,Very good .,Very good,82.12113728443965,100.0,1,text book,2025
+bn-en,তুমাতান ওর গলা খুব ভালা,You're a good mother.,Your voice is very good,33.90672356801115,7.5,1,text book,2025
+bn-en,তুমাতান ওর হাসির প্রমো পরি গেছি আমি,You're the one who's been smiling.,I have fallen in love with your smile,43.02836940625439,25.0,1,text book,2025
+bn-en,তুমাতান ওর বাসাত কে কে আছোইন?,Who are you in his house?,Who is in your family?,56.059292032316144,50.0,1,text book,2025
+bn-en,বাসাত কে কে আছোইন?,Who are you?,Who is in the family?,44.331461668860555,27.5,1,text book,2025
+bn-en,কে কে আছোইন?,Who are you?,Who all are there?,44.331461668860555,27.5,1,text book,2025
+bn-en,কে আছোইন?,Who are you?,Who is there?,43.549606311296856,26.0,1,text book,2025
+bn-en,তুমাতান  ওর ক্রিকেট খেলা কিলা লাগে?,You want to play cricket?,How do you like cricket?,54.75619976970996,47.5,1,text book,2025
+bn-en,তুমাতান  ওর খেলা কিলা লাগে?,You want to play with him?,How do you like playing?,46.937646194072904,32.5,1,text book,2025
+bn-en,তুমাতান  ওর কিলা লাগে?,You want to kill him?,How do you like it?,33.12486821044745,6.0,1,text book,2025
+bn-en,কিলা লাগে?,How much do you need?,Like it?,41.725277143648206,22.5,1,text book,2025
+bn-en,তুমাতান  ওর ক্রিকেট কিলা লাগে?,You want a cricket bat?,How do you like cricket?,39.11909261843585,17.5,1,text book,2025
+bn-en,তুমাতান  ওর কিলা লাগে?,You want to kill him?,How is cricket?,35.20981583061733,10.0,1,text book,2025
+bn-en,আমার একবারেও ভালা লাগে না,I never feel good.,I don’t like it at all,62.57475334534701,62.5,1,text book,2025
+bn-en,আমার খুব ভালা লাগে,I like it very much .,I like it a lot,82.12113728443965,100.0,1,text book,2025
+bn-en,তুমাতান  ওর বাবা কিতা করইন?,You're not going to tell me what you're doing?,What does your father do?,36.5129080932235,12.5,1,text book,2025
+bn-en,বাবা কিতা করইন?,What's your father doing?,What does father do?,63.8778456079532,65.0,1,text book,2025
+bn-en,কিতা করইন?,What are you doing?,What does he do?,67.78712239577173,72.5,1,text book,2025
+bn-en,তুমাতান  ওর ভাই কিতাত চাকরি করইন?,You're working for his brother's book?,Where does your brother work?,41.725277143648206,22.5,1,text book,2025
+bn-en,ভাই কিতাত চাকরি করইন?,Brother is working in the book?,Where does brother work?,39.11909261843585,17.5,1,text book,2025
+bn-en,কিতাত চাকরি করইন?,What's the matter?,Where does he work?,36.5129080932235,12.5,1,text book,2025
+bn-en,চাকরি করইন?,Doing a job?,Works?,76.90876823401496,90.0,1,text book,2025
+bn-en,আমার মরগ ওর মাংস বেশি ভালা লাগে,My dead body is better than meat .,I like chicken meat the most,32.60363130540498,5.0,1,text book,2025
+bn-en,মরগ ওর মাংস বেশি ভালা লাগে,Morg's meat is better.,Like chicken meat the most,40.422184881042035,20.0,1,text book,2025
+bn-en,মাংস বেশি ভালা লাগে,The meat tastes better .,Like meat the most,75.60567597140879,87.5,1,text book,2025
+bn-en,বেশি ভালা লাগে,It feels better .,Like the most,78.21186049662113,92.5,1,text book,2025
+bn-en,ভালা লাগে,I like it .,Like it,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার মাংস বেশি ভালা লাগে,My meat tastes better .,I like meat the most,41.725277143648206,22.5,1,text book,2025
+bn-en,তুমাইতাইন কিতা খাইতে ভালা ফাও,You're good at eating your books.,What do you like to eat?,39.900947975999564,19.0,1,text book,2025
+bn-en,কিতা খাইতে ভালা ফাও,Kita eat is good too,What do you like to eat?,40.422184881042035,20.0,1,text book,2025
+bn-en,খাইতে ভালা ফাও,It 's good to eat .,Like to eat?,45.63455393146674,30.0,1,text book,2025
+bn-en,আমার ইছা মাছ খাইতে বেশি ভালা লাগে,I like to eat fish better than I do.,I like to eat shrimp,49.54383071928526,37.5,1,text book,2025
+bn-en,ইছা মাছ খাইতে বেশি ভালা লাগে,It's better to eat fish.,Like to eat shrimp,43.02836940625439,25.0,1,text book,2025
+bn-en,মাছ খাইতে বেশি ভালা লাগে,Fish is better.,Like to eat fish,63.8778456079532,65.0,1,text book,2025
+bn-en,খাইতে বেশি ভালা লাগে,It's better to eat.,Like to eat,63.35660870291073,64.0,1,text book,2025
+bn-en,কিতা করার আফনে ওখন?,What's the matter with you?,What are you doing now?,48.24073845667909,35.0,1,text book,2025
+bn-en,কিতা করার আফনে,In the book of life,What are you doing?,35.20981583061733,10.0,1,text book,2025
+bn-en,কিতা করার ওখন?,When to do that?,Doing now?,40.422184881042035,20.0,1,text book,2025
+bn-en,আমি এগু বই ফরিয়ার,I'm going to read these books.,I am reading a book,59.968568820134664,57.5,1,text book,2025
+bn-en,এগু বই ফরিয়ার,These books are for you .,Reading a book,42.767750953733156,24.5,1,text book,2025
+bn-en,বই ফরিয়ার,The book of life,Reading book,35.20981583061733,10.0,1,text book,2025
+bn-en,আমি বই ফরিয়ার,I'm a bookworm,I am reading a book,43.02836940625439,25.0,1,text book,2025
+bn-en,আফনে কিতা অন্যান্য বই পড়ছইন নি?,Why haven't you read any other books?,Have you read other books?,46.937646194072904,32.5,1,text book,2025
+bn-en,অন্যান্য বই পড়ছইন নি?,Have you read any other books?,Read other books?,72.99949144619643,82.5,1,text book,2025
+bn-en,বই পড়ছইন নি?,You haven't read the book?,Read books?,57.362384294922315,52.5,1,text book,2025
+bn-en,তুমিতাইন কিতা সরকারি চাকরি কররায় নি?,You're not doing government work?,Do you work in a government job?,57.362384294922315,52.5,1,text book,2025
+bn-en,সরকারি চাকরি কররায় নি?,You're not doing government work?,Working in a government job?,58.6654765575285,55.0,1,text book,2025
+bn-en,চাকরি কররায় নি,I'm not working.,Working?,43.81022476381809,26.5,1,text book,2025
+bn-en,তুমিতাইন সরকারি চাকরি কররায় নি?,You're not doing government work?,Are you doing a government job?,55.016818222231194,48.0,1,text book,2025
+bn-en,তুমিতাইন চাকরি কররায় নি,You're not doing your job.,Are you working?,42.50713250121191,24.0,1,text book,2025
+bn-en,আমি একজন সরকারি কর্মকর্তা,I'm a government official.,I am a government officer.,76.90876823401496,90.0,1,text book,2025
+bn-en,আমি সরকারি কর্মকর্তা,I am a government official.,I am a government officer.,76.90876823401496,90.0,1,text book,2025
+bn-en,তুমিতাইন কিতা চাকরি কররায় নি?,You're not going to work?,Are you doing job?,53.453107507103795,45.0,1,text book,2025
+bn-en,কিতা চাকরি করছ নি?,What job are you doing?,What job are you doing?,80.81804502183347,97.5,1,text book,2025
+bn-en,আমি ও হকল সময় কষ্ট পাই কিওর লাগি?,How do I feel when I'm in pain?,Why do I always suffer?,46.937646194072904,32.5,1,text book,2025
+bn-en,হকল সময় কষ্ট পাই কিওর লাগি?,How does it feel to have trouble in time?,Why do I always suffer?,45.63455393146674,30.0,1,text book,2025
+bn-en,সময় কষ্ট পাই,Time is trouble,Do I always suffer?,40.422184881042035,20.0,1,text book,2025
+bn-en,কষ্ট পাই,I 'm in pain .,I suffer.,54.75619976970996,47.5,1,text book,2025
+bn-en,আমার ভালোবাসাত কিতার কমতি আছিলো?,I was short of a book?,Was there any lack in my love?,35.20981583061733,10.0,1,text book,2025
+bn-en,ভালোবাসাত কিতার কমতি আছিলো?,Did you have a lack of love books?,Was there any lack in my love?,35.20981583061733,10.0,1,text book,2025
+bn-en,কমতি আছিলো?,Were you short?,Was there any lack?,57.362384294922315,52.5,1,text book,2025
+bn-en,তারা তিঙ্গু ভাই আছিলো কিন্তু হেরার মাঝে মিল আছিলো না,They were brothers of the tiger but they were not like each other.,"They were three brothers, but there was no harmony among them.",49.54383071928526,37.5,1,text book,2025
+bn-en,তারা তিঙ্গু ভাই আছিলো,They were Tingu brothers.,They were three brothers.,43.02836940625439,25.0,1,text book,2025
+bn-en,কিন্তু হেরার মাঝে মিল আছিলো না,But the two of you didn't match.,But there was no harmony among them.,50.846922981891446,40.0,1,text book,2025
+bn-en,হেরার মাঝে মিল আছিলো না,You didn't have a lot of friends.,There was no harmony among them.,39.11909261843585,17.5,1,text book,2025
+bn-en,মিল আছিলো না,You were not together .,There was no harmony.,56.580528937358615,51.0,1,text book,2025
+bn-en,মিল আছিলো,I was with him .,There was harmony.,45.63455393146674,30.0,1,text book,2025
+bn-en,তারা তিঙ্গু ভাই আছিলো কিন্তু হেরার মাঝে মিল আছিলো,They were tiger brothers but they were like a herd of wolves.,"They were three brothers, but there was no harmony among them.",43.02836940625439,25.0,1,text book,2025
+bn-en,আফনে আমার লগে ওলা মাত্তা ফারোইন না,"If you're with me, you're not a Pharaoh.",You cannot speak to me like this.,35.20981583061733,10.0,1,text book,2025
+bn-en,আমার লগে ওলা মাত্তা ফারোইন না,I'm not with you.,You cannot speak to me like this.,39.11909261843585,17.5,1,text book,2025
+bn-en,ওলা মাত্তা ফারোইন না,- I 'm not a Pharaoh .,You cannot speak like this.,33.12486821044745,6.0,1,text book,2025
+bn-en,মাত্তা ফারোইন না,I 'm not a father .,You cannot speak.,29.99744678019263,0.0,1,text book,2025
+bn-en,আফনে ওলা মাত্তা ফারোইন না,Afne Ola is not a father .,You cannot speak to me like this.,29.99744678019263,0.0,1,text book,2025
+bn-en,আফনে মাত্তা ফারোইন না,"Afne মাত্তা ফারোইন না is a French word for "" father "" .",You cannot speak.,29.99744678019263,0.0,1,text book,2025
+bn-en,আইজ কতো তারিখ?,What's the date?,What is today's date?,79.5149527592273,95.0,1,text book,2025
+bn-en,কতো তারিখ?,What date?,What is the date?,72.99949144619643,82.5,1,text book,2025
+bn-en,কিলা আছইন আফনেরা?,What's the matter?,How is everyone?,49.54383071928526,37.5,1,text book,2025
+bn-en,আইজ দুপুর বেলা আমরার দাওয়াত আছে,I have a call today at noon.,We have an invitation today at noon.,61.27166108274085,60.0,1,text book,2025
+bn-en,দুপুর বেলা আমরার দাওয়াত আছে,Amara has a call at noon .,We have an invitation at noon.,43.81022476381809,26.5,1,text book,2025
+bn-en,আমরার দাওয়াত আছে,Amara has an invitation .,We have an invitation.,44.331461668860555,27.5,1,text book,2025
+bn-en,দাওয়াত আছে,There 's a call .,There is an invitation.,49.54383071928526,37.5,1,text book,2025
+bn-en,ঘড়িত বাজে কয়টা?,How many hours?,What time is it on the clock?,54.75619976970996,47.5,1,text book,2025
+bn-en,বাজে কয়টা?,How much is it?,What time is it?,49.54383071928526,37.5,1,text book,2025
+bn-en,আইজ আমার জন্মদিন,It's my birthday.,Today is my birthday.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার জন্মদিন,It's my birthday.,Today is my birthday.,82.12113728443965,100.0,1,text book,2025
+bn-en,আইজ জন্মদিন,My birthday,Today is my birthday.,69.09021465837789,75.0,1,text book,2025
+bn-en,হে আমারে একগু উপহার দিছে,He gave me a gift.,He gave me a gift.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমারে একগু উপহার দিছে,He gave me a few gifts.,He gave me a gift.,71.69639918359026,80.0,1,text book,2025
+bn-en,একগু উপহার দিছে,He gave me a gift.,He gave a gift.,82.12113728443965,100.0,1,text book,2025
+bn-en,উপহার দিছে,He gave me a present .,He gave a gift.,70.39330692098407,77.5,1,text book,2025
+bn-en,হে খুব বেলা লাগাইয়া ঘুমায়,He's too late to sleep.,He sleeps very late.,80.81804502183347,97.5,1,text book,2025
+bn-en,খুব বেলা লাগাইয়া ঘুমায়,"Very well , I 'll sleep .",He sleeps very late.,48.24073845667909,35.0,1,text book,2025
+bn-en,বেলা লাগাইয়া ঘুমায়,Bella is sleeping .,He sleeps late.,41.725277143648206,22.5,1,text book,2025
+bn-en,ওখন তু্মিতাইন গান গাইতে ফারতায় না,"When you sing your song, you're not in the mood.",Now you cannot sing.,37.29476345078721,14.0,1,text book,2025
+bn-en,তু্মিতাইন গান গাইতে ফারতায় না,You're not singing your song.,You cannot sing.,36.5129080932235,12.5,1,text book,2025
+bn-en,গান গাইতে ফারতায় না,I'm not going to sing.,You cannot sing.,43.02836940625439,25.0,1,text book,2025
+bn-en,গাইতে ফারতায় না,Singing is not easy .,You cannot sing.,45.63455393146674,30.0,1,text book,2025
+bn-en,আফনে বহুত ভালা মানুষ,There are many good people in Afghanistan .,You are a very good person.,33.90672356801115,7.5,1,text book,2025
+bn-en,বহুত ভালা মানুষ,Very good people .,You are a very good person.,65.18093787055936,67.5,1,text book,2025
+bn-en,ভালা মানুষ,Good people .,A good person.,67.78712239577173,72.5,1,text book,2025
+bn-en,আফনে ভালা মানুষ,Afne good people,You are a good person.,45.63455393146674,30.0,1,text book,2025
+bn-en,আমরা ঢাকাত থাকি,We live in Dhaka .,We live in Dhaka.,82.12113728443965,100.0,1,text book,2025
+bn-en,ঢাকাত থাকি,I live in Dhaka .,We live in Dhaka.,78.21186049662113,92.5,1,text book,2025
+bn-en,আমি ঢাকার মিরপর ও থাকি,I live in Dhaka .,"I live in Mirpur, Dhaka.",62.57475334534701,62.5,1,text book,2025
+bn-en,ঢাকার মিরপর ও থাকি,I live in Dhaka .,"I live in Mirpur, Dhaka.",62.57475334534701,62.5,1,text book,2025
+bn-en,মিরপর ও থাকি,I'll be right there.,I live in Mirpur.,46.937646194072904,32.5,1,text book,2025
+bn-en,আমি মিরপর ও থাকি,I'm looking at the mirror.,I live in Mirpur.,35.20981583061733,10.0,1,text book,2025
+bn-en,আমি তাইর চোউখের মায়াত পরছি,I'm wearing the mask of her face.,I have fallen under the spell of his eyes.,33.38548666296868,6.5,1,text book,2025
+bn-en,তাইর চোউখের মায়াত পরছি,I'm wearing my own clothes.,I have fallen under the spell of his eyes.,32.60363130540498,5.0,1,text book,2025
+bn-en,চোউখের মায়াত পরছি,I'm wearing a wire.,I have fallen under the spell of his eyes.,29.99744678019263,0.0,1,text book,2025
+bn-en,মায়াত পরছি,I 'm wearing a mask .,I have fallen under the spell.,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি চোউখের মায়াত পরছি,I'm wearing a charm.,I have fallen under the spell of his eyes.,33.90672356801115,7.5,1,text book,2025
+bn-en,আমি মায়াত পরছি,I wear Maya .,I have fallen under the spell.,29.99744678019263,0.0,1,text book,2025
+bn-en,হের হাসি যে সুন্দর,Her smile is beautiful,His smile is very beautiful.,75.60567597140879,87.5,1,text book,2025
+bn-en,হাসি যে সুন্দর,That smile is beautiful .,His smile is very beautiful.,82.12113728443965,100.0,1,text book,2025
+bn-en,হে তার পরিবাররে যে ভালা ফায়,He's in good hands with his family.,He loves his family.,52.15001524449761,42.5,1,text book,2025
+bn-en,তার পরিবাররে যে ভালা ফায়,His family is in good hands.,He loves his family.,52.15001524449761,42.5,1,text book,2025
+bn-en,পরিবাররে যে ভালা ফায়,Family that's good.,He loves his family.,45.63455393146674,30.0,1,text book,2025
+bn-en,হে পরিবাররে যে ভালা ফায়,"Hey, family, that's good.",He loves his family.,40.422184881042035,20.0,1,text book,2025
+bn-en,তার লাগি আমি হকলতা করতাম ফারি,I thought I was going to be a doctor.,I can do anything for him.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি হকলতা করতাম ফারি,I used to be a farmer.,I can do anything for him.,29.99744678019263,0.0,1,text book,2025
+bn-en,হকলতা করতাম ফারি,I was going to do it.,I can do anything.,43.02836940625439,25.0,1,text book,2025
+bn-en,তার লাগি হকলতা করতাম ফারি,I would have done it.,I can do anything for him.,48.76197536172156,36.0,1,text book,2025
+bn-en,আমি তারে ভালা ফাই,I'm good at it.,I love him.,32.60363130540498,5.0,1,text book,2025
+bn-en,তারে ভালা ফাই,It's good.,I love him.,29.99744678019263,0.0,1,text book,2025
+bn-en,তার চুলগুন যে লম্বা,Her hair is that long.,And his hair is very long.,71.69639918359026,80.0,1,text book,2025
+bn-en,ওটা কে্ডা,It 's a kid .,Who is this?,41.725277143648206,22.5,1,text book,2025
+bn-en,ইগু কেডা,I'm not sure.,Who is he?,37.81600035582968,15.0,1,text book,2025
+bn-en,আফনে কইন,Where is he ?,You tell me.,32.60363130540498,5.0,1,text book,2025
+bn-en,আফনে আমার লগে যাইবা নি?,Why didn't you come with me?,Will you come with me?,53.453107507103795,45.0,1,text book,2025
+bn-en,আফনে ভাইয়ের ভক্ত,Afne brother 's fan,You are a fan of my brother.,35.20981583061733,10.0,1,text book,2025
+bn-en,তুমি কই,Where are you ?,Where are you?,82.12113728443965,100.0,1,text book,2025
+bn-en,তোমার নাম কিতা সামি,Your name is Kita Sami.,Is your name Sami?,41.725277143648206,22.5,1,text book,2025
+bn-en,দেইক্ষা কিলাম জানি লাগছে,I know what I'm doing.,Something feels strange.,35.20981583061733,10.0,1,text book,2025
+bn-en,ভালা খইরা কাম হইছে,"Good night , come on .",The work was done well.,32.60363130540498,5.0,1,text book,2025
+bn-en,"হগলের বউ হুন্দর, আমার ইক্কান কাইল্যা","The wife of the Lord, my Ickkan Kailaya","Every woman’s wife is beautiful, but my wife is dark.",29.99744678019263,0.0,1,text book,2025
+bn-en,সামসু মিয়া আমার থাইক্কা ছোট,Samsu Mia is my little thikka,Samsu Mia is younger than me.,29.99744678019263,0.0,1,text book,2025
+bn-en,যাওয়ার সময় কোনানো গেছলে,"When you go, no one will go.",Where did you go when you were leaving?,39.11909261843585,17.5,1,text book,2025
+bn-en,ভালা লাগের না,It's not good.,I don’t feel good.,53.453107507103795,45.0,1,text book,2025
+bn-en,কানো মাত যায়নি তোর,When did your mother go?,Can you hear me?,32.60363130540498,5.0,1,text book,2025
+bn-en,ডরাইছলাম আমি,I'm scared,I was scared.,62.57475334534701,62.5,1,text book,2025
+bn-en,গরুরে বান্ধার দরকার নাই,I don't need a girlfriend.,There is no need to tie the cow.,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি বাফরে ছিনি,I'm in the bathroom.,I know my father.,29.99744678019263,0.0,1,text book,2025
+bn-en,বাবারে কইলাম আমারে বিয়া করাইতা না,I told my father I won't marry him.,I told my father not to arrange my marriage.,39.11909261843585,17.5,1,text book,2025
+bn-en,আমি তোমার লাগি কিতা আনতাম,I'd bring you a book.,What should I bring for you?,39.11909261843585,17.5,1,text book,2025
+bn-en,মনো থাকবো তোমার কথা,I'll be there for you.,I will remember you.,54.75619976970996,47.5,1,text book,2025
+bn-en,আমরা বাড়িত কেনে,We bought a house.,Why at our house?,35.20981583061733,10.0,1,text book,2025
+bn-en,কিতা খাওন ইগু,Kita eat this,What are these foods?,32.60363130540498,5.0,1,text book,2025
+bn-en,ওখানো মানুষ মরে,That's where people die.,People die here.,72.99949144619643,82.5,1,text book,2025
+bn-en,তুঁই রঙ মিস্তিরি,You 're a sweetie .,You are a painter.,41.725277143648206,22.5,1,text book,2025
+bn-en,পারতাম না,I couldn't.,Cannot do it.,72.99949144619643,82.5,1,text book,2025
+bn-en,করতাম না,I wouldn't.,Will not do it.,72.99949144619643,82.5,1,text book,2025
+bn-en,পরতাম না,I wouldn't wear it.,Cannot do it.,69.09021465837789,75.0,1,text book,2025
+bn-en,যাইতাম না,I wouldn't go.,Will not go.,69.09021465837789,75.0,1,text book,2025
+bn-en,আমি অবায় যাইমু,I'm going to go.,I'll go this way,63.8778456079532,65.0,1,text book,2025
+bn-en,আমি অবায় যাইতাম নায়,I wouldn't go anywhere.,I won't go this way,62.57475334534701,62.5,1,text book,2025
+bn-en,আমার মেজাজ খারাপ করিও না,Don't mess with my mood.,Don't spoil my mood,78.21186049662113,92.5,1,text book,2025
+bn-en,হুরুতা অতারে চুপ করতে কউ,Hurta atare to shut up,Tell them to be quiet,39.11909261843585,17.5,1,text book,2025
+bn-en,হুরুতা ইতায় বেশি মাতরা,More mothers than men .,The kids are talking too much,29.99744678019263,0.0,1,text book,2025
+bn-en,অগুরে লইয়া অবায় আও,- I'm not going to.,Bring him this way,29.99744678019263,0.0,1,text book,2025
+bn-en,অগুরে লইয়া বাজার যাও,Go to the market .,Take him to the market,58.6654765575285,55.0,1,text book,2025
+bn-en,অবায় দিয়া আও,I'm not giving up.,Come that way,29.99744678019263,0.0,1,text book,2025
+bn-en,ইবায় দি আইবায় না,I 'm not .,Don't come this way,29.99744678019263,0.0,1,text book,2025
+bn-en,তোরে আইতে না করসি আমি,I can't let you go.,I've forbidden you to come.,49.54383071928526,37.5,1,text book,2025
+bn-en,নাও গুতারে বান্দিয়া রাখ,Take the gun and keep the gun .,Keep him/her tied up.,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি নাও বাইতাম ফারি,I didn't want to go.,I can row a boat.,29.99744678019263,0.0,1,text book,2025
+bn-en,নাও ইকটা বেশি সুট,It's not a suit.,This boat is too small.,29.99744678019263,0.0,1,text book,2025
+bn-en,বেশি ফানিত নৌকা সালাইতে ফারতে নায় তুই,You can't go to the boat.,You can’t row the boat in too much water.,29.99744678019263,0.0,1,text book,2025
+bn-en,তোরে আমি হাত দিতে না করসি,I won't hold your hand.,I told you not to offer your hand.,37.81600035582968,15.0,1,text book,2025
+bn-en,হাত দিসস খেনে তুই,Hands on your shoulders,Why did you offer your hand?,35.20981583061733,10.0,1,text book,2025
+bn-en,চিয়ারও বইয়া থাক,Keep your head up .,Sit in the chair and stay put.,32.60363130540498,5.0,1,text book,2025
+bn-en,টেবুল অগু সামনে আনিয়া রাখ,Bring the table in front of you .,Bring the table forward and place it here.,76.90876823401496,90.0,1,text book,2025
+bn-en,বিছনা শুন্দর করি গুসাইয়া রাখ,I'll sleep with you.,Neatly make the bed and keep it arranged.,39.11909261843585,17.5,1,text book,2025
+bn-en,তুই শুন্দর খরি খাম খর,You are so beautiful .,Do your work nicely.,35.20981583061733,10.0,1,text book,2025
+bn-en,তোর খাম অত বাদ খেনে বে,Your food is so out of whack.,Why is your work so bad?,32.60363130540498,5.0,1,text book,2025
+bn-en,টিক করিয়া খাম খর,I'm going to make you some money.,Do it properly.,29.99744678019263,0.0,1,text book,2025
+bn-en,রাইত সকাল সকাল ঘুমাইবে,"Right , you 're going to sleep .",Go to sleep quickly at night.,45.63455393146674,30.0,1,text book,2025
+bn-en,বিয়ানে বাজারো যাইবে,I'm going to the market.,"In the morning, go to the market.",44.331461668860555,27.5,1,text book,2025
+bn-en,কিছ ব্যাগ গুতা আন,Bring some bags .,Bring the polybag,66.48403013316555,70.0,1,text book,2025
+bn-en,তুই গারি সালাইতে ফারস নি,You didn 't have a chance to say hello .,Do you know how to drive a car?,32.60363130540498,5.0,1,text book,2025
+bn-en,তোর গারি সালানি বউত বাদ,Your garry salani is out .,Your driving is very bad.,32.60363130540498,5.0,1,text book,2025
+bn-en,অত বাদ গারি সালাস কিলা তুই,So you 're not going to be able to do it .,How can you drive so badly?,33.90672356801115,7.5,1,text book,2025
+bn-en,তুই বউত ভালা গারি সালাস,You 're a good wife .,You drive very well.,29.99744678019263,0.0,1,text book,2025
+bn-en,তাইরে আমার ভাল্লাগে না,I don't like it.,I don't like him/her.,53.453107507103795,45.0,1,text book,2025
+bn-en,তারে আমার ভাল্লাগে না,I don't like it.,I don't like this boy.,53.453107507103795,45.0,1,text book,2025
+bn-en,তাইরে আমাার ভাল্লাগে,So you like me .,I like her.,46.937646194072904,32.5,1,text book,2025
+bn-en,তারে আমার ভাাল্লাগে,I like it .,I like this boy.,53.453107507103795,45.0,1,text book,2025
+bn-en,হে অনেক ভালা মানুশ,"Hey , very good man .",He is a very good person.,56.059292032316144,50.0,1,text book,2025
+bn-en,আমি তাইরে বউত ভালা ফাই,I'm a good wife.,I love this girl a lot.,29.99744678019263,0.0,1,text book,2025
+bn-en,খেনে কইসি বুজতে নায়,I don't understand where you're going.,You won't understand why I said that.,40.422184881042035,20.0,1,text book,2025
+bn-en,তুই বুজস না কেনে,You don't know what to buy.,Why don't you understand?,32.60363130540498,5.0,1,text book,2025
+bn-en,তুই বেশি বুজরে আমার চেয়ে,You're smarter than me.,You understand more than I do.,54.75619976970996,47.5,1,text book,2025
+bn-en,তোরে আমি না করসিলাম,I won't do it.,I told you not to do that.,40.422184881042035,20.0,1,text book,2025
+bn-en,তুই আমার কথা হুনস না,You don't have to talk to me.,You didn't listen to me.,41.725277143648206,22.5,1,text book,2025
+bn-en,তোরে অতবার আমি বুজাইসি,I'll tell you how much I understand.,I've explained it to you this time.,37.81600035582968,15.0,1,text book,2025
+bn-en,তুই আমার মেজাজ খারাফ কররে,You're changing my mood.,You're spoiling my mood.,56.059292032316144,50.0,1,text book,2025
+bn-en,তুই বেশি শয়তানি কররে,You are too devilish to do that .,You're being too naughty.,53.453107507103795,45.0,1,text book,2025
+bn-en,আফনারে আমি ভালা খরি সিনি,Afnaré আমি ভালা খরি সিনি I know,I don't know you well.,52.15001524449761,42.5,1,text book,2025
+bn-en,আফনারে আমি সিনি না,I don't know.,I don't know you.,53.453107507103795,45.0,1,text book,2025
+bn-en,আফনে আমার অনেক ভালা ফরিসিত,I have a lot of good friends in Afghanistan .,You are very well acquainted with me.,32.60363130540498,5.0,1,text book,2025
+bn-en,আফনে অনেক ভালা মানুশ,There are many good men in Afghanistan .,You are a very good person.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি আফনারে অনেক সম্মান করি,I have a lot of respect for Afghani .,I respect you.,43.02836940625439,25.0,1,text book,2025
+bn-en,আফনার টেকা আমি  দিলাইসি,I'm going to take you to the hospital.,I've given you your money.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি আফনার থাকি টেকা ফাই,I'm staying in Afghanistan.,I receive money from you.,29.99744678019263,0.0,1,text book,2025
+bn-en,তুমার লগে আমি মাত্তে সাইয়ার না,I 'm not saying anything .,I don't want to talk to you.,43.02836940625439,25.0,1,text book,2025
+bn-en,আমি তুমার লগে আরেকটু বেশি মাত্তাম সাই,I'm gonna be with you a little bit longer.,I want to talk to you some more.,59.968568820134664,57.5,1,text book,2025
+bn-en,তুমি আমারে রাকিয়া যাইওনা,You're not going to leave me.,Don't leave me behind.,69.09021465837789,75.0,1,text book,2025
+bn-en,আমারে একলা রাকিয়া যাইস না,Don't leave me alone.,Don't leave me alone.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি ডরাইয়ার,I'm scared,I'm feeling scared.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি ডরাই না,I'm not afraid,I'm not scared.,82.12113728443965,100.0,1,text book,2025
+bn-en,ইগুু যে ডরালোক,That's the light.,He/She is such a cowardly person.,39.11909261843585,17.5,1,text book,2025
+bn-en,আফনার ফুরির বই গুতা লইন,The book of the Afghan furry is in the book of the guta line .,Take your daughter's books.,37.81600035582968,15.0,1,text book,2025
+bn-en,আফনার ফুুয়ার বই গুতা লইন,Afnar Fuwar's book is a good one.,Take your son's books.,29.99744678019263,0.0,1,text book,2025
+bn-en,তুই আইসস নি?,You're not here?,Are you coming?,32.60363130540498,5.0,1,text book,2025
+bn-en,খানো আসস তুই?,Are you coming?,Where are you coming to?,44.331461668860555,27.5,1,text book,2025
+bn-en,তরে খুজিয়া ফাইয়ার না,You 're looking for fire .,I can't find him.,29.99744678019263,0.0,1,text book,2025
+bn-en,"বাই, তুই খই আসস","Bye, you eat as.","Wow, you've arrived.",29.99744678019263,0.0,1,text book,2025
+bn-en,তুই আমার অত দেরি করাইরে কনে,You're too late for me.,Why did you keep me waiting so long?,62.57475334534701,62.5,1,text book,2025
+bn-en,আমি ১০ মিনিট দরি উবাত আসি,I'll be there in 10 minutes.,I've been standing here for 10 minutes.,56.059292032316144,50.0,1,text book,2025
+bn-en,ভাই আর উবা করাই রাকিস না,Brother and Uba do not leave,Don't make me stand any longer.,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি আইচ্চি,I'm a little girl.,I'm leaving now.,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি আইয়ার না,I 'm not .,I'm not coming.,48.24073845667909,35.0,1,text book,2025
+bn-en,আমি রাস্তাত আটকাইয়া আসি,I'm going to stop you on the way.,I’m stuck on the road.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি কই আইতাম,Where did I come from ?,Where should I come?,53.453107507103795,45.0,1,text book,2025
+bn-en,তুই কই আসস,Where are you coming from ?,Where are you?,53.453107507103795,45.0,1,text book,2025
+bn-en,সকাল আও বে,I 'm going to bed .,Come quickly.,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি গুম দিয়া আইরাম,I'm going to give you a break.,I woke up and I’m on my way.,29.99744678019263,0.0,1,text book,2025
+bn-en,কই রে তুমরা,Where are you ?,Where are you all?,79.5149527592273,95.0,1,text book,2025
+bn-en,আমি আবার নামতাম নি?,I didn't fall down again?,Should I get off again?,52.15001524449761,42.5,1,text book,2025
+bn-en,লইয়া আইস,I'm not going to lie.,Bring it with you.,29.99744678019263,0.0,1,text book,2025
+bn-en,তারে গাইলাইয়ার আমি,I'm going to play with you.,I’m scolding him/her.,29.99744678019263,0.0,1,text book,2025
+bn-en,অউ দুকানর খানি অনেক মজা বে,And the shopkeeper 's eating a lot of fun .,The food in this shop is tasty.,40.422184881042035,20.0,1,text book,2025
+bn-en,আমি বাসাত যাইতাম বে,I used to go to the bus.,I’ll go home.,37.81600035582968,15.0,1,text book,2025
+bn-en,আমি বাসাত যাইয়ার না,I'm not going to the bus.,I won’t go home.,37.81600035582968,15.0,1,text book,2025
+bn-en,আমি আজকে বাসাত যাইয়ার না,I won't go to the bus today.,I’m not going home today.,39.11909261843585,17.5,1,text book,2025
+bn-en,কুন্তা কইলাম না,I said no .,I didn’t say anything.,47.19826464659415,33.0,1,text book,2025
+bn-en,রুজা আসি দেকিয়া আমি কিচ্চু কইলাম না,I'm not saying I'm not a kid.,I didn’t say anything because I’m fasting.,37.81600035582968,15.0,1,text book,2025
+bn-en,ই দুকান কুন্তা নাই,It 's not a shop .,I see there’s nothing in this shop.,46.937646194072904,32.5,1,text book,2025
+bn-en,বউত্তা আসে ই দুকানো,The woman comes to the shop .,This shop has a lot of items.,35.20981583061733,10.0,1,text book,2025
+bn-en,ই বারি অনেক বাল্লাগসে আমার,It's been a long time.,I really like this house.,29.99744678019263,0.0,1,text book,2025
+bn-en,যে বর বারি ইকটা,That's the bar.,This house is very big.,32.60363130540498,5.0,1,text book,2025
+bn-en,ই বারি যে সুন্দর,It 's beautiful .,This house is really nice.,46.937646194072904,32.5,1,text book,2025
+bn-en,অতো বর বারি ইকটা,So much for the barbecue.,This house is so huge.,29.99744678019263,0.0,1,text book,2025
+bn-en,সাদা রঙ এর বারি আমার ভাল্লাগে,I like white stripes .,I like white-colored houses.,39.11909261843585,17.5,1,text book,2025
+bn-en,ই বারির জানালা গ্লাস দিয়া বানাইসে,The window was made of glass.,The windows of this house are made of glass.,72.99949144619643,82.5,1,text book,2025
+bn-en,কুন্তাু খানও যায়গা ফাইয়ার না,But you can't go to the fire.,I can’t find a place anywhere.,37.81600035582968,15.0,1,text book,2025
+bn-en,ইগুত নু আগেউ খাইসি,I've never eaten before.,I’ve eaten here before.,49.54383071928526,37.5,1,text book,2025
+bn-en,অউ দুুকান থাকি ভালা আসে,Or two days is better .,This from that shop is good.,32.60363130540498,5.0,1,text book,2025
+bn-en,দাম বারাইলসে,Price in the barrel,They’ve increased the price.,35.20981583061733,10.0,1,text book,2025
+bn-en,ই দুুকানোর দাম বউত বেশি,It 's too expensive to buy .,The price at this shop is very high.,66.48403013316555,70.0,1,text book,2025
+bn-en,দেক সাইন,- What?,Take a look.,29.99744678019263,0.0,1,text book,2025
+bn-en,একখলগে বইয়া খাইতাম,I used to eat books in a cage.,We’ll sit and eat together.,36.5129080932235,12.5,1,text book,2025
+bn-en,আমি কল দিয়া মাতিয়ার,I called the mattress,I’m talking on the phone.,35.20981583061733,10.0,1,text book,2025
+bn-en,আমি কয়টাত আইতাম কইও,I'd come anywhere,Tell me when I should come.,45.63455393146674,30.0,1,text book,2025
+bn-en,অখটা ফাইনাল করলাম তাইলে,"I've finished it, so...","So I’ve finalized it, then.",69.09021465837789,75.0,1,text book,2025
+bn-en,হে অত সময় কিতা করল,He has written a book .,What was he doing all this time?,35.20981583061733,10.0,1,text book,2025
+bn-en,এক খাম করি,I 'll have a bite .,Let me do one thing.,35.20981583061733,10.0,1,text book,2025
+bn-en,এক চক্কর দিয়া গুরিয়া আই,One check for a serious one.,Let me take a quick stroll.,37.81600035582968,15.0,1,text book,2025
+bn-en,চল গুরাত যাই,Let's go to the Gujarat,Let’s go out for a walk.,41.725277143648206,22.5,1,text book,2025
+bn-en,আমারে মন করাইয়া দিস,I'm not going to be here.,Remind me (later).,35.20981583061733,10.0,1,text book,2025
+bn-en,অগুত গত বসর খাইসলাম,I've been here for a year.,I ate this last year.,48.24073845667909,35.0,1,text book,2025
+bn-en,অন্য কুন্তা খাই,Another bitch .,Let’s eat something else.,35.20981583061733,10.0,1,text book,2025
+bn-en,কই যাইতায় কউ বে,Wherever you go,Someone tell me where we should go.,41.725277143648206,22.5,1,text book,2025
+bn-en,হে মেসেজ দিসিল,"Hey , you 're not going to get away with this .",He/She messaged me.,35.20981583061733,10.0,1,text book,2025
+bn-en,আইতে না ফারলে কইস,"Come on , where are you ?","If you can’t come, let me know.",36.5129080932235,12.5,1,text book,2025
+bn-en,আমরা তর বাসাত যাইমু কালকে,We'll go to your house tomorrow.,We’ll go to your house tomorrow.,82.12113728443965,100.0,1,text book,2025
+bn-en,হে আমার লগে আইব,"Hey , come with me .",He/She will come with me.,57.362384294922315,52.5,1,text book,2025
+bn-en,হে আমারে লগে আইত না,"Hey, don't come with me.",He/She won’t come with me.,56.059292032316144,50.0,1,text book,2025
+bn-en,থুরা গুরতাম সাই,Thura Gurtam Sai is a great guy.,I want to go out for a bit.,33.90672356801115,7.5,1,text book,2025
+bn-en,তুমরা আমারে জানাইয়া রাকিও,You're my only hope.,Keep me informed.,29.99744678019263,0.0,1,text book,2025
+bn-en,তুই বাশাত থাকিস,You stay here .,Stay at home.,61.27166108274085,60.0,1,text book,2025
+bn-en,এমনে এমনে কশট করি আইস না,I'm not going to kill you.,Don’t strain yourself unnecessarily.,32.60363130540498,5.0,1,text book,2025
+bn-en,দিন আইয়া একলগে মাতমুনে,I'm going to go to the hospital.,We will talk together in the noon.,29.99744678019263,0.0,1,text book,2025
+bn-en,একলগে মাতমুনে,- I'm not going to.,We won't talk together.,31.300539042798803,2.5,1,text book,2025
+bn-en,হাইঞ্জাবালা দেকা করমুনে,"Hey, you're not going to get a chance to do this.",We won't meet in the morning.,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি ফারমু,I'm not a farmer.,I can do it.,35.20981583061733,10.0,1,text book,2025
+bn-en,আমি আইতাম নায় বে,I wouldn't have come.,I won't come.,50.846922981891446,40.0,1,text book,2025
+bn-en,আমি রাান্দিয়া আইয়ার না,I'm not a woman.,I'm not coming after cooking.,33.90672356801115,7.5,1,text book,2025
+bn-en,আমি রান্দিয়া রাকি দিসি,I 'm going to tell you .,I've cooked and kept it.,33.90672356801115,7.5,1,text book,2025
+bn-en,আমার রান্দা শেষ,My date is over.,I'm done cooking.,35.20981583061733,10.0,1,text book,2025
+bn-en,ফরসু দিন আমি বারিত যাইমু,For the rest of the day I'll be gone.,I'll go home the day after tomorrow.,39.11909261843585,17.5,1,text book,2025
+bn-en,খাইল আমি বারিত যাইমু,I'm going to go.,I'll go home tomorrow.,46.937646194072904,32.5,1,text book,2025
+bn-en,আমার বারি বউত দুরই,My wife is far away.,My home is very far.,39.11909261843585,17.5,1,text book,2025
+bn-en,আমার বাারি বউত খান্দাত,My wife's a bitch.,My home is very close.,33.90672356801115,7.5,1,text book,2025
+bn-en,তুমরা আমার বারিত আইও,You are my baritone,You all come to my house.,35.20981583061733,10.0,1,text book,2025
+bn-en,খাইল আমি যাইতাম নায়,I didn't go to school.,I won't go tomorrow.,39.11909261843585,17.5,1,text book,2025
+bn-en,ইন থাকি আমার বাসাত আইতে বেশি দেরি অইজিবো,I'm staying in my house. I'm not going to be late.,It'll be quite late to reach my home from here.,46.937646194072904,32.5,1,text book,2025
+bn-en,খই যাইতায়?,What's the matter?,Where are you going?,36.5129080932235,12.5,1,text book,2025
+bn-en,অউ অইল কাহিনি,Or a good story .,This is the story.,39.379711070957086,18.0,1,text book,2025
+bn-en,ইন খানির আইটেম বউত কম,"In the mine , it 's a woman .",There are very few food items here.,29.99744678019263,0.0,1,text book,2025
+bn-en,আগে তার নাম হুনসি না,Before his name is Hunsi.,I haven't heard him name before.,39.11909261843585,17.5,1,text book,2025
+bn-en,আমি তারে অনেকদিন ধরি সিনি,I've known him for a long time.,I've known him for a long time.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি তারে সিনি না,I don't know.,I don't know him.,69.09021465837789,75.0,1,text book,2025
+bn-en,আমি তানরে সিনি না,I don't know.,I don't know him.,69.09021465837789,75.0,1,text book,2025
+bn-en,আমি তানরে সিনি,I know that .,I know him.,67.78712239577173,72.5,1,text book,2025
+bn-en,ফরে খাইমুনে,I'm going to eat.,I'll eat later.,63.8778456079532,65.0,1,text book,2025
+bn-en,তারে মেসেজ দিসি,Send her a message .,I messaged him.,65.18093787055936,67.5,1,text book,2025
+bn-en,দেকি হে কিতা কয়,What's the matter?,Let's see what he says.,44.331461668860555,27.5,1,text book,2025
+bn-en,হে মাতের না আমার লগে,"Hey mother , not with me",He is not talking to me.,37.81600035582968,15.0,1,text book,2025
+bn-en,ইগু যে বাদ দে,Get rid of that .,Ignore her.,63.8778456079532,65.0,1,text book,2025
+bn-en,আমরা কিনিয়া খাইমু,We're going to Kenya.,We'll buy and eat.,33.90672356801115,7.5,1,text book,2025
+bn-en,অনও আইও,Other,Come here.,29.99744678019263,0.0,1,text book,2025
+bn-en,আমার খিয়াল নাই,I have no idea .,I'm not paying attention.,48.24073845667909,35.0,1,text book,2025
+bn-en,আমার খিয়াল আসে,I feel like I 'm,I'm paying attention.,40.422184881042035,20.0,1,text book,2025
+bn-en,কালকে দেকা করি আও,I'll give you a call tomorrow.,"Come, let's meet tomorrow.",53.453107507103795,45.0,1,text book,2025
+bn-en,আমি কালকে আইতে ফারতাম নায়,I didn't start coming tomorrow.,I can't meet tomorrow.,37.81600035582968,15.0,1,text book,2025
+bn-en,কালকে দেখা অইর না কিতা?,"See you tomorrow, ain't you?",Are we meeting tomorrow?,70.39330692098407,77.5,1,text book,2025
+bn-en,আমি বারিত থাকলে আইমু,I'm not sure if I'm right.,"If I’m at home, I’ll come.",36.5129080932235,12.5,1,text book,2025
+bn-en,আমি বারিত নায়,I 'm not bored .,I’m not at home.,40.422184881042035,20.0,1,text book,2025
+bn-en,ইদ এর বাদের দিন সকালে আইও,I'm coming in the morning on Eid.,Come the morning after Eid.,57.362384294922315,52.5,1,text book,2025
+bn-en,বারে খই খাইতায় বে,I 'm not eating .,Where will you eat outside?,36.5129080932235,12.5,1,text book,2025
+bn-en,আমি সবরে দাওয়াত দিসি,I'm calling everyone.,I’ve invited everyone.,66.48403013316555,70.0,1,text book,2025
+bn-en,তুমরা সব আমার বাসাত আইও,You are all my buses .,All of you come to my house.,39.11909261843585,17.5,1,text book,2025
+bn-en,সন্ধ্যা বাদে কল দিমুনে,"In the evening , call me .",I’ll call in the evening.,56.059292032316144,50.0,1,text book,2025
+bn-en,রাইত কল দিসলাম,I 'm calling you .,I called at night.,53.453107507103795,45.0,1,text book,2025
+bn-en,কালকে হাইঞ্জা বালা কল দিমুনে,Tomorrow is the day when I call you.,I’ll call tomorrow morning.,54.75619976970996,47.5,1,text book,2025
+bn-en,বারে খাইতে আমি রাজি আসি,I'm going to come to the bar and eat.,I’m up for eating outside.,41.725277143648206,22.5,1,text book,2025
+bn-en,খই যাইতায়?,What's the matter?,Where are you going?,32.60363130540498,5.0,1,text book,2025
+bn-en,আমারে ৩০ টেকা ফাটাও,Give me 30 bucks too.,Send me 30 taka.,65.18093787055936,67.5,1,text book,2025
+bn-en,আমার থুরা টেকা লাগব,I need my thorac.,I need a little money.,37.81600035582968,15.0,1,text book,2025
+bn-en,ইবায় দি আইও,In the morning,Come this way.,29.99744678019263,0.0,1,text book,2025
+bn-en,কুনদিন বারইতে ফারবায়,I'm going to be a day late.,When can you go out?,32.60363130540498,5.0,1,text book,2025
+bn-en,আইয়া গেইম খেলিয়া যাইও,I'm going to play a game.,Come and play a game before leaving.,44.331461668860555,27.5,1,text book,2025
+bn-en,আমি বুজতাম ফারিয়ার না,I didn't know you were a farrier.,I don’t understand.,37.81600035582968,15.0,1,text book,2025
+bn-en,ইখটা ডাখতরে খইত ফারের না,It's not that far away.,Even the doctor can’t say what’s wrong.,29.99744678019263,0.0,1,text book,2025
+bn-en,হে এখন ডাখতর,"Hey, now Doc.",He is now a doctor.,48.24073845667909,35.0,1,text book,2025
+bn-en,হে মাস্টর,Hey Master,He is a teacher.,52.15001524449761,42.5,1,text book,2025
+bn-en,হে বাফর বেবসা করের,"Hey, you're a businessman.",He runs his/her father's business.,52.15001524449761,42.5,1,text book,2025
+bn-en,এর লাগি তারে আমার ভাল্লাগে,I like it.,That’s why I like him.,62.57475334534701,62.5,1,text book,2025
+bn-en,এর লাাগি তারে আমার ভাল্লাগে না,I don't like the way he looks.,That’s why I don’t like him.,56.059292032316144,50.0,1,text book,2025
+bn-en,হে বাউত ভালা কাম করের,"Hey , you 're doing good .",He is doing a lot of good work.,53.453107507103795,45.0,1,text book,2025
+bn-en,তার কাম ভালা নায়,Its good to see you .,His work isn’t good.,43.02836940625439,25.0,1,text book,2025
+bn-en,তার কাাম আমার ভাল্লাগে না,His work doesn't like me.,I do't like his work .,50.846922981891446,40.0,1,text book,2025
+bn-en,তার কাম আমার বউত ভাল্লাগে,His wife likes him .,I like his work a lot.,37.81600035582968,15.0,1,text book,2025
+bn-en,তারে ফুলিসও দরাই দে,Give him a fucking door .,Turn him over to the police.,29.99744678019263,0.0,1,text book,2025
+bn-en,অগুরে ফুলসও দে,- I'm going to go to the bathroom.,Turn him over to the police.,29.99744678019263,0.0,1,text book,2025
+bn-en,তুমরার বাক্কা লাভ অইসে,You're going to get your money back.,You all made a lot of profit.,30.77930213775633,1.5,1,text book,2025
+bn-en,তাই কমেন্ট খরসে,So it costs money .,She commented.,29.99744678019263,0.0,1,text book,2025
+bn-en,দেকলে সিনবে তুই,Tell me what you think .,"If you see him, you'll recognize.",33.90672356801115,7.5,1,text book,2025
+bn-en,তুই দেকলে সিনতে নায়,You can't tell me.,"If you see him, you won't recognize.",39.11909261843585,17.5,1,text book,2025
+bn-en,অয় হে ইতা বিসসাস করে,"Oh , he 's got faith .","Yes, he believes in all this.",61.27166108274085,60.0,1,text book,2025
+bn-en,হে কিচ্চু খরতে ফারতো নায়,"Hey, what's the matter?",He can't do anything.,33.90672356801115,7.5,1,text book,2025
+bn-en,চউক অর দার বেদনা করের,Look at the pain.,There's pain near my eye.,45.63455393146674,30.0,1,text book,2025
+bn-en,আমার যে কিতা অইসে,I have that book in my hand.,I don't know what's happening with me.,35.20981583061733,10.0,1,text book,2025
+bn-en,আম্মুর বিসয়ে মাত্তাম,I'm going to tell you something.,I was going to talk about Mom.,54.75619976970996,47.5,1,text book,2025
+bn-en,আজকে তার বিয়া,Today is her wedding day .,Today is his wedding.,66.48403013316555,70.0,1,text book,2025
+bn-en,তুই ফারলে আইস,You are far away .,"If you can, please come.",35.20981583061733,10.0,1,text book,2025
+bn-en,খাইল আমার ফরিক্ষা আসে,My exam comes.,I have an exam tomorrow.,58.6654765575285,55.0,1,text book,2025
+bn-en,আমার আইজকু বউত ভালা লাগের,My wife is a good person.,I'm feeling really good today.,33.90672356801115,7.5,1,text book,2025
+bn-en,আইজকু সব ফ্রি আসো নি?,I'm going to go to the gym.,Is everyone free today?,32.60363130540498,5.0,1,text book,2025
+bn-en,হে দিন দিন সিঙ্গলা ওর,He's a single man.,He is getting slimmer day by day.,33.90672356801115,7.5,1,text book,2025
+bn-en,হে যে বটলা অর,Hey that's a boat,He is getting fatter day by day.,29.99744678019263,0.0,1,text book,2025
+bn-en,ইতা ভালা নায় রে,It's not good.,These things are not good.,74.3025837088026,85.0,1,text book,2025
+bn-en,আওয়ার সময় মুরুগ আনিস,Bring the chicken when you're ready.,You brought chicken when coming?,57.362384294922315,52.5,1,text book,2025
+bn-en,ফান আনিস,Bring it on .,Did you bring betel leaves?,50.846922981891446,40.0,1,text book,2025
+bn-en,রিশকা ভাড়া কর,I'm going to risk it.,Pay the rickshaw fare.,29.99744678019263,0.0,1,text book,2025
+bn-en,ফ্যান্ট কিন,I want to buy,Buy pants.,48.24073845667909,35.0,1,text book,2025
+bn-en,ফ্যান্ট ফিঞ্ছস নি,I'm not going to tell you.,Are you wearing pants?,29.99744678019263,0.0,1,text book,2025
+bn-en,হে যে জুরে শট মারে,Hey that bitch shot me,He hits really hard.,35.20981583061733,10.0,1,text book,2025
+bn-en,ছুল খাটিয়া আইস,- I'm not going to tell you.,Get a haircut and come.,32.60363130540498,5.0,1,text book,2025
+bn-en,রাইত একলগে খাইমুনে,I'm not going to eat.,We’ll eat together at night.,39.11909261843585,17.5,1,text book,2025
+bn-en,তারা ছা যে ভালা ফায়,They're good.,They really like tea.,36.5129080932235,12.5,1,text book,2025
+bn-en,আগে জেলা আসিল,Previously on District Asil,It used to be a district before.,40.422184881042035,20.0,1,text book,2025
+bn-en,মাতাত বেদনা রইসে,I 'm not going to be able to do it .,The headache is still there.,32.60363130540498,5.0,1,text book,2025
+bn-en,তারা ত আসইন,They 're sitting .,They’re already here.,48.24073845667909,35.0,1,text book,2025
+bn-en,আমি সিন্তা কররাম,I thought I would .,I’m thinking.,44.331461668860555,27.5,1,text book,2025
+bn-en,ফর্দা আটাইয়া রাখ,Keep it all .,Keep the curtain pinned.,44.331461668860555,27.5,1,text book,2025
+bn-en,হে গারি খম ছালায়,He's got a gun.,He/She drives very slowly.,33.90672356801115,7.5,1,text book,2025
+bn-en,রাইতকু আমার বাশাত আইস,My father is a great man .,Come to my house at night.,29.99744678019263,0.0,1,text book,2025
+bn-en,তুই বারি থাকি বিকালের মাজে আইস,You stay up late at night.,You come from home by afternoon.,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি বাদে আইমু,I'm out of here.,I’ll come later.,39.11909261843585,17.5,1,text book,2025
+bn-en,আমি বাদেে আইতাম না,I wouldn't have come out,I won’t come later.,56.059292032316144,50.0,1,text book,2025
+bn-en,আফনে বাদে আইন জান,I'm not sure.,He/She will come later.,29.99744678019263,0.0,1,text book,2025
+bn-en,আফনে বাদে বারিত যাইন জান,Afne baade barit yein jan,You will go home later.,29.99744678019263,0.0,1,text book,2025

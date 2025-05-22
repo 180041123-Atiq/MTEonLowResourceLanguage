@@ -1,0 +1,226 @@
+lp,src,mt,ref,score,raw,annotators,domain,year
+bn-en,আমি ভালা আসি,I 'm coming .,I am fine.,37.81600035582968,15.0,1,text book,2025
+bn-en,আমারে থুরা সাইজ্জ কর,"Thura, please.",Could you help me?,29.99744678019263,0.0,1,text book,2025
+bn-en,কিলা সলের,The one with the key.,How’s it going?,29.99744678019263,0.0,1,text book,2025
+bn-en,তুমার নাম কিতা বা?,Your name is Kita Ba?,What is your name?,37.81600035582968,15.0,1,text book,2025
+bn-en,তুমি খই থাকো,You stay here .,Where do you live?,35.20981583061733,10.0,1,text book,2025
+bn-en,আফনে কুন জাগাত থাকইন,If you stay awake,Where do you live?,33.90672356801115,7.5,1,text book,2025
+bn-en,আমি সিলেট থাকিয়ার,I'm going to stay silent.,I live in Sylhet,32.60363130540498,5.0,1,text book,2025
+bn-en,সামনে দেখা অইব নে,See you in the future.,See you later.,75.60567597140879,87.5,1,text book,2025
+bn-en,জলদি আও,Hurry up .,Come quickly.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমারে কল দেও,Call me .,Call me,82.12113728443965,100.0,1,text book,2025
+bn-en,ইটা খই,It 's a good thing .,Where is this?,35.99167118818104,11.5,1,text book,2025
+bn-en,আমি বুজিয়ার না,I don't understand,I don’t understand.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার খইবায় নি?,My husband?,Could you say that again?,29.99744678019263,0.0,1,text book,2025
+bn-en,বাংলায় মাতো,Mother in Bengali,Speak in Bangla.,35.20981583061733,10.0,1,text book,2025
+bn-en,ইঙ্গলিশে মাতো,"In English, mother.",Speak in English,40.422184881042035,20.0,1,text book,2025
+bn-en,আমি হিকিয়ার,I 'm a whiner .,I am learning,39.11909261843585,17.5,1,text book,2025
+bn-en,হে হিকের না,"Hey, you're not a jerk.",He is not learning,35.20981583061733,10.0,1,text book,2025
+bn-en,কুনু সমসসা নায়,I 'm not in a bad mood .,No problem.,35.20981583061733,10.0,1,text book,2025
+bn-en,বউত ভালা,- Good wife .,Quite good.,36.5129080932235,12.5,1,text book,2025
+bn-en,মাফ করিও রেবা,"I 'm sorry , Remba .",Excuse me.,43.02836940625439,25.0,1,text book,2025
+bn-en,ইগুু বউত দরকারি,This is a useful tool.,This is very important.,73.5207283512389,83.5,1,text book,2025
+bn-en,তুমি জানো নি?,You didn't know?,Do you know?,62.57475334534701,62.5,1,text book,2025
+bn-en,তুমারে ধন্যবাদ,Thank you .,Thank you,82.12113728443965,100.0,1,text book,2025
+bn-en,তুমারে অনেক ধন্যবাদ,Thank you very much,Thank you very much,82.12113728443965,100.0,1,text book,2025
+bn-en,ইগু যে শুন্দর,That's beautiful.,This is very beautiful,80.81804502183347,97.5,1,text book,2025
+bn-en,কিলা লাগের?,What's the matter?,How does it look?,43.02836940625439,25.0,1,text book,2025
+bn-en,ইকটা ভালা লাগের না,It's not good.,I don’t like this.,71.69639918359026,80.0,1,text book,2025
+bn-en,কুন সময়?,When?,At what time?,82.12113728443965,100.0,1,text book,2025
+bn-en,অখন উ,When,Right now,50.06506762432773,38.5,1,text book,2025
+bn-en,ফরে মাত্মুনে,For mother's sake,Talk later.,29.99744678019263,0.0,1,text book,2025
+bn-en,তুমি আইসো নি?,You didn't come?,Are you coming?,59.968568820134664,57.5,1,text book,2025
+bn-en,এখটু উবাও,Now you're going to be a little bit more,Wait a bit.,39.64032952347833,18.5,1,text book,2025
+bn-en,তুমারে দেকিয়ার না,You 're not ready .,I can’t see you.,32.60363130540498,5.0,1,text book,2025
+bn-en,খাম করা লাগব,I need to eat .,I have to work.,37.81600035582968,15.0,1,text book,2025
+bn-en,ইগু হাসা বে,I'm going to laugh.,This is true.,35.20981583061733,10.0,1,text book,2025
+bn-en,ইটা মিসা,It 's a mess .,This is false,43.02836940625439,25.0,1,text book,2025
+bn-en,আমি রাজি নায়,I agree .,I don’t agree.,57.362384294922315,52.5,1,text book,2025
+bn-en,খাওয়াত বউ,Eaten by wife,Come eat.,35.99167118818104,11.5,1,text book,2025
+bn-en,তুমি খাইসো নি?,You didn't eat?,Have you eaten?,61.27166108274085,60.0,1,text book,2025
+bn-en,সময় ফাইলে জানাইও,Time to file .,Let me know if you have time.,37.81600035582968,15.0,1,text book,2025
+bn-en,ইটা কুনান ফাইমু?,Is it a family?,Where can I find this?,33.90672356801115,7.5,1,text book,2025
+bn-en,ইগু যে দামি,It's that expensive.,It’s very expensive,79.5149527592273,95.0,1,text book,2025
+bn-en,অটা কিনতাম,I bought it .,I’ll buy this.,62.57475334534701,62.5,1,text book,2025
+bn-en,টেকা ভাঙ্গাইয়া দেও,Take it off .,Please give me change,29.99744678019263,0.0,1,text book,2025
+bn-en,আমার লগে বেশি টেকা নাই,I don't have much time.,I don’t have enough money.,45.63455393146674,30.0,1,text book,2025
+bn-en,আমি বাঙ্গলা হিকিয়ার,I am a Bangladeshi hiker,I’m learning Bangla,41.725277143648206,22.5,1,text book,2025
+bn-en,আমারে দেখতে দেও,Let me see .,Let me see.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমি পরীক্ষা খরতাম সাইয়ার,I spent the test on Sayar.,I want to test this,42.50713250121191,24.0,1,text book,2025
+bn-en,আমি গুরাত যাইয়ার,I'm going to go to Gujarat.,I’m going out for a walk,44.331461668860555,27.5,1,text book,2025
+bn-en,কান্দাত কুনু সুপার মার্কেট আসে নি?,Can't you go to the supermarket?,Is there a supermarket nearby?,45.63455393146674,30.0,1,text book,2025
+bn-en,হাটতে ভালা লাগের,It's good to walk.,I enjoy walking,66.48403013316555,70.0,1,text book,2025
+bn-en,গরম বউত বেশি,Hot wife too,It’s very hot,35.99167118818104,11.5,1,text book,2025
+bn-en,এখন মেগ দের,Now the mages,It’s raining now,35.20981583061733,10.0,1,text book,2025
+bn-en,আইজ ঠান্ডা লাগসে,It 's cold in here .,It feels cold today,49.54383071928526,37.5,1,text book,2025
+bn-en,অবায় দিয়া যাও,Don't give up.,Go this way.,29.99744678019263,0.0,1,text book,2025
+bn-en,ঘরিত খয়টা বাজের,The house of the buzzard,What time is it now,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি টাইম মত আইম্মু,I'm like a mother.,I’ll come on time,32.60363130540498,5.0,1,text book,2025
+bn-en,তুই দেরি করসস,You 're late .,You’re late,82.12113728443965,100.0,1,text book,2025
+bn-en,কিছু মন করিও না,Don't worry about it.,Don’t mind,67.78712239577173,72.5,1,text book,2025
+bn-en,মুবাাইল চার্জো লাগাও,Charge your phone .,Put the phone on charge,82.12113728443965,100.0,1,text book,2025
+bn-en,রাগ করিস না,Don't be angry with me.,Don’t be angry,81.86051883191841,99.5,1,text book,2025
+bn-en,হাশি দে,I 'm going to be a little bit more careful .,Smile,29.99744678019263,0.0,1,text book,2025
+bn-en,তুমার কিতা অইসে?,Your book is in there?,What happened to you?),32.60363130540498,5.0,1,text book,2025
+bn-en,আমার শরির খারাপ লাগের,My body is bad.,I’m feeling sick.,57.62300274744356,53.0,1,text book,2025
+bn-en,ডাখতর দেখাইস নি?,Didn't you show me the doctor?,Have you seen a doctor?,54.75619976970996,47.5,1,text book,2025
+bn-en,তারা তারি সুস্থ অইজাও,They are healthy too.,Get well soon,48.24073845667909,35.0,1,text book,2025
+bn-en,আমি আর ফারিয়ার না,I'm not a farrier anymore.,I can’t do this anymore.,35.20981583061733,10.0,1,text book,2025
+bn-en,এখটুু জিরাও,I'm going to go.,Take a little rest.,32.60363130540498,5.0,1,text book,2025
+bn-en,হক্কলতা ঠিক অইজিব,It's all right.,Everything will be fine,54.75619976970996,47.5,1,text book,2025
+bn-en,ইটা খুব সুজা,It's very simple.,This is very easy,82.12113728443965,100.0,1,text book,2025
+bn-en,বাক্কা কঠিন লাগের,It's hard to say.,It seems difficult,69.09021465837789,75.0,1,text book,2025
+bn-en,অভভাস করা লাগব,I need to be told .,Need to practice,46.937646194072904,32.5,1,text book,2025
+bn-en,আমি হিকি লাইমু,I 'm Hiki Liemu . I 'm not that guy .,I will learn.,32.60363130540498,5.0,1,text book,2025
+bn-en,খুব ভালা কাম করস,"Very well , come on .",I really liked it,40.422184881042035,20.0,1,text book,2025
+bn-en,আমার বিরক্ত লাগের,My annoyed little guy,I’m feeling annoyed,46.937646194072904,32.5,1,text book,2025
+bn-en,এখটু সময় দিও,Give me a minute .,Give me some time.,75.60567597140879,87.5,1,text book,2025
+bn-en,আমি সিন্তা খরিয়ার,I feel like a kid .,I’m thinking.,35.20981583061733,10.0,1,text book,2025
+bn-en,অউ মাত্র আইসি,Or just the IC.,Just arrived,35.20981583061733,10.0,1,text book,2025
+bn-en,আমি খাম আসলাম,I 'm really hungry .,I was busy with work,32.60363130540498,5.0,1,text book,2025
+bn-en,অনলাইন আসলাম না,I 'm not online .,I wasn’t online,58.6654765575285,55.0,1,text book,2025
+bn-en,আমরা কই যাইতাম?,Where would we go?,Where shall we go?,69.09021465837789,75.0,1,text book,2025
+bn-en,চল বারে খাওয়াত যাই,Let's eat at the bar.,Let’s eat out,52.15001524449761,42.5,1,text book,2025
+bn-en,মন অর ভালা অইব,Mind or good will,I think it’ll be good.,43.02836940625439,25.0,1,text book,2025
+bn-en,কুব মজা অইব,It's not fun.,It’ll be fun.,52.15001524449761,42.5,1,text book,2025
+bn-en,মন তো অর বউত ভালা,Mind is not jññññā .,I feel quite good.,37.81600035582968,15.0,1,text book,2025
+bn-en,অয় আমি শিয়র,"Oh , I 'm sorry .",I’m sure,35.20981583061733,10.0,1,text book,2025
+bn-en,দেকি লাই,Give me the light.,Let’s see.,29.99744678019263,0.0,1,text book,2025
+bn-en,তুমার পসন্দ কিতা,You're the best book.,What do you like?,32.60363130540498,5.0,1,text book,2025
+bn-en,আমি সিনেমা দেখতাম সাইয়ার,"I used to watch movies , Sayar .",I want to watch a movie.,41.725277143648206,22.5,1,text book,2025
+bn-en,আমি তুমার লগে যাইতাম সাইয়ার,"I'd go with you, Sayar.",I’d like to go with you.,44.331461668860555,27.5,1,text book,2025
+bn-en,আমি এখটু বাদে আইমু,I'm just a little out of it.,I’ll come a bit later.,40.422184881042035,20.0,1,text book,2025
+bn-en,বারিত যাওয়া লাগব,I need to go .,I need to go home,66.48403013316555,70.0,1,text book,2025
+bn-en,ফিরতে দেরি অইব,It's too late to come back.,I’ll be late coming back,62.57475334534701,62.5,1,text book,2025
+bn-en,অফেক্কা করিস না,Don't look at me.,Don’t wait,40.422184881042035,20.0,1,text book,2025
+bn-en,আইজ কিতা খাইমু?,I'm going to eat.,What shall we eat today?,56.059292032316144,50.0,1,text book,2025
+bn-en,আমি ভাত খাইতাম সাইয়ার,I used to eat rice.,I want to eat rice.,58.6654765575285,55.0,1,text book,2025
+bn-en,আমি রুটি পসন্দ করি,I like the bread .,I prefer roti,82.12113728443965,100.0,1,text book,2025
+bn-en,মাস আমার ভাল্লাগে,I like it .,Fish is my favorite.,59.968568820134664,57.5,1,text book,2025
+bn-en,ঝাল খানি খাইতাম না,I wouldn't eat jelly.,I won’t eat spicy food.,53.453107507103795,45.0,1,text book,2025
+bn-en,সিনি এখটু লাগব,I need a little more.,Need a little sugar.,56.059292032316144,50.0,1,text book,2025
+bn-en,অগু সাদ অইসে,- I 'm not going to .,It’s delicious,29.99744678019263,0.0,1,text book,2025
+bn-en,আমার ব্যাগ ও আসে,My bag is coming .,It’s in my bag.,49.54383071928526,37.5,1,text book,2025
+bn-en,ফরা লাগব,I need to talk to you.,I need to study,39.900947975999564,19.0,1,text book,2025
+bn-en,রেডি অউ,Ready or not ?,Get ready,57.362384294922315,52.5,1,text book,2025
+bn-en,সকাল সকাল কর,I'm going to go.,Hurry up.,43.02836940625439,25.0,1,text book,2025
+bn-en,"ঠিক আসে, আও","Right comes, আও","Alright, let’s go",40.422184881042035,20.0,1,text book,2025
+bn-en,গারি ফাইতে দেরি অইব,It's too late.,It’ll take time to get a car,50.846922981891446,40.0,1,text book,2025
+bn-en,টিকেট খাটসো নি?,Did you buy the ticket?,Have you bought the ticket?,82.12113728443965,100.0,1,text book,2025
+bn-en,অনও বউ,Other wife,Sit here.,29.99744678019263,0.0,1,text book,2025
+bn-en,সামনে সাও,In front of Sao,Look ahead.,38.33723726087215,16.0,1,text book,2025
+bn-en,ফিসে কুন্তা দেখস নি?,Have you seen the fish?,Do you see something behind?,43.02836940625439,25.0,1,text book,2025
+bn-en,খিয়াল রাকিও,You know what ?,Take care,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি সাবধান অইয়ার,I'm careful.,I’m being cautious,56.059292032316144,50.0,1,text book,2025
+bn-en,দেখা যাউক কিতা অয়,See also KITA AY,Let’s see what happens,35.20981583061733,10.0,1,text book,2025
+bn-en,হিনো যাইতাম নায়,I'm not going.,I won’t go there.,78.21186049662113,92.5,1,text book,2025
+bn-en,খেনে যাইতাম না?,Didn't you go to the farm?,Why not go?,37.81600035582968,15.0,1,text book,2025
+bn-en,তুমি আমারে হুনরায় নি?,You didn't kill me?,Are you listening to me?,35.20981583061733,10.0,1,text book,2025
+bn-en,অয় হুনিয়ার,- What ?,"Yes, I’m listening",29.99744678019263,0.0,1,text book,2025
+bn-en,বউত জরুরি মাত,It 's an emergency .,It’s very urgent.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমার ভুল অইসে,My mistake is that,I made a mistake,62.57475334534701,62.5,1,text book,2025
+bn-en,তুমারে বুজসি না আমি,You don't understand,I did not understand you,57.362384294922315,52.5,1,text book,2025
+bn-en,সব ক্লিয়ার,All clear .,Everything is clear.,82.12113728443965,100.0,1,text book,2025
+bn-en,আকাশ সুন্দর লাগের,The sky is beautiful,The sky looks beautiful.,82.12113728443965,100.0,1,text book,2025
+bn-en,আইজ ঠান্ডা বাতাস আসে,The cold air comes,It’s breezy today,66.48403013316555,70.0,1,text book,2025
+bn-en,"মেগ ফরের, সাত্তি আনো",- I'm going to go.,"It’s raining, bring an umbrella",29.99744678019263,0.0,1,text book,2025
+bn-en,আবহাওয়া কিলা?,The weather?,How’s the weather?,62.57475334534701,62.5,1,text book,2025
+bn-en,তুমারে মিস করসি,You'll miss me.,I missed you.,56.059292032316144,50.0,1,text book,2025
+bn-en,আইতে ফারিয়া ভাল্লাগের,"Come on , it 's all right .",I’m glad I could come.,37.81600035582968,15.0,1,text book,2025
+bn-en,তুমারে ফাইয়া ভাল্লাগের,You're in good shape.,I’m happy to have you here,41.725277143648206,22.5,1,text book,2025
+bn-en,ফরীক্ষা কিলা অইসে?,What's the matter?,How was the exam?,41.725277143648206,22.5,1,text book,2025
+bn-en,ভালা অইসে,Good for you .,It went well.,65.4415563230806,68.0,1,text book,2025
+bn-en,তুমার প্ল্যান কিতা?,Your plan is what?,What’s your plan?,69.09021465837789,75.0,1,text book,2025
+bn-en,আমি এখন জিরাইমু,I'm now a jerk.,I’ll rest now.,40.422184881042035,20.0,1,text book,2025
+bn-en,এর বাদে আমরা দেখা করমুনে,"Besides, we'll see you around.",Then we’ll meet up,52.15001524449761,42.5,1,text book,2025
+bn-en,তুমার বাফ মা ভালা আসইন?,Your mother's good?,How are your parents?,59.968568820134664,57.5,1,text book,2025
+bn-en,তুমি কই কাম কর?,Where are you?,Where do you work?,45.63455393146674,30.0,1,text book,2025
+bn-en,আমি অফিসও খাম করি,I also cook office .,I work at an office,33.12486821044745,6.0,1,text book,2025
+bn-en,আমি গুুরাত যাইতাম সাইয়ার,I used to go to Gujarat.,I want to go on a trip,37.81600035582968,15.0,1,text book,2025
+bn-en,খই যাইতায় সাও?,What's going on?,Where do you want to go?,33.12486821044745,6.0,1,text book,2025
+bn-en,ভা্লা সময় খাটবো,I'll eat my time.,We’ll have a good time,33.12486821044745,6.0,1,text book,2025
+bn-en,হক্কলতা গুসাইয়া দেও,I'm going to go and give it to you.,organize everything,29.99744678019263,0.0,1,text book,2025
+bn-en,আমারে মন রাকিও,Keep my mind,Remember me.,61.27166108274085,60.0,1,text book,2025
+bn-en,ভালা থাকো,Stay well .,stay well.,82.12113728443965,100.0,1,text book,2025
+bn-en,খাম সেশ নি?,What's the matter?,Is the work finished?,40.422184881042035,20.0,1,text book,2025
+bn-en,অন বউ,On the wife,Sit here.,29.99744678019263,0.0,1,text book,2025
+bn-en,খাম সেশেষ অইগেসে?,You're going to eat that last one?,Is the work finished?,29.99744678019263,0.0,1,text book,2025
+bn-en,এখটু দেরি অইব,It's a little late.,It’ll be a bit late.,74.3025837088026,85.0,1,text book,2025
+bn-en,ফরিক্কা কুন্দিন?,What's the matter?,When is the exam?,43.02836940625439,25.0,1,text book,2025
+bn-en,ফরিক্কা বাদর সাফতাত অইব,I'm not going to be a big fan of yours.,The exam is next week.,29.99744678019263,0.0,1,text book,2025
+bn-en,কুব আরাম লাগের,I'm not going to lie.,It’s very comfortable.,29.99744678019263,0.0,1,text book,2025
+bn-en,তুমি শিয়র নি?,You heard?,Are you sure?,45.63455393146674,30.0,1,text book,2025
+bn-en,ইটা লইয়া সন্দেহ আসে,It's got doubts.,I have doubts about this.,72.99949144619643,82.5,1,text book,2025
+bn-en,আমার সাইজ্জ কর,My size .,I need help,29.99744678019263,0.0,1,text book,2025
+bn-en,আমরা খই যাইতাম?,We were going to eat?,Where shall we go?,32.60363130540498,5.0,1,text book,2025
+bn-en,তুমি আমাারে যাইতে দিবায় নি?,You didn't let me go?,Will you let me go?,69.09021465837789,75.0,1,text book,2025
+bn-en,সময় মতো ফিরিয়া আইও,Time to come back,Come back on time,61.27166108274085,60.0,1,text book,2025
+bn-en,খিয়াল রাখইন যান,Keep an eye out .,Take care,75.60567597140879,87.5,1,text book,2025
+bn-en,আর কুনু উফায় নাই নি?,And what's the matter?,Is there no other way?,32.60363130540498,5.0,1,text book,2025
+bn-en,অগুু উ এখমাত্র উফায়,- I just got off the plane.,This is the only way,29.99744678019263,0.0,1,text book,2025
+bn-en,অতো দেরি করস কেনে?,How late are you?,Why are you so late?,58.6654765575285,55.0,1,text book,2025
+bn-en,জামো আটখিয়া আসলাম,I'm going to be a little bit more careful.,I got stuck in traffic.,32.60363130540498,5.0,1,text book,2025
+bn-en,হক্কলতা ঠিক আসে নি?,Didn't the trick come right?,Is everything all right?,36.5129080932235,12.5,1,text book,2025
+bn-en,আমি তুুমার লগে আসি,I'll come with you.,I am by your side,53.453107507103795,45.0,1,text book,2025
+bn-en,হক্কলরে ডাকিয়া আনো,Bring the call.,Call everyone.,49.54383071928526,37.5,1,text book,2025
+bn-en,অনউ থাকো,Stay there .,Stay here.,70.39330692098407,77.5,1,text book,2025
+bn-en,অটা খুব দরকারি আসিল,It's very useful.,It was very necessary.,63.8778456079532,65.0,1,text book,2025
+bn-en,খামটা মজার আসিল,It's a funny thing.,The work was fun,46.937646194072904,32.5,1,text book,2025
+bn-en,আরো অনুশীলন লাগব,I need more practice.,Need more practice.,82.12113728443965,100.0,1,text book,2025
+bn-en,তুমি ফাশ করস,You are a fucking asshole.,You passed,33.90672356801115,7.5,1,text book,2025
+bn-en,তুমি কিতা ভাবরায়?,You think it's a book?,What are you thinking?,36.5129080932235,12.5,1,text book,2025
+bn-en,ইতা কিজাত গান?,What's the song?,What kind of song is this?,71.69639918359026,80.0,1,text book,2025
+bn-en,মন অয় লোক গান,- I 'm not gonna do it .,Seems like folk music.,29.99744678019263,0.0,1,text book,2025
+bn-en,কি সুন্দর লাগের,What a beautiful looker,What a beautiful view!,59.968568820134664,57.5,1,text book,2025
+bn-en,তুমি কিতা সবি তুলস নি?,You didn't take the book?,Are you taking pictures?,36.5129080932235,12.5,1,text book,2025
+bn-en,অয় থুরা সবি তুলসি,Ay Thura with Tulsi,"Yes, I’m taking a few",29.99744678019263,0.0,1,text book,2025
+bn-en,নিজেরে একটু সামলাইয়া রাকিও,Keep your head up .,Compose yourself a bit.,53.453107507103795,45.0,1,text book,2025
+bn-en,আমি রাাগি যাইরাম,I'm going to be angry.,I’m getting angry,71.69639918359026,80.0,1,text book,2025
+bn-en,রাগ কন্ট্রোল কর,Control your anger .,Control your anger.,82.12113728443965,100.0,1,text book,2025
+bn-en,ইটা আমার দুশ নাই,It's not my dog.,It’s not my fault,46.937646194072904,32.5,1,text book,2025
+bn-en,দয়া করিয়া ভুল বুজিও না,Please don't misunderstand,Please don’t misunderstand.,82.12113728443965,100.0,1,text book,2025
+bn-en,আমরা একতা সমাধান খুজমু,We are united in finding a solution .,We’ll find a solution,70.39330692098407,77.5,1,text book,2025
+bn-en,অগু লইয়া ফরে মাত অইব নে,I'm not going to tell you.,We’ll talk about this later.,54.75619976970996,47.5,1,text book,2025
+bn-en,তুই ই খবর হুন্সস নি,You 're not a good boy .,Did you hear that news?,40.9434217860845,21.0,1,text book,2025
+bn-en,কিতা অইসে?,What's that?,What happened?,63.8778456079532,65.0,1,text book,2025
+bn-en,বউত বর ঘটনা,The woman,It’s a big incident.,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি ফুরা হক্কলতা যানিনা,I'm not going to go to the toilet.,I don’t know the details.,35.20981583061733,10.0,1,text book,2025
+bn-en,খুজ লইয়া দেক,Look for him .,Find out more,41.725277143648206,22.5,1,text book,2025
+bn-en,আইজ সুটি সাই,I 'm going to say it .,I want a holiday today,36.5129080932235,12.5,1,text book,2025
+bn-en,খেনে সুটি লাগবো?,Do you need a rope?,Why do you need a holiday?,39.11909261843585,17.5,1,text book,2025
+bn-en,থুরা নিজর খাম আসিল,Thura Nizar Kham is here .,For personal work,29.99744678019263,0.0,1,text book,2025
+bn-en,আমি অনুমতি দিয়ার,I'm allowed to,I’m giving you permission,54.75619976970996,47.5,1,text book,2025
+bn-en,সাবধানে যাইস রে বা,Be careful going .,Go carefully.,69.09021465837789,75.0,1,text book,2025
+bn-en,সি্নি লাগব নি?,You want a picture?,Need sugar?,43.02836940625439,25.0,1,text book,2025
+bn-en,আমি বেশি মিশটি ভালা ফাই না,I'm not much of a good cook.,I don’t like it too sweet,37.81600035582968,15.0,1,text book,2025
+bn-en,কফিটা বউত ভালা অইসে,Coffee is good.,The coffee is great.,76.90876823401496,90.0,1,text book,2025
+bn-en,আমি কফি নিতাম,I used to drink coffee .,I’ll have coffee,72.21763608863272,81.0,1,text book,2025
+bn-en,আরো কিসসু লাগবো নি?,Don't you need anything else?,Need anything else?,70.39330692098407,77.5,1,text book,2025
+bn-en,লাগত নায়,It doesn't seem like it.,No need,70.39330692098407,77.5,1,text book,2025
+bn-en,টেকার বেফারে মাত্তাম সাই,Take a look at this .,want to talk about money,29.99744678019263,0.0,1,text book,2025
+bn-en,খত খরস অইব,Fertilizers and other products,How much will it cost?,29.99744678019263,0.0,1,text book,2025
+bn-en,বাজেতের ভিতরে রাখা যাইব নি?,You're not going to keep it inside the box?,Can we keep it within the budget?,29.99744678019263,0.0,1,text book,2025
+bn-en,টাইমমতো টেকা দিলা,Time is running out .,Pay on time.,35.99167118818104,11.5,1,text book,2025
+bn-en,আমি সময় মত দিতে ফারতাম নায়,I didn't want to give you time.,I can’t pay on time.,50.846922981891446,40.0,1,text book,2025
+bn-en,এখটু সময় বারাও,Now is the time to go.,Give me a bit more time.,37.81600035582968,15.0,1,text book,2025
+bn-en,সমসসাটা বুজতাম ফারসি,I understood the problem in Persian.,I understand the issue.,50.846922981891446,40.0,1,text book,2025
+bn-en,"অউ নে, তোর টেকা","Or not, your take.","Here you go, your money.",52.15001524449761,42.5,1,text book,2025
+bn-en,গুনিয়া দেক,Other,Count it.,29.99744678019263,0.0,1,text book,2025
+bn-en,ঠিক আসে?,You got it?,All right?,69.09021465837789,75.0,1,text book,2025
+bn-en,"অয়, ঠিক আসে, মিলসে","Oh, right, comes to mind, Milosevic.","All right, it matches.",39.11909261843585,17.5,1,text book,2025
+bn-en,তুই খারে খুজরে?,Are you really looking?,Whom are you looking for?,44.331461668860555,27.5,1,text book,2025
+bn-en,আমি আমার বন্দুরে খুজিয়ার,I'm looking for my gun.,I’m looking for my friend.,43.02836940625439,25.0,1,text book,2025
+bn-en,হে খই গেসে?,"Hey, what's up?",Where did he go?,39.11909261843585,17.5,1,text book,2025
+bn-en,তাই খই গেসে?,So you're going to eat?,Where did she go?,35.20981583061733,10.0,1,text book,2025
+bn-en,হে এখন যে বিজি,Hey now that's a BG,He is very busy now.,41.725277143648206,22.5,1,text book,2025
+bn-en,বাক্কা্কা খাম বাকি রইসে,Bakkackam remaining remaining,Quite a bit of work is left.,29.99744678019263,0.0,1,text book,2025
+bn-en,সময়মতো শেষ করিলা,Time to finish it.,Do it on time.,50.846922981891446,40.0,1,text book,2025
+bn-en,কুনু অজুহাত দিস না,Don't give me any excuses.,Don’t give any excuses,77.95124204409989,92.0,1,text book,2025
+bn-en,সফল অয়াউ লাগবো,I 'll need another successful one .,We must succeed.,59.968568820134664,57.5,1,text book,2025
+bn-en,হাল ছারিস না,- I 'm not going to .,Don’t give up.,44.331461668860555,27.5,1,text book,2025
+bn-en,সামনের অবায় আগুয়া,"The next day,",Move forward.,29.99744678019263,0.0,1,text book,2025
+bn-en,অয় আমরাউ ফারমু,We're not far from here.,"Yes, we can do it.",37.81600035582968,15.0,1,text book,2025
+bn-en,খইলা,- What?,Go ahead and say it.,29.99744678019263,0.0,1,text book,2025
+bn-en,ঐ খাম তোর হেল্প লাগব,I need your help .,I need your help with this work,68.56897775333543,74.0,1,text book,2025
+bn-en,অবসসই খরমু,I 'm sure you 'll be fine .,"Certainly, I will.",41.725277143648206,22.5,1,text book,2025
+bn-en,এখটু ফরে কল দিবায় নি?,Didn't you call back?,Can you call me later?,57.362384294922315,52.5,1,text book,2025

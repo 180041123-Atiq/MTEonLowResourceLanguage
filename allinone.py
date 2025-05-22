@@ -25,44 +25,7 @@ class DADataset(Dataset):
             "attention_mask": torch.tensor(self.encodings["attention_mask"][idx]),
             "labels": torch.tensor(self.targets[idx], dtype=torch.float),
         }
-
-
-class MTQualityDataset(Dataset):
-    def __init__(self, dataframe, tokenizer, prompt, max_length=1024, is_llama2=False):
-        self.data = dataframe
-        self.tokenizer = tokenizer
-        self.prompt = prompt
-        self.max_length = max_length
-        self.is_llama2 = is_llama2
-
-    def __len__(self):
-        return len(self.data)
-
-    def __getitem__(self, idx):
-        row = self.data.iloc[idx]
-        messages = [
-            {"role": "user", "content": gen_prompts(row, self.prompt)},
-            {"role": "user", "content": f"Bengali Source Sentence: {row['src']}"},
-            {"role": "user", "content": f"Machine Translated English Sentence: {row['mt']}"}
-        ]
-         
-        encodings = self.tokenizer.apply_chat_template(
-            messages,
-            add_generation_prompt=True,
-            padding='max_length',
-            max_length=self.max_length,
-            truncation=True,
-            return_tensors="pt"
-        )
-        try:
-          return {
-              "input_ids": encodings.squeeze(0),
-              "attention_mask": (encodings != self.tokenizer.pad_token_id).long().squeeze(0),
-              "labels": torch.tensor(float(row['score']), dtype=torch.float)
-          }
-        except Exception as e:
-          print("apply_chat_template of the corresponding tokenizer is not behaving right.")
-          exit()
+    
 
 class RegressionHead(nn.Module):
     def __init__(self, hidden_size):
@@ -172,17 +135,18 @@ def main(model_type, prompt, epochs, batch_size, lr, train_path, val_path, test_
       model_name = 'meta-llama/Llama-2-7b-chat-hf'
       custom_tokenizer_name = 'llama2-sylheti-bpe-tokenizer'
       custom_max_length = 512
-      is_llama2 = True
-    elif model_type == 'deepseek':
-      model_name = 'deepseek-ai/deepseek-llm-7b-chat'
-      custom_tokenizer_name = 'deepseek-sylheti-bpe-tokenizer'
-      custom_max_length = 1024
-      is_llama2 = False
+    elif model_type == 'llama213b':
+        model_name = 'meta-llama/Llama-2-13b-chat-hf'
+        custom_tokenizer_name = 'llama213b-sylheti-bpe-tokenizer'
+        custom_max_length = 512
     elif model_type == 'openchat':
       model_name = 'openchat/openchat-3.5-1210'
       custom_tokenizer_name = 'openchat-sylheti-bpe-tokenizer'
       custom_max_length = 512
-      is_llama2 = False
+    elif model_type == 'gemma':
+        model_name = 'google/gemma-7b'
+        custom_tokenizer_name = 'gemma-sylheti-bpe-tokenizer'
+        custom_max_length = 512
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -224,15 +188,6 @@ def main(model_type, prompt, epochs, batch_size, lr, train_path, val_path, test_
     train_df = pd.read_csv(train_path)
     val_df = pd.read_csv(val_path)
     test_df = pd.read_csv(test_path)
-
-    # if is_llama2 == True:
-    #   train_dataset = DADataset(train_df, tokenizer, prompt, custom_max_length)
-    #   val_dataset = DADataset(val_df, tokenizer, prompt, custom_max_length)
-    #   test_dataset = DADataset(test_df, tokenizer, prompt, custom_max_length)
-    # else :
-    #   train_dataset = MTQualityDataset(train_df, tokenizer, prompt, custom_max_length, is_llama2)
-    #   val_dataset = MTQualityDataset(val_df, tokenizer, prompt, custom_max_length, is_llama2)
-    #   test_dataset = MTQualityDataset(test_df, tokenizer, prompt, custom_max_length, is_llama2)
 
     train_dataset = DADataset(train_df, tokenizer, prompt, custom_max_length)
     val_dataset = DADataset(val_df, tokenizer, prompt, custom_max_length)

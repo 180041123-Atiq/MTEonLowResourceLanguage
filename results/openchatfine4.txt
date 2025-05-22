@@ -1,0 +1,7 @@
+openchat with ag's  95% confidence intervel in pearson metric is 0.2299+-0.0144
+openchat with dg's  95% confidence intervel in pearson metric is 0.2826+-0.0091
+openchat with dag's  95% confidence intervel in pearson metric is 0.2614+-0.0187
+
+openchat with ag's  95% confidence intervel in Spearman metric is 0.1984+-0.0143
+openchat with dg's  95% confidence intervel in Spearman metric is 0.2852+-0.0153
+openchat with dag's  95% confidence intervel in Spearman metric is 0.2441+-0.0209

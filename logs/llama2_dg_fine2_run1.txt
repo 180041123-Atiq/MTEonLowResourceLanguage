@@ -1,4 +1,0 @@
-argumenets are Namespace(model='llama2', prompt='dg', epochs=3, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/llama2_dg_fine2_run1.txt', only_test=False, quantized=True, cusTok=False)
-Epoch 1: Loss = 323.4220
-Epoch 2: Loss = 272.1560
-Epoch 3: Loss = 258.3007

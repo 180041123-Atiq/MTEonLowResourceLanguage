@@ -1,3 +1,0 @@
-argumenets are Namespace(model='deepseek', prompt='dag', epochs=1, batch=2, lr=2e-05, train_path='train.csv', val_path='val.csv', test_path='test.csv', output_path='output', log_path='logs/deepseek_dag_zero_run2.txt', only_test=True, quantized=True, cusTok=False)
-Pearson: 0.045787796
-Spearman: 0.06199439115864544

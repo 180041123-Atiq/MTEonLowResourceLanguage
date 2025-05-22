@@ -1,4 +1,0 @@
-argumenets are Namespace(model='deepseek', prompt='deepseekDag', epochs=3, batch=2, train_path='train_comet_da_scaled.csv', test_path='test_comet_da_scaled.csv', log_path='logs/deepseekOpt_dag.txt', only_test=False, max_length=512)
-Epoch 1, Loss: 2004.2748
-Epoch 2, Loss: 967.6956
-Epoch 3, Loss: 503.5963

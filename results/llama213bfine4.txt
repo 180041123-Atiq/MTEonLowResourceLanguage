@@ -1,0 +1,7 @@
+llama2 13B with ag's  95% confidence intervel in pearson metric is 0.1765+-0.0008
+llama2 13B with dg's  95% confidence intervel in pearson metric is 0.279+-0.0041
+llama2 13B with dag's  95% confidence intervel in pearson metric is 0.2196+-0.0106
+
+llama2 13B with ag's  95% confidence intervel in Spearman metric is 0.1496+-0.0018
+llama2 13B with dg's  95% confidence intervel in Spearman metric is 0.2579+-0.0064
+llama2 13B with dag's  95% confidence intervel in Spearman metric is 0.1951+-0.0121
