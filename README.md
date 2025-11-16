@@ -54,5 +54,10 @@ We extend our sincere gratitude to all contributors who made their resources ava
 
 If you use this work, please [cite](https://arxiv.org/abs/2505.12273):
 ```
-Rahman, Md Atiqur, Sabrina Islam, and Mushfiqul Haque Omi. "LLM-Based Evaluation of Low-Resource Machine Translation: A Reference-less Dialect Guided Approach with a Refined Sylheti-English Benchmark." arXiv preprint arXiv:2505.12273 (2025).
+@article{rahman2025llm,
+  title={LLM-Based Evaluation of Low-Resource Machine Translation: A Reference-less Dialect Guided Approach with a Refined Sylheti-English Benchmark},
+  author={Rahman, Md Atiqur and Islam, Sabrina and Omi, Mushfiqul Haque},
+  journal={arXiv preprint arXiv:2505.12273},
+  year={2025}
+}
 ```
